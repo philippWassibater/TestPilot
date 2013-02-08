@@ -911,7 +911,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
-				LIBRARY_SEARCH_PATHS = $SRCROOT/Submodule/OCMock/Source/;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -945,7 +944,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
-				LIBRARY_SEARCH_PATHS = $SRCROOT/Submodule/OCMock/Source/;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
