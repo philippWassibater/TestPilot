@@ -7,3 +7,6 @@
 [submodule "Submodules/OCMockito"]
 	path = Submodules/OCMockito
 	url = git://github.com/jonreid/OCMockito.git
+[submodule "Submodules/Stubbilino"]
+	path = Submodules/Stubbilino
+	url = git://github.com/robb/Stubbilino.git
