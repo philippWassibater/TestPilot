@@ -6,9 +6,4 @@
 //  Copyright (c) 2013 joncrooke. All rights reserved.
 //
 
-#ifndef TestPilot_TestPilot_h
-#define TestPilot_TestPilot_h
-
-
-
-#endif
+#import <SenTestingKit/SenTestingKit.h>

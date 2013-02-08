@@ -22,6 +22,7 @@
 		49479CCB16C54390002DC702 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
 		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
 		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
+		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,6 +218,7 @@
 		49479C8616C54332002DC702 /* OCMockito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMockito.xcodeproj; path = Submodules/OCMockito/Source/OCMockito.xcodeproj; sourceTree = "<group>"; };
 		49479C8916C54332002DC702 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = Submodules/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
 		49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = Submodules/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
+		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPilot.h; sourceTree = "<group>"; };
 		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 		49334D6216C3D0B00032A673 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				49479CD516C54561002DC702 /* TestPilot.h */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
