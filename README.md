@@ -13,3 +13,8 @@ Features
 * Manipulate `+[NSDate date]`
 * Make `UIView` subclasses testable in the simulator
 * And more...!
+
+Notes
+-----
+
+* Install Doxygen?

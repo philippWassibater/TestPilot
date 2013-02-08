@@ -238,6 +238,7 @@
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +296,7 @@
 				49334D0A16C3D05B0032A673 /* Frameworks */,
 				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
+				49D0BE9616C5724C00BF1CD4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
