@@ -4,3 +4,6 @@
 [submodule "Submodules/OCMock"]
 	path = Submodules/OCMock
 	url = git://github.com/erikdoe/ocmock.git
+[submodule "Submodules/OCMockito"]
+	path = Submodules/OCMockito
+	url = git://github.com/jonreid/OCMockito.git
