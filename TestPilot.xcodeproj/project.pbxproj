@@ -211,7 +211,6 @@
 		49334D3C16C3D0820032A673 /* libTestPilot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestPilot.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D3D16C3D0820032A673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49334D4B16C3D0820032A673 /* TestPilotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49334D6A16C3D1BD0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
@@ -223,6 +222,7 @@
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
+		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,8 +339,8 @@
 		49334D2816C3D05B0032A673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49334D6916C3D1BD0032A673 /* InfoPlist.strings */,
 				49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */,
+				49479CE116C54CE4002DC702 /* InfoPlist.strings */,
 				49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -851,13 +851,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		49334D6916C3D1BD0032A673 /* InfoPlist.strings */ = {
+		49479CE116C54CE4002DC702 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				49334D6A16C3D1BD0032A673 /* en */,
+				49479CE216C54CE4002DC702 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = ../Tests/en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
