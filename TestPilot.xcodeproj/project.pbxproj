@@ -14,6 +14,14 @@
 		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		49334D5216C3D0820032A673 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
+		49479CBE16C54376002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
+		49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
+		49479CC016C54376002DC702 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
+		49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
+		49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9816C54333002DC702 /* libochamcrest.a */; };
+		49479CCB16C54390002DC702 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
+		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
+		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +38,153 @@
 			proxyType = 1;
 			remoteGlobalIDString = 49334D3B16C3D0820032A673;
 			remoteInfo = TestPilot;
+		};
+		49479C9316C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601E213440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		49479C9516C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601F713440807001B439B;
+			remoteInfo = OCHamcrestTests;
+		};
+		49479C9716C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE621345979F003F846A;
+			remoteInfo = libochamcrest;
+		};
+		49479C9916C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE6C1345979F003F846A;
+			remoteInfo = libochamcrestTests;
+		};
+		49479C9E16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0A814632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		49479CA016C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0C014632FD000B04273;
+			remoteInfo = OCMockTests;
+		};
+		49479CA216C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0DC14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		49479CA816C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08BDD5A91350C59C00E5A443;
+			remoteInfo = OCMockito;
+		};
+		49479CAA16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08BDD5BE1350C59C00E5A443;
+			remoteInfo = OCMockitoTests;
+		};
+		49479CAC16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 085D2FF51351254000EBBE91;
+			remoteInfo = libocmockito;
+		};
+		49479CAE16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 085D2FFF1351254000EBBE91;
+			remoteInfo = libocmockitoTests;
+		};
+		49479CB216C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54BE75FC16BD80900037DC25;
+			remoteInfo = Stubbilino;
+		};
+		49479CB416C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54BE760D16BD80900037DC25;
+			remoteInfo = Specs;
+		};
+		49479CB616C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 087601E113440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		49479CB816C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BDD5A81350C59C00E5A443;
+			remoteInfo = OCMockito;
+		};
+		49479CBA16C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0A714632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		49479CBC16C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BE75FB16BD80900037DC25;
+			remoteInfo = Stubbilino;
+		};
+		49479CC216C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 081BEE611345979F003F846A;
+			remoteInfo = libochamcrest;
+		};
+		49479CC416C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 085D2FF41351254000EBBE91;
+			remoteInfo = libocmockito;
+		};
+		49479CC616C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0DB14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		49479CC816C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BE75FB16BD80900037DC25;
+			remoteInfo = Stubbilino;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,6 +213,10 @@
 		49334D6A16C3D1BD0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
+		49479C8616C54332002DC702 /* OCMockito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMockito.xcodeproj; path = Submodules/OCMockito/Source/OCMockito.xcodeproj; sourceTree = "<group>"; };
+		49479C8916C54332002DC702 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = Submodules/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
+		49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = Submodules/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
 		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -69,6 +228,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49479CBE16C54376002DC702 /* libStubbilino.a in Frameworks */,
+				49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */,
+				49479CC016C54376002DC702 /* OCMock.framework in Frameworks */,
+				49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +248,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */,
+				49479CCB16C54390002DC702 /* libOCMock.a in Frameworks */,
+				49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */,
+				49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */,
 				49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,7 +274,9 @@
 			children = (
 				49334D1116C3D05B0032A673 /* TestPilot */,
 				49334D2716C3D05B0032A673 /* Tests */,
+				49479CD716C545DC002DC702 /* Resources */,
 				49334D0A16C3D05B0032A673 /* Frameworks */,
+				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -217,6 +386,58 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		49479C8216C54301002DC702 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				49479C8316C54332002DC702 /* Stubbilino.xcodeproj */,
+				49479C8616C54332002DC702 /* OCMockito.xcodeproj */,
+				49479C8916C54332002DC702 /* OCMock.xcodeproj */,
+				49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		49479C8416C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479CB316C54333002DC702 /* libStubbilino.a */,
+				49479CB516C54333002DC702 /* Specs.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8716C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479CA916C54333002DC702 /* OCMockito.framework */,
+				49479CAB16C54333002DC702 /* OCMockitoTests.octest */,
+				49479CAD16C54333002DC702 /* libocmockito.a */,
+				49479CAF16C54333002DC702 /* libocmockitoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8A16C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479C9F16C54333002DC702 /* OCMock.framework */,
+				49479CA116C54333002DC702 /* OCMockTests.octest */,
+				49479CA316C54333002DC702 /* libOCMock.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8D16C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479C9416C54333002DC702 /* OCHamcrest.framework */,
+				49479C9616C54333002DC702 /* OCHamcrestTests.octest */,
+				49479C9816C54333002DC702 /* libochamcrest.a */,
+				49479C9A16C54333002DC702 /* libochamcrestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		49479CD716C545DC002DC702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +490,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				49479CB716C5436B002DC702 /* PBXTargetDependency */,
+				49479CB916C5436B002DC702 /* PBXTargetDependency */,
+				49479CBB16C5436B002DC702 /* PBXTargetDependency */,
+				49479CBD16C5436B002DC702 /* PBXTargetDependency */,
 			);
 			name = TestPilotFramework;
 			productName = TestPilot;
@@ -305,6 +530,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				49479CC316C5438B002DC702 /* PBXTargetDependency */,
+				49479CC516C5438B002DC702 /* PBXTargetDependency */,
+				49479CC716C5438B002DC702 /* PBXTargetDependency */,
+				49479CC916C5438B002DC702 /* PBXTargetDependency */,
 			);
 			name = TestPilot;
 			productName = TestPilot;
@@ -349,6 +578,24 @@
 			mainGroup = 49334CFE16C3D05A0032A673;
 			productRefGroup = 49334D0916C3D05B0032A673 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49479C8D16C54332002DC702 /* Products */;
+					ProjectRef = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8A16C54332002DC702 /* Products */;
+					ProjectRef = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8716C54332002DC702 /* Products */;
+					ProjectRef = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8416C54332002DC702 /* Products */;
+					ProjectRef = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				49334D0716C3D05B0032A673 /* TestPilotFramework */,
@@ -358,6 +605,100 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49479C9416C54333002DC702 /* OCHamcrest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCHamcrest.framework;
+			remoteRef = 49479C9316C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9616C54333002DC702 /* OCHamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCHamcrestTests.octest;
+			remoteRef = 49479C9516C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9816C54333002DC702 /* libochamcrest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libochamcrest.a;
+			remoteRef = 49479C9716C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9A16C54333002DC702 /* libochamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libochamcrestTests.octest;
+			remoteRef = 49479C9916C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9F16C54333002DC702 /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = 49479C9E16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA116C54333002DC702 /* OCMockTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.octest;
+			remoteRef = 49479CA016C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA316C54333002DC702 /* libOCMock.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCMock.a;
+			remoteRef = 49479CA216C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA916C54333002DC702 /* OCMockito.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMockito.framework;
+			remoteRef = 49479CA816C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAB16C54333002DC702 /* OCMockitoTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockitoTests.octest;
+			remoteRef = 49479CAA16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAD16C54333002DC702 /* libocmockito.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libocmockito.a;
+			remoteRef = 49479CAC16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAF16C54333002DC702 /* libocmockitoTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libocmockitoTests.octest;
+			remoteRef = 49479CAE16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CB316C54333002DC702 /* libStubbilino.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStubbilino.a;
+			remoteRef = 49479CB216C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CB516C54333002DC702 /* Specs.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Specs.octest;
+			remoteRef = 49479CB416C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		49334D0616C3D05B0032A673 /* Resources */ = {
@@ -454,6 +795,46 @@
 			isa = PBXTargetDependency;
 			target = 49334D3B16C3D0820032A673 /* TestPilot */;
 			targetProxy = 49334D5016C3D0820032A673 /* PBXContainerItemProxy */;
+		};
+		49479CB716C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			targetProxy = 49479CB616C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CB916C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockito;
+			targetProxy = 49479CB816C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CBB16C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMock;
+			targetProxy = 49479CBA16C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CBD16C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stubbilino;
+			targetProxy = 49479CBC16C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC316C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libochamcrest;
+			targetProxy = 49479CC216C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC516C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libocmockito;
+			targetProxy = 49479CC416C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC716C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockLib;
+			targetProxy = 49479CC616C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC916C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stubbilino;
+			targetProxy = 49479CC816C5438B002DC702 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -676,6 +1057,7 @@
 				49334D3416C3D05B0032A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +1066,7 @@
 				49334D3716C3D05B0032A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */ = {
 			isa = XCConfigurationList;
@@ -692,6 +1075,7 @@
 				49334D5E16C3D0820032A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */ = {
 			isa = XCConfigurationList;
@@ -700,6 +1084,7 @@
 				49334D6116C3D0820032A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
