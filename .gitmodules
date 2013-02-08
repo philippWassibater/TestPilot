@@ -11,3 +11,6 @@
 	path = Submodules/Stubbilino
 	url = git@github.com:itsthejb/Stubbilino.git
 	
+[submodule "Submodules/Kiwi"]
+	path = Submodules/Kiwi
+	url = git://github.com/allending/Kiwi.git

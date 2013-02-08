@@ -20,6 +20,8 @@
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
+#import "Kiwi.h"
+
 #if TARGET_IPHONE_SIMULATOR
 //#import "OCHamcrest.h"
 //#import <OCHamcrestIOS/OCHamcrestIOS.h>

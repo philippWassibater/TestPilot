@@ -30,4 +30,10 @@
   STAssertNotNil(mock, @"");
 }
 
+- (void)testKiwi
+{
+  id mock = [NSString mock];
+  STAssertNotNil(mock, @"");
+}
+
 @end
