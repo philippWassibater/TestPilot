@@ -1041,6 +1041,7 @@
 					$SRCROOT/Submodules/OCHamcrest/Source/,
 					$SRCROOT/Submodules/Kiwi/Classes,
 					$SRCROOT/Submodules/OCMockito/Source,
+					$BUILT_PRODUCTS_DIR,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1076,6 +1077,7 @@
 					$SRCROOT/Submodules/OCHamcrest/Source/,
 					$SRCROOT/Submodules/Kiwi/Classes,
 					$SRCROOT/Submodules/OCMockito/Source,
+					$BUILT_PRODUCTS_DIR,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1147,11 +1149,6 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$BUILT_PRODUCTS_DIR,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1166,11 +1163,6 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$BUILT_PRODUCTS_DIR,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1185,11 +1177,6 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$BUILT_PRODUCTS_DIR,
-				);
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1204,11 +1191,6 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$BUILT_PRODUCTS_DIR,
-				);
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
