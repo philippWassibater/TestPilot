@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
+		49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
+		49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
+		49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
+		49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
+		49227B5F16C57DAA0041AA08 /* libKiwi-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49227B5A16C57D950041AA08 /* libKiwi-OSX.a */; };
+		49227B6216C57DB60041AA08 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49227B5816C57D950041AA08 /* libKiwi.a */; };
+		49227B6416C57EE60041AA08 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49334D1416C3D05B0032A673 /* InfoPlist.strings */; };
+		49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */; };
+		49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
+		49479CC016C54376002DC702 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
+		49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
+		49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9816C54333002DC702 /* libochamcrest.a */; };
+		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
+		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
+		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
+		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
+		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
+		49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
+		49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D0BE4616C5516B00BF1CD4 /* TestClass.h */; };
+		49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
+		49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
+		49D0BE8716C5568D00BF1CD4 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49227B5716C57D950041AA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015B9F11583A77002E9A98;
+			remoteInfo = Kiwi;
+		};
+		49227B5916C57D950041AA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C83C7157263B300F160D5;
+			remoteInfo = "Kiwi-OSX";
+		};
+		49227B5B16C57D950041AA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015C9E11584017002E9A98;
+			remoteInfo = KiwiTests;
+		};
+		49227B5D16C57DA30041AA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 832C8323157263B300F160D5;
+			remoteInfo = "Kiwi-OSX";
+		};
+		49227B6016C57DB10041AA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F5015B9E11583A77002E9A98;
+			remoteInfo = Kiwi;
+		};
+		49334D2416C3D05B0032A673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49334D0716C3D05B0032A673;
+			remoteInfo = TestPilot;
+		};
+		49479C9316C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601E213440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		49479C9516C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601F713440807001B439B;
+			remoteInfo = OCHamcrestTests;
+		};
+		49479C9716C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE621345979F003F846A;
+			remoteInfo = libochamcrest;
+		};
+		49479C9916C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE6C1345979F003F846A;
+			remoteInfo = libochamcrestTests;
+		};
+		49479C9E16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0A814632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		49479CA016C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0C014632FD000B04273;
+			remoteInfo = OCMockTests;
+		};
+		49479CA216C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0DC14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		49479CA816C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08BDD5A91350C59C00E5A443;
+			remoteInfo = OCMockito;
+		};
+		49479CAA16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08BDD5BE1350C59C00E5A443;
+			remoteInfo = OCMockitoTests;
+		};
+		49479CAC16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 085D2FF51351254000EBBE91;
+			remoteInfo = libocmockito;
+		};
+		49479CAE16C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 085D2FFF1351254000EBBE91;
+			remoteInfo = libocmockitoTests;
+		};
+		49479CB216C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54BE75FC16BD80900037DC25;
+			remoteInfo = Stubbilino;
+		};
+		49479CB416C54333002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54BE760D16BD80900037DC25;
+			remoteInfo = Specs;
+		};
+		49479CB816C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BDD5A81350C59C00E5A443;
+			remoteInfo = OCMockito;
+		};
+		49479CBA16C5436B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0A714632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		49479CC416C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 085D2FF41351254000EBBE91;
+			remoteInfo = libocmockito;
+		};
+		49479CC616C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0DB14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		49479CC816C5438B002DC702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BE75FB16BD80900037DC25;
+			remoteInfo = Stubbilino;
+		};
+		49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49334D3B16C3D0820032A673;
+			remoteInfo = TestPilot;
+		};
+		49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 49D0BE6B16C555E400BF1CD4;
+			remoteInfo = StubbilinoFramework;
+		};
+		49D0BE8516C5568400BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D0BE6A16C555E400BF1CD4;
+			remoteInfo = StubbilinoFramework;
+		};
+		49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 087601E113440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 081BEE611345979F003F846A;
+			remoteInfo = libochamcrest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49334D3A16C3D0820032A673 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49227B5016C57D950041AA08 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
+		49334D0816C3D05B0032A673 /* TestPilotFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPilotFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D1316C3D05B0032A673 /* TestPilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPilot-Info.plist"; sourceTree = "<group>"; };
+		49334D1516C3D05B0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49334D1716C3D05B0032A673 /* TestPilot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPilot-Prefix.pch"; sourceTree = "<group>"; };
+		49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D2116C3D05B0032A673 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		49334D3C16C3D0820032A673 /* libTestPilot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestPilot.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D3D16C3D0820032A673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49334D4B16C3D0820032A673 /* TestPilotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
+		49479C8616C54332002DC702 /* OCMockito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMockito.xcodeproj; path = Submodules/OCMockito/Source/OCMockito.xcodeproj; sourceTree = "<group>"; };
+		49479C8916C54332002DC702 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = Submodules/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
+		49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = Submodules/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
+		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPilot.h; sourceTree = "<group>"; };
+		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
+		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
+		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
+		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49334D0416C3D05B0032A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49227B6416C57EE60041AA08 /* SenTestingKit.framework in Frameworks */,
+				49227B5F16C57DAA0041AA08 /* libKiwi-OSX.a in Frameworks */,
+				49D0BE8716C5568D00BF1CD4 /* StubbilinoFramework.framework in Frameworks */,
+				49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */,
+				49479CC016C54376002DC702 /* OCMock.framework in Frameworks */,
+				49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D1C16C3D05B0032A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */,
+				49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */,
+				49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */,
+				49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */,
+				49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */,
+				49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D3916C3D0820032A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49227B6216C57DB60041AA08 /* libKiwi.a in Frameworks */,
+				49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */,
+				49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */,
+				49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */,
+				49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */,
+				49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D4716C3D0820032A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */,
+				49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */,
+				49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49227B5116C57D950041AA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49227B5816C57D950041AA08 /* libKiwi.a */,
+				49227B5A16C57D950041AA08 /* libKiwi-OSX.a */,
+				49227B5C16C57D950041AA08 /* KiwiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49334CFE16C3D05A0032A673 = {
+			isa = PBXGroup;
+			children = (
+				49334D1116C3D05B0032A673 /* TestPilot */,
+				49334D2716C3D05B0032A673 /* Tests */,
+				49479CD716C545DC002DC702 /* Resources */,
+				49334D0A16C3D05B0032A673 /* Frameworks */,
+				49479C8216C54301002DC702 /* Dependencies */,
+				49334D0916C3D05B0032A673 /* Products */,
+				49D0BE9616C5724C00BF1CD4 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		49334D0916C3D05B0032A673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49334D0816C3D05B0032A673 /* TestPilotFramework.framework */,
+				49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */,
+				49334D3C16C3D0820032A673 /* libTestPilot.a */,
+				49334D4B16C3D0820032A673 /* TestPilotTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49334D0A16C3D05B0032A673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49334D2116C3D05B0032A673 /* SenTestingKit.framework */,
+				49334D3D16C3D0820032A673 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49334D1116C3D05B0032A673 /* TestPilot */ = {
+			isa = PBXGroup;
+			children = (
+				49479CD516C54561002DC702 /* TestPilot.h */,
+				49334D6216C3D0B00032A673 /* Foundation */,
+				49334D6416C3D0C00032A673 /* OS X */,
+				49334D6316C3D0BB0032A673 /* iOS */,
+				49334D1216C3D05B0032A673 /* Supporting Files */,
+			);
+			path = TestPilot;
+			sourceTree = "<group>";
+		};
+		49334D1216C3D05B0032A673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49334D1316C3D05B0032A673 /* TestPilot-Info.plist */,
+				49334D1416C3D05B0032A673 /* InfoPlist.strings */,
+				49334D1716C3D05B0032A673 /* TestPilot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49334D2716C3D05B0032A673 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49334D6516C3D0D60032A673 /* Foundation */,
+				49334D6616C3D0E10032A673 /* OS X */,
+				49334D6716C3D0E60032A673 /* iOS */,
+				49334D2816C3D05B0032A673 /* Supporting Files */,
+			);
+			name = Tests;
+			path = TestPilotTests;
+			sourceTree = "<group>";
+		};
+		49334D2816C3D05B0032A673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */,
+				49479CE116C54CE4002DC702 /* InfoPlist.strings */,
+				49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49334D6216C3D0B00032A673 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				49D0BE4616C5516B00BF1CD4 /* TestClass.h */,
+				49D0BE4716C5516B00BF1CD4 /* TestClass.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		49334D6316C3D0BB0032A673 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49334D6416C3D0C00032A673 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		49334D6516C3D0D60032A673 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				49479CE316C54DAE002DC702 /* Foundation_Tests.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		49334D6616C3D0E10032A673 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		49334D6716C3D0E60032A673 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49479C8216C54301002DC702 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				49227B5016C57D950041AA08 /* Kiwi.xcodeproj */,
+				49479C8316C54332002DC702 /* Stubbilino.xcodeproj */,
+				49479C8616C54332002DC702 /* OCMockito.xcodeproj */,
+				49479C8916C54332002DC702 /* OCMock.xcodeproj */,
+				49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		49479C8416C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479CB316C54333002DC702 /* libStubbilino.a */,
+				49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */,
+				49479CB516C54333002DC702 /* Specs.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8716C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479CA916C54333002DC702 /* OCMockito.framework */,
+				49479CAB16C54333002DC702 /* OCMockitoTests.octest */,
+				49479CAD16C54333002DC702 /* libocmockito.a */,
+				49479CAF16C54333002DC702 /* libocmockitoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8A16C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479C9F16C54333002DC702 /* OCMock.framework */,
+				49479CA116C54333002DC702 /* OCMockTests.octest */,
+				49479CA316C54333002DC702 /* libOCMock.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479C8D16C54332002DC702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49479C9416C54333002DC702 /* OCHamcrest.framework */,
+				49479C9616C54333002DC702 /* OCHamcrestTests.octest */,
+				49479C9816C54333002DC702 /* libochamcrest.a */,
+				49479C9A16C54333002DC702 /* libochamcrestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49479CD716C545DC002DC702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49479CD816C545DC002DC702 /* Templates */,
+				49479CDD16C545F1002DC702 /* Install-Templates.sh */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49479CD816C545DC002DC702 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				49479CD916C545DC002DC702 /* Objective-C test case.xctemplate */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		49479CD916C545DC002DC702 /* Objective-C test case.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */,
+				49479CDB16C545DC002DC702 /* TemplateIcon.icns */,
+				49479CDC16C545DC002DC702 /* TemplateInfo.plist */,
+			);
+			path = "Objective-C test case.xctemplate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49334D0516C3D05B0032A673 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
+				49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49334D0716C3D05B0032A673 /* TestPilotFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49334D3216C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFramework" */;
+			buildPhases = (
+				49334D0316C3D05B0032A673 /* Sources */,
+				49334D0416C3D05B0032A673 /* Frameworks */,
+				49334D0516C3D05B0032A673 /* Headers */,
+				49334D0616C3D05B0032A673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49227B5E16C57DA30041AA08 /* PBXTargetDependency */,
+				49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */,
+				49D0BE8616C5568400BF1CD4 /* PBXTargetDependency */,
+				49479CB916C5436B002DC702 /* PBXTargetDependency */,
+				49479CBB16C5436B002DC702 /* PBXTargetDependency */,
+			);
+			name = TestPilotFramework;
+			productName = TestPilot;
+			productReference = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */;
+			buildPhases = (
+				49334D1B16C3D05B0032A673 /* Sources */,
+				49334D1C16C3D05B0032A673 /* Frameworks */,
+				49334D1D16C3D05B0032A673 /* Resources */,
+				49334D1E16C3D05B0032A673 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49334D2516C3D05B0032A673 /* PBXTargetDependency */,
+			);
+			name = TestPilotFrameworkTests;
+			productName = TestPilotTests;
+			productReference = 49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		49334D3B16C3D0820032A673 /* TestPilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */;
+			buildPhases = (
+				49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */,
+				49334D3816C3D0820032A673 /* Sources */,
+				49334D3916C3D0820032A673 /* Frameworks */,
+				49334D3A16C3D0820032A673 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49227B6116C57DB10041AA08 /* PBXTargetDependency */,
+				49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */,
+				49479CC516C5438B002DC702 /* PBXTargetDependency */,
+				49479CC716C5438B002DC702 /* PBXTargetDependency */,
+				49479CC916C5438B002DC702 /* PBXTargetDependency */,
+			);
+			name = TestPilot;
+			productName = TestPilot;
+			productReference = 49334D3C16C3D0820032A673 /* libTestPilot.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49334D4A16C3D0820032A673 /* TestPilotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */;
+			buildPhases = (
+				49334D4616C3D0820032A673 /* Sources */,
+				49334D4716C3D0820032A673 /* Frameworks */,
+				49334D4816C3D0820032A673 /* Resources */,
+				49334D4916C3D0820032A673 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */,
+			);
+			name = TestPilotTests;
+			productName = TestPilotTests;
+			productReference = 49334D4B16C3D0820032A673 /* TestPilotTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49334CFF16C3D05A0032A673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = joncrooke;
+			};
+			buildConfigurationList = 49334D0216C3D05A0032A673 /* Build configuration list for PBXProject "TestPilot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49334CFE16C3D05A0032A673;
+			productRefGroup = 49334D0916C3D05B0032A673 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49227B5116C57D950041AA08 /* Products */;
+					ProjectRef = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8D16C54332002DC702 /* Products */;
+					ProjectRef = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8A16C54332002DC702 /* Products */;
+					ProjectRef = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8716C54332002DC702 /* Products */;
+					ProjectRef = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
+				},
+				{
+					ProductGroup = 49479C8416C54332002DC702 /* Products */;
+					ProjectRef = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				49334D0716C3D05B0032A673 /* TestPilotFramework */,
+				49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */,
+				49334D3B16C3D0820032A673 /* TestPilot */,
+				49334D4A16C3D0820032A673 /* TestPilotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49227B5816C57D950041AA08 /* libKiwi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKiwi.a;
+			remoteRef = 49227B5716C57D950041AA08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49227B5A16C57D950041AA08 /* libKiwi-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKiwi-OSX.a";
+			remoteRef = 49227B5916C57D950041AA08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49227B5C16C57D950041AA08 /* KiwiTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.octest;
+			remoteRef = 49227B5B16C57D950041AA08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9416C54333002DC702 /* OCHamcrest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCHamcrest.framework;
+			remoteRef = 49479C9316C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9616C54333002DC702 /* OCHamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCHamcrestTests.octest;
+			remoteRef = 49479C9516C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9816C54333002DC702 /* libochamcrest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libochamcrest.a;
+			remoteRef = 49479C9716C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9A16C54333002DC702 /* libochamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libochamcrestTests.octest;
+			remoteRef = 49479C9916C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479C9F16C54333002DC702 /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = 49479C9E16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA116C54333002DC702 /* OCMockTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.octest;
+			remoteRef = 49479CA016C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA316C54333002DC702 /* libOCMock.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCMock.a;
+			remoteRef = 49479CA216C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CA916C54333002DC702 /* OCMockito.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMockito.framework;
+			remoteRef = 49479CA816C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAB16C54333002DC702 /* OCMockitoTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockitoTests.octest;
+			remoteRef = 49479CAA16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAD16C54333002DC702 /* libocmockito.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libocmockito.a;
+			remoteRef = 49479CAC16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CAF16C54333002DC702 /* libocmockitoTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libocmockitoTests.octest;
+			remoteRef = 49479CAE16C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CB316C54333002DC702 /* libStubbilino.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStubbilino.a;
+			remoteRef = 49479CB216C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49479CB516C54333002DC702 /* Specs.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Specs.octest;
+			remoteRef = 49479CB416C54333002DC702 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StubbilinoFramework.framework;
+			remoteRef = 49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49334D0616C3D05B0032A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D1D16C3D05B0032A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D4816C3D0820032A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49334D1E16C3D05B0032A673 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		49334D4916C3D0820032A673 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Hamcrest Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS=$BUILT_PRODUCTS_DIR/OCHamcrest\nmkdir -p \"$HEADERS\"\nfind \"$SRCROOT/Submodules/OCHamcrest/Source\" -name '*.h' -exec cp -p {} \"$HEADERS/\" \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49334D0316C3D05B0032A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D1B16C3D05B0032A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D3816C3D0820032A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49334D4616C3D0820032A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49227B5E16C57DA30041AA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kiwi-OSX";
+			targetProxy = 49227B5D16C57DA30041AA08 /* PBXContainerItemProxy */;
+		};
+		49227B6116C57DB10041AA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kiwi;
+			targetProxy = 49227B6016C57DB10041AA08 /* PBXContainerItemProxy */;
+		};
+		49334D2516C3D05B0032A673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49334D0716C3D05B0032A673 /* TestPilotFramework */;
+			targetProxy = 49334D2416C3D05B0032A673 /* PBXContainerItemProxy */;
+		};
+		49479CB916C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockito;
+			targetProxy = 49479CB816C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CBB16C5436B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMock;
+			targetProxy = 49479CBA16C5436B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC516C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libocmockito;
+			targetProxy = 49479CC416C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC716C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockLib;
+			targetProxy = 49479CC616C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49479CC916C5438B002DC702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stubbilino;
+			targetProxy = 49479CC816C5438B002DC702 /* PBXContainerItemProxy */;
+		};
+		49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49334D3B16C3D0820032A673 /* TestPilot */;
+			targetProxy = 49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */;
+		};
+		49D0BE8616C5568400BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StubbilinoFramework;
+			targetProxy = 49D0BE8516C5568400BF1CD4 /* PBXContainerItemProxy */;
+		};
+		49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			targetProxy = 49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */;
+		};
+		49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libochamcrest;
+			targetProxy = 49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49334D1416C3D05B0032A673 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49334D1516C3D05B0032A673 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49479CE116C54CE4002DC702 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49479CE216C54CE4002DC702 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49334D3016C3D05B0032A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$SRCROOT/Submodules/Kiwi/Classes,
+					$SRCROOT/Submodules/OCMockito/Source,
+					$BUILT_PRODUCTS_DIR,
+				);
+				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49334D3116C3D05B0032A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$SRCROOT/Submodules/Kiwi/Classes,
+					$SRCROOT/Submodules/OCMockito/Source,
+					$BUILT_PRODUCTS_DIR,
+				);
+				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49334D3316C3D05B0032A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		49334D3416C3D05B0032A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		49334D3616C3D05B0032A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49334D3716C3D05B0032A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		49334D5D16C3D0820032A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestPilot.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49334D5E16C3D0820032A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestPilot.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49334D6016C3D0820032A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49334D6116C3D0820032A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49334D0216C3D05A0032A673 /* Build configuration list for PBXProject "TestPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49334D3016C3D05B0032A673 /* Debug */,
+				49334D3116C3D05B0032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49334D3216C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49334D3316C3D05B0032A673 /* Debug */,
+				49334D3416C3D05B0032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49334D3616C3D05B0032A673 /* Debug */,
+				49334D3716C3D05B0032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49334D5D16C3D0820032A673 /* Debug */,
+				49334D5E16C3D0820032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49334D6016C3D0820032A673 /* Debug */,
+				49334D6116C3D0820032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49334CFF16C3D05A0032A673 /* Project object */;
+}
