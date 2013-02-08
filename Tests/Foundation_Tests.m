@@ -15,8 +15,8 @@
 
 - (void)testMocks
 {
-//  id mock = [OCMockObject niceMockForClass:[NSString class]];
-//  [mock verify];
+  id mock = [OCMockObject niceMockForClass:[NSString class]];
+  [mock verify];
 }
 
 @end
