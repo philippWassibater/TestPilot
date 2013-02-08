@@ -13,7 +13,6 @@
 		49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
-		49334D5216C3D0820032A673 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
 		49479CBE16C54376002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
 		49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
 		49479CC016C54376002DC702 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
@@ -23,6 +22,12 @@
 		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
 		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
 		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
+		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
+		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
+		49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
+		49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D0BE4616C5516B00BF1CD4 /* TestClass.h */; };
+		49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
+		49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,6 @@
 			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 49334D0716C3D05B0032A673;
-			remoteInfo = TestPilot;
-		};
-		49334D5016C3D0820032A673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49334D3B16C3D0820032A673;
 			remoteInfo = TestPilot;
 		};
 		49479C9316C54333002DC702 /* PBXContainerItemProxy */ = {
@@ -187,6 +185,13 @@
 			remoteGlobalIDString = 54BE75FB16BD80900037DC25;
 			remoteInfo = Stubbilino;
 		};
+		49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49334D3B16C3D0820032A673;
+			remoteInfo = TestPilot;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -223,6 +228,9 @@
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
 		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
+		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,9 +270,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */,
 				49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */,
 				49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */,
-				49334D5216C3D0820032A673 /* libTestPilot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +358,8 @@
 			isa = PBXGroup;
 			children = (
 				49479CD516C54561002DC702 /* TestPilot.h */,
+				49D0BE4616C5516B00BF1CD4 /* TestClass.h */,
+				49D0BE4716C5516B00BF1CD4 /* TestClass.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -371,6 +381,7 @@
 		49334D6516C3D0D60032A673 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				49479CE316C54DAE002DC702 /* Foundation_Tests.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -476,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
+				49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +568,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				49334D5116C3D0820032A673 /* PBXTargetDependency */,
+				49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */,
 			);
 			name = TestPilotTests;
 			productName = TestPilotTests;
@@ -763,6 +775,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +783,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,6 +791,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +799,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,11 +810,6 @@
 			isa = PBXTargetDependency;
 			target = 49334D0716C3D05B0032A673 /* TestPilotFramework */;
 			targetProxy = 49334D2416C3D05B0032A673 /* PBXContainerItemProxy */;
-		};
-		49334D5116C3D0820032A673 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49334D3B16C3D0820032A673 /* TestPilot */;
-			targetProxy = 49334D5016C3D0820032A673 /* PBXContainerItemProxy */;
 		};
 		49479CB716C5436B002DC702 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -840,6 +851,11 @@
 			name = Stubbilino;
 			targetProxy = 49479CC816C5438B002DC702 /* PBXContainerItemProxy */;
 		};
+		49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49334D3B16C3D0820032A673 /* TestPilot */;
+			targetProxy = 49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -876,6 +892,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -889,7 +909,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/Submodule/OCMock/Source/;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -911,13 +933,19 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/Submodule/OCMock/Source/;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
@@ -955,7 +983,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
@@ -968,7 +995,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
@@ -1009,10 +1035,6 @@
 		49334D6016C3D0820032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
@@ -1026,10 +1048,6 @@
 		49334D6116C3D0820032A673 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
