@@ -58,6 +58,10 @@
 		49334D6A16C3D1BD0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
+		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +215,33 @@
 			children = (
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		49479CD716C545DC002DC702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49479CDD16C545F1002DC702 /* Install-Templates.sh */,
+				49479CD816C545DC002DC702 /* Templates */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49479CD816C545DC002DC702 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				49479CD916C545DC002DC702 /* Objective-C test case.xctemplate */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		49479CD916C545DC002DC702 /* Objective-C test case.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */,
+				49479CDB16C545DC002DC702 /* TemplateIcon.icns */,
+				49479CDC16C545DC002DC702 /* TemplateInfo.plist */,
+			);
+			path = "Objective-C test case.xctemplate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
