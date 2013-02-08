@@ -798,7 +798,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "HEADERS=$BUILT_PRODUCTS_DIR/OCHamcrest\nmkdir -p \"$HEADERS\"\nfind \"$SRCROOT/Submodules/OCHamcrest/Source\" -name '*.h' -exec cp -u {} \"$HEADERS/\" \\;\n";
+			shellScript = "HEADERS=$BUILT_PRODUCTS_DIR/OCHamcrest\nmkdir -p \"$HEADERS\"\nfind \"$SRCROOT/Submodules/OCHamcrest/Source\" -name '*.h' -exec cp -p {} \"$HEADERS/\" \\;\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
