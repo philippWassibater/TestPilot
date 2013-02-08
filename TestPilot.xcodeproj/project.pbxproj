@@ -129,13 +129,6 @@
 			remoteGlobalIDString = 54BE760D16BD80900037DC25;
 			remoteInfo = Specs;
 		};
-		49479CB616C5436B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 087601E113440806001B439B;
-			remoteInfo = OCHamcrest;
-		};
 		49479CB816C5436B002DC702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
@@ -149,13 +142,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 030EF0A714632FD000B04273;
 			remoteInfo = OCMock;
-		};
-		49479CC216C5438B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 081BEE611345979F003F846A;
-			remoteInfo = libochamcrest;
 		};
 		49479CC416C5438B002DC702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -198,6 +184,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 49D0BE6A16C555E400BF1CD4;
 			remoteInfo = StubbilinoFramework;
+		};
+		49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 087601E113440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 081BEE611345979F003F846A;
+			remoteInfo = libochamcrest;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -465,8 +465,8 @@
 		49479CD716C545DC002DC702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49479CDD16C545F1002DC702 /* Install-Templates.sh */,
 				49479CD816C545DC002DC702 /* Templates */,
+				49479CDD16C545F1002DC702 /* Install-Templates.sh */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -516,8 +516,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */,
 				49D0BE8616C5568400BF1CD4 /* PBXTargetDependency */,
-				49479CB716C5436B002DC702 /* PBXTargetDependency */,
 				49479CB916C5436B002DC702 /* PBXTargetDependency */,
 				49479CBB16C5436B002DC702 /* PBXTargetDependency */,
 			);
@@ -549,6 +549,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */;
 			buildPhases = (
+				49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */,
 				49334D3816C3D0820032A673 /* Sources */,
 				49334D3916C3D0820032A673 /* Frameworks */,
 				49334D3A16C3D0820032A673 /* CopyFiles */,
@@ -556,7 +557,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				49479CC316C5438B002DC702 /* PBXTargetDependency */,
+				49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */,
 				49479CC516C5438B002DC702 /* PBXTargetDependency */,
 				49479CC716C5438B002DC702 /* PBXTargetDependency */,
 				49479CC916C5438B002DC702 /* PBXTargetDependency */,
@@ -785,6 +786,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Hamcrest Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS=$BUILT_PRODUCTS_DIR/OCHamcrest\nmkdir -p \"$HEADERS\"\nfind \"$SRCROOT/Submodules/OCHamcrest/Source\" -name '*.h' -exec cp -u {} \"$HEADERS/\" \\;\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -828,11 +843,6 @@
 			target = 49334D0716C3D05B0032A673 /* TestPilotFramework */;
 			targetProxy = 49334D2416C3D05B0032A673 /* PBXContainerItemProxy */;
 		};
-		49479CB716C5436B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCHamcrest;
-			targetProxy = 49479CB616C5436B002DC702 /* PBXContainerItemProxy */;
-		};
 		49479CB916C5436B002DC702 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCMockito;
@@ -842,11 +852,6 @@
 			isa = PBXTargetDependency;
 			name = OCMock;
 			targetProxy = 49479CBA16C5436B002DC702 /* PBXContainerItemProxy */;
-		};
-		49479CC316C5438B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libochamcrest;
-			targetProxy = 49479CC216C5438B002DC702 /* PBXContainerItemProxy */;
 		};
 		49479CC516C5438B002DC702 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -872,6 +877,16 @@
 			isa = PBXTargetDependency;
 			name = StubbilinoFramework;
 			targetProxy = 49D0BE8516C5568400BF1CD4 /* PBXContainerItemProxy */;
+		};
+		49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			targetProxy = 49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */;
+		};
+		49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libochamcrest;
+			targetProxy = 49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -922,7 +937,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -951,7 +969,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = $SRCROOT/Submodules/OCMock/Source/;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
@@ -1021,6 +1042,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$BUILT_PRODUCTS_DIR,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1036,6 +1062,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$BUILT_PRODUCTS_DIR,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1051,8 +1082,14 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$BUILT_PRODUCTS_DIR,
+				);
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -1065,8 +1102,14 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/Submodules/OCMock/Source/,
+					$SRCROOT/Submodules/OCHamcrest/Source/,
+					$BUILT_PRODUCTS_DIR,
+				);
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
