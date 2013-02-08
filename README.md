@@ -18,3 +18,4 @@ Notes
 -----
 
 * Install Doxygen?
+* Have to turn on code coverage?

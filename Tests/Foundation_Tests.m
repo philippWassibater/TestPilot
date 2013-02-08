@@ -13,10 +13,21 @@
 
 @implementation Foundation_Tests
 
-- (void)testMocks
+- (void)testOCMock
 {
   id mock = [OCMockObject niceMockForClass:[NSString class]];
   [mock verify];
+}
+
+- (void)testHamcrest
+{
+  assertThat(nil, nilValue());
+}
+
+- (void)testMockito
+{
+  id mock = mock([NSString class]);
+  STAssertNotNil(mock, @"");
 }
 
 @end

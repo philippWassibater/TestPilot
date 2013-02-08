@@ -16,11 +16,13 @@
 //#endif
 
 #define HC_SHORTHAND
+#import <OCHamcrest/OCHamcrest.h>
+#define MOCKITO_SHORTHAND
+#import <OCMockito/OCMockito.h>
 
 #if TARGET_IPHONE_SIMULATOR
 //#import "OCHamcrest.h"
 //#import <OCHamcrestIOS/OCHamcrestIOS.h>
-#import <OCHamcrest/OCHamcrest.h>
 #endif
 
 #if TARGET_OS_MAC

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
+		49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
+		49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
+		49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
+		49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
 		49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49334D1416C3D05B0032A673 /* InfoPlist.strings */; };
 		49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */; };
@@ -17,7 +22,6 @@
 		49479CC016C54376002DC702 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
 		49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
 		49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9816C54333002DC702 /* libochamcrest.a */; };
-		49479CCB16C54390002DC702 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
 		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
 		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
 		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
@@ -257,6 +261,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */,
+				49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */,
+				49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */,
+				49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */,
 				49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */,
 				49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */,
 			);
@@ -266,8 +274,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */,
 				49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */,
-				49479CCB16C54390002DC702 /* libOCMock.a in Frameworks */,
 				49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */,
 				49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */,
 				49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */,
@@ -323,6 +331,7 @@
 		49334D1116C3D05B0032A673 /* TestPilot */ = {
 			isa = PBXGroup;
 			children = (
+				49479CD516C54561002DC702 /* TestPilot.h */,
 				49334D6216C3D0B00032A673 /* Foundation */,
 				49334D6416C3D0C00032A673 /* OS X */,
 				49334D6316C3D0BB0032A673 /* iOS */,
@@ -366,7 +375,6 @@
 		49334D6216C3D0B00032A673 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				49479CD516C54561002DC702 /* TestPilot.h */,
 				49D0BE4616C5516B00BF1CD4 /* TestClass.h */,
 				49D0BE4716C5516B00BF1CD4 /* TestClass.m */,
 			);
