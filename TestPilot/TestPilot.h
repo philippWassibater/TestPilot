@@ -8,26 +8,17 @@
 
 #import <TargetConditionals.h>
 
+#if TARGET_OS_IPHONE && TARGET_OS_EMBEDDED
+#error Cannot build for iOS device
+#endif
+
 #import <SenTestingKit/SenTestingKit.h>
 #import <OCMock/OCMock.h>
-
-//#if !TARGET_CPU_X86
-//#error Cannot build for iOS device
-//#endif
 
 #define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
-#import "Kiwi.h"
-
-#if TARGET_IPHONE_SIMULATOR
-//#import "OCHamcrest.h"
-//#import <OCHamcrestIOS/OCHamcrestIOS.h>
-#endif
-
-#if TARGET_OS_MAC
-//#import <OCHamcrest/OCHamcrest.h>
-#endif
-
+#import <Kiwi.h>
+#import <Stubbilino.h>
