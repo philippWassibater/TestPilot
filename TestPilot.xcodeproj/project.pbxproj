@@ -1042,6 +1042,7 @@
 					$SRCROOT/Submodules/Kiwi/Classes,
 					$SRCROOT/Submodules/OCMockito/Source,
 					$BUILT_PRODUCTS_DIR,
+					$SRCROOT/Submodules/Stubbilino/Stubbilino,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1078,6 +1079,7 @@
 					$SRCROOT/Submodules/Kiwi/Classes,
 					$SRCROOT/Submodules/OCMockito/Source,
 					$BUILT_PRODUCTS_DIR,
+					$SRCROOT/Submodules/Stubbilino/Stubbilino,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
