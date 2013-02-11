@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/itsthejb/TestPilot"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
-  s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :commit => "5a43d76b9ebe73f64f7e9f4e91206c0e15f6fc91" }
+  s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :tag => "v0.0.1" }
   s.ios.deployment_target = '4.0'
   s.osx.deployment_target = '10.6'
   s.source_files = 'TestPilot/**/*.{h,m}'
