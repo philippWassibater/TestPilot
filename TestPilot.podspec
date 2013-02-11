@@ -19,8 +19,11 @@ Pod::Spec.new do |s|
   s.source_files = 'TestPilot/**/*.{h,m}'
   s.public_header_files = 'TestPilot/**/*.h'
  
-  # s.frameworks = 'SenTestingKit', 'Stubbilino', 'OCHamcrest', 'OCMock', 'OCMockito'
-  #s.libraries = '
+  s.osx.frameworks = 'SenTestingKit','Stubbilino','OCHamcrest','OCMock','OCMockito'
+  s.osx.libraries = 'Kiwi-OSX'
+
+  s.ios.frameworks = 'SenTestingKit'
+  s.ios.libraries = 'Kiwi','OCMock','ochamcrest','ocmockito','Stubbilino'
 
   s.requires_arc = true
 end
