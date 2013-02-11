@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod spec lint TestPilot.podspec' to ensure this is a
-# valid spec.
-#
-# Remove all comments before submitting the spec. Optional attributes are commented.
-#
-# For details see: https://github.com/CocoaPods/CocoaPods/wiki/The-podspec-format
-#
 Pod::Spec.new do |s|
   s.name         = "TestPilot"
   s.version      = "0.0.1"
@@ -19,11 +11,11 @@ Pod::Spec.new do |s|
   s.source_files = 'TestPilot/**/*.{h,m}'
   s.public_header_files = 'TestPilot/**/*.h'
  
-  s.osx.frameworks = 'SenTestingKit','Stubbilino','OCHamcrest','OCMock','OCMockito'
-  s.osx.libraries = 'Kiwi-OSX'
-
-  s.ios.frameworks = 'SenTestingKit'
-  s.ios.libraries = 'Kiwi','OCMock','ochamcrest','ocmockito','Stubbilino'
-
+  s.dependency 'Stubbilino', :git => 'git@github.com:itsthejb/Stubbilino.git', :branch => 'feature/osx-framework'
+  s.dependency 'OCHamcrest'
+  s.dependency 'OCMock'
+  s.dependency 'OCMockito'
+  s.dependency 'Kiwi'
+  
   s.requires_arc = true
 end
