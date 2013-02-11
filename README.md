@@ -19,3 +19,4 @@ Notes
 
 * Install Doxygen?
 * Have to turn on code coverage?
+* inhibit_all_warnings! in Podfile
