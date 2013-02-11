@@ -279,6 +279,7 @@
 		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
 		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
+		494C9E6316C959E2007AF3CC /* TestPilot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPilot.podspec; sourceTree = "<group>"; };
 		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -357,6 +358,7 @@
 				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
+				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
 			);
 			sourceTree = "<group>";
 		};
