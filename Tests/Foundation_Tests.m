@@ -36,4 +36,10 @@
   STAssertNotNil(mock, @"");
 }
 
+- (void)testStubbilino
+{
+  [Stubbilino stubClass:[NSString class]];
+  [Stubbilino unstubClass:[NSString class]];
+}
+
 @end
