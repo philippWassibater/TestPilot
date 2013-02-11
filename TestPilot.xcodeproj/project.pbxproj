@@ -18,7 +18,6 @@
 		49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49334D1416C3D05B0032A673 /* InfoPlist.strings */; };
 		49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */; };
-		49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
@@ -30,6 +29,8 @@
 		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
+		494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494C9E6C16C95A76007AF3CC /* LICENSE.txt */; };
+		494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
 		49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D0BE4616C5516B00BF1CD4 /* TestClass.h */; };
 		49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
@@ -279,6 +280,8 @@
 		49479CDD16C545F1002DC702 /* Install-Templates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Install-Templates.sh"; sourceTree = "<group>"; };
 		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
+		494C9E6316C959E2007AF3CC /* TestPilot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPilot.podspec; sourceTree = "<group>"; };
+		494C9E6C16C95A76007AF3CC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -320,7 +323,7 @@
 				49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */,
 				49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */,
 				49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */,
-				49334D3E16C3D0820032A673 /* Foundation.framework in Frameworks */,
+				494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +360,8 @@
 				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
+				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
+				494C9E6C16C95A76007AF3CC /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -828,6 +833,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */,
+				494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1148,7 +1154,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/TestPilot.dst;
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
@@ -1163,7 +1172,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/TestPilot.dst;
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
