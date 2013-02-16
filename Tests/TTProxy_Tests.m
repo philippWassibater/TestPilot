@@ -29,6 +29,25 @@
   assertThat([self.proxy target], equalTo(obj));
 }
 
+- (void)testProxyMethod
+{
+  assertThat([self.proxy description],
+             equalTo([NSString stringWithFormat:@"<%@: %p>",
+                      NSStringFromClass([TPProxy class]), self.proxy]));
+}
+
+- (void)testDescriptionWithTarget
+{
+  id mock = self.messageForwardingMock;
+  self.proxy = [[TPProxy alloc] initWithTarget:mock];
+
+  assertThat([self.proxy description],
+             equalTo([NSString stringWithFormat:@"<%@: %p> : Target <%@: %p>",
+                      NSStringFromClass([TPProxy class]), self.proxy,
+                      NSStringFromClass([mock class]), mock
+                      ]));
+}
+
 - (id) messageForwardingMock
 {
   return [OCMockObject mockForClass:[NSString class]];

@@ -36,6 +36,16 @@
   return self;
 }
 
+- (NSString *)description
+{
+  NSString *ret = [super description];
+  if (self.target) {
+    ret = [ret stringByAppendingFormat:@" : Target <%@: %p>",
+           NSStringFromClass([self.target class]), self.target];
+  }
+  return ret;
+}
+
 #pragma mark Instance
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)selector
