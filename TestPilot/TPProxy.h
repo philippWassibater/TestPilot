@@ -11,6 +11,8 @@
 /**
  Logs and ignores unrecognized selectors, but forwards recognized selectors
  to optional target object.
+
+ #define TPPROXY_LOG to see logs.
  */
 
 @interface TPProxy : NSProxy

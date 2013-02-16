@@ -44,10 +44,12 @@
     return [self.target methodSignatureForSelector:selector];
   }
 
+#ifdef TPPROXY_LOG
   NSLog(@"%@ ignoring invocation for selector \"%@\"%@",
         NSStringFromClass(self.class),
         NSStringFromSelector(selector),
         self.target ? [NSString stringWithFormat:@", %@", self.target] : @"");
+#endif
 
   return [TPProxy dummyMethodSignature];
 }
@@ -55,7 +57,9 @@
 - (void)forwardInvocation:(NSInvocation *)invocation
 {
   if (invocation.methodSignature != [TPProxy dummyMethodSignature]) {
+#ifdef TPPROXY_LOG
     NSLog(@"Forwarding invocation from %@ to %@", self, self.target);
+#endif
     [invocation invokeWithTarget:self.target];
   } 
 }
