@@ -31,10 +31,12 @@
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494C9E6C16C95A76007AF3CC /* LICENSE.txt */; };
 		494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CA6F4D16CFCCF000661212 /* TPProxy.h */; };
+		49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
+		49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
+		49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
+		49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
-		49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D0BE4616C5516B00BF1CD4 /* TestClass.h */; };
-		49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
-		49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D0BE4716C5516B00BF1CD4 /* TestClass.m */; };
 		49D0BE8716C5568D00BF1CD4 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -282,8 +284,9 @@
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
 		494C9E6316C959E2007AF3CC /* TestPilot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPilot.podspec; sourceTree = "<group>"; };
 		494C9E6C16C95A76007AF3CC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		49D0BE4616C5516B00BF1CD4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
-		49D0BE4716C5516B00BF1CD4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
+		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
+		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -432,8 +435,8 @@
 		49334D6216C3D0B00032A673 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				49D0BE4616C5516B00BF1CD4 /* TestClass.h */,
-				49D0BE4716C5516B00BF1CD4 /* TestClass.m */,
+				49CA6F4D16CFCCF000661212 /* TPProxy.h */,
+				49CA6F4E16CFCCF000661212 /* TPProxy.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			isa = PBXGroup;
 			children = (
 				49479CE316C54DAE002DC702 /* Foundation_Tests.m */,
+				49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -563,7 +567,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
-				49D0BE4816C5516B00BF1CD4 /* TestClass.h in Headers */,
+				49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,7 +905,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D0BE4916C5516B00BF1CD4 /* TestClass.m in Sources */,
+				49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,6 +914,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */,
+				49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,7 +922,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D0BE4A16C5516B00BF1CD4 /* TestClass.m in Sources */,
+				49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,6 +931,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */,
+				49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1051,7 +1057,7 @@
 					$SRCROOT/Submodules/Stubbilino/Stubbilino,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
@@ -1087,7 +1093,7 @@
 					$SRCROOT/Submodules/Stubbilino/Stubbilino,
 				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
@@ -1160,7 +1166,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1178,7 +1184,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

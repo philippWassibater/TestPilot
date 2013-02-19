@@ -22,3 +22,18 @@
 
 #import <Kiwi.h>
 #import <Stubbilino.h>
+
+#pragma mark -
+#pragma mark Macros
+
+/**
+ -[NSObject performSelector:] methods issue a warning because Clang can't check
+ the implied memory management semantics of methods transfer ownership to the
+ call (think alloc, copy, mutableCopy, new...). If you know the perom is safe,
+ wrap the expression with this macro to silence the warning.
+ */
+#define TP_SAFE_PERFORM_SELECTOR(expression) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+expression; \
+_Pragma("clang diagnostic pop")
