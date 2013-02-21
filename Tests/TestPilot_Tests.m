@@ -17,11 +17,13 @@
 {
   assertTrue(TPIsEqual(@"foo", @"foo"));
 
-  id a = nil, b = nil;
-  assertTrue(TPIsEqual(a, b));
-
   assertFalse(TPIsEqual(@"foo", @"bar"));
   assertFalse(TPIsEqual(@"bar", @"foo"));
+
+  id a = nil, b = nil;
+  assertTrue(TPIsEqual(a, b));
+  b = @"";
+  assertFalse(TPIsEqual(a, b));
 }
 
 - (void)testAssertions
