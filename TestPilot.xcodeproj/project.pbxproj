@@ -41,6 +41,8 @@
 		495E6A8316D637FB005C5EFF /* TPNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8016D637FB005C5EFF /* TPNotificationObserver.m */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
+		495E6A9A16D64098005C5EFF /* TPNotificationObserver_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A9916D64098005C5EFF /* TPNotificationObserver_Tests.m */; };
+		495E6AA316D6410C005C5EFF /* TPNotificationObserver_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A9916D64098005C5EFF /* TPNotificationObserver_Tests.m */; };
 		49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CA6F4D16CFCCF000661212 /* TPProxy.h */; };
 		49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
 		49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
@@ -300,6 +302,7 @@
 		495E6A7F16D637FB005C5EFF /* TPNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNotificationObserver.h; sourceTree = "<group>"; };
 		495E6A8016D637FB005C5EFF /* TPNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNotificationObserver.m; sourceTree = "<group>"; };
 		495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPilot_Tests.m; path = Tests/TestPilot_Tests.m; sourceTree = SOURCE_ROOT; };
+		495E6A9916D64098005C5EFF /* TPNotificationObserver_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPNotificationObserver_Tests.m; path = Tests/TPNotificationObserver_Tests.m; sourceTree = SOURCE_ROOT; };
 		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
@@ -482,6 +485,7 @@
 				49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */,
 				495E6A7C16D6361E005C5EFF /* TPNotificationCentre_Tests.m */,
 				495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */,
+				495E6A9916D64098005C5EFF /* TPNotificationObserver_Tests.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -943,6 +947,7 @@
 				49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A7D16D6361E005C5EFF /* TPNotificationCentre_Tests.m in Sources */,
 				495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
+				495E6A9A16D64098005C5EFF /* TPNotificationObserver_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,6 +969,7 @@
 				49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A7E16D6361E005C5EFF /* TPNotificationCentre_Tests.m in Sources */,
 				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
+				495E6AA316D6410C005C5EFF /* TPNotificationObserver_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

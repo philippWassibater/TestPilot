@@ -15,11 +15,16 @@
 @property (copy, readonly) NSString *name;
 @property (strong, readonly) id object;
 
++ (TPNotificationObserver*) observerWithObserver:(id) observer
+                                        selector:(SEL)aSelector
+                                            name:(NSString *)aName
+                                          object:(id)anObject;
+
 - (id)initWithObserver:(id) observer
               selector:(SEL)aSelector
                   name:(NSString *)aName
                 object:(id)anObject;
 
-//- (BOOL) isEqualToNotificationObserver:(TPNotificationObserver*)observer;
+- (BOOL) isEqualToNotificationObserver:(TPNotificationObserver*)other;
 
 @end

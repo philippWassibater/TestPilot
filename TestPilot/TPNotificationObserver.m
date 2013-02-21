@@ -17,6 +17,17 @@
 
 @implementation TPNotificationObserver
 
++ (TPNotificationObserver*) observerWithObserver:(id) observer
+                                        selector:(SEL)aSelector
+                                            name:(NSString *)aName
+                                          object:(id)anObject
+{
+  return [[self alloc] initWithObserver:observer
+                               selector:aSelector
+                                   name:aName
+                                 object:anObject];
+}
+
 - (id)initWithObserver:(id) observer
               selector:(SEL)aSelector
                   name:(NSString *)aName
@@ -36,7 +47,32 @@
   return self;
 }
 
-//- (BOOL) isEqualToNotificationObserver:(TPNotificationObserver*)observer;
+- (BOOL)isEqual:(id)object {
+  if (self == object) {
+    return YES;
+  }
+  if ([object isKindOfClass:[self class]]) {
+    return [self isEqualToNotificationObserver:object];
+  }
+  return NO;
+}
 
+- (BOOL) isEqualToNotificationObserver:(TPNotificationObserver*)other {
+  return (
+          TPIsEqual(self.object, other.object) &&
+          self.selector == other.selector &&
+          TPIsEqual(self.name, other.name) &&
+          TPIsEqual(self.object, other.object)
+          );
+}
+
+- (NSUInteger)hash {
+  return (
+          [self.object hash] ^
+          [NSStringFromSelector(self.selector) hash] ^
+          [self.name hash] ^
+          [self.object hash]
+          );
+}
 
 @end
