@@ -8,6 +8,18 @@ Unit-testing Cocoa just got easy. Your one-stop shop for unit testing iOS and OS
 
 ------
 
+##What's New
+
+###v0.0.4
+
+* Convenience assertion macros, `assertTrue()`, `assertFalse()`, `assertNil()`, `assertNotNil()`
+* `nil`-safe equality macro `TPIsEqual(x,y)`, whereby `(nil == nil) == YES`.
+
+###v0.0.2/3
+
+* Initial releases.
+
+
 ##Features
 
 ###Incorporated Libraries
@@ -50,6 +62,12 @@ This project is 100% intended for installation via [CocoaPods](http://cocoapods.
 * Install Doxygen?
 * Have to turn on code coverage?
 * Prevent use with main bundle (main.m detection)
+* Warning:
+
+		[!] The target `FooTests [Debug - Release]' overrides the `FRAMEWORK_SEARCH_PATHS' build setting defined in `Pods/Pods-FooTests.xcconfig'.
+    		- Use the `$(inherited)' flag, or
+    		- Remove the build settings from the target.
+
 
 ##Contact
 [joncrooke@gmail.com](mailto:joncrooke@gmail.com)
