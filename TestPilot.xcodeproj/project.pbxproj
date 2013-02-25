@@ -31,6 +31,8 @@
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494C9E6C16C95A76007AF3CC /* LICENSE.txt */; };
 		494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
+		495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CA6F4D16CFCCF000661212 /* TPProxy.h */; };
 		49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
 		49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
@@ -284,6 +286,7 @@
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
 		494C9E6316C959E2007AF3CC /* TestPilot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPilot.podspec; sourceTree = "<group>"; };
 		494C9E6C16C95A76007AF3CC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPilot_Tests.m; path = Tests/TestPilot_Tests.m; sourceTree = SOURCE_ROOT; };
 		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
@@ -460,6 +463,7 @@
 			children = (
 				49479CE316C54DAE002DC702 /* Foundation_Tests.m */,
 				49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */,
+				495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -915,6 +919,7 @@
 			files = (
 				49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 				49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */,
+				495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,6 +937,7 @@
 			files = (
 				49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 				49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */,
+				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

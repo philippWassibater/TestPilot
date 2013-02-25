@@ -37,3 +37,12 @@ _Pragma("clang diagnostic push") \
 _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
 expression; \
 _Pragma("clang diagnostic pop")
+
+#define TPIsEqual(x, y) ((x && [x isEqual:y]) || (!x && !y))
+
+#define assertTrue(expression)    STAssertTrue(expression, nil)
+#define assertFalse(expression)   STAssertFalse(expression, nil)
+
+#define assertNil(expression)     STAssertNil(expression, nil)
+#define assertNotNil(expression)  STAssertNotNil(expression, nil)
+
