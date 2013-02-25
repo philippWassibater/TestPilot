@@ -46,3 +46,4 @@ _Pragma("clang diagnostic pop")
 #define assertNil(expression)     STAssertNil(expression, nil)
 #define assertNotNil(expression)  STAssertNotNil(expression, nil)
 
+#define TPUnitTesting (NSClassFromString(@"SenTestCase") != nil)
