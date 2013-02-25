@@ -8,6 +8,18 @@ Unit-testing Cocoa just got easy. Your one-stop shop for unit testing iOS and OS
 
 ------
 
+##What's New
+
+###v0.0.4
+
+* Convenience assertion macros, `assertTrue()`, `assertFalse()`, `assertNil()`, `assertNotNil()`
+* `nil`-safe equality macro `TPIsEqual(x,y)`, whereby `(nil == nil) == YES`.
+
+###v0.0.2/3
+
+* Initial releases.
+
+
 ##Features
 
 ###Incorporated Libraries
