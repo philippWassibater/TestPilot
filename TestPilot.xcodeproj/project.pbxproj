@@ -261,7 +261,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		491A9E5F16DBD06200236DF7 /* TPAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppTarget.h; sourceTree = "<group>"; };
+		491A9E5F16DBD06200236DF7 /* TPAppHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppHelpers.h; sourceTree = "<group>"; };
 		49227B5016C57D950041AA08 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 		49334D0816C3D05B0032A673 /* TestPilotFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPilotFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D1316C3D05B0032A673 /* TestPilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPilot-Info.plist"; sourceTree = "<group>"; };
@@ -396,13 +396,14 @@
 			isa = PBXGroup;
 			children = (
 				49479CD516C54561002DC702 /* TestPilot.h */,
-				491A9E5F16DBD06200236DF7 /* TPAppTarget.h */,
 				49334D6216C3D0B00032A673 /* Foundation */,
 				49334D6416C3D0C00032A673 /* OS X */,
 				49334D6316C3D0BB0032A673 /* iOS */,
+				498B434F16DCB2F2008DDF88 /* AppHelpers */,
 				49334D1216C3D05B0032A673 /* Supporting Files */,
 			);
-			path = TestPilot;
+			name = TestPilot;
+			path = TestPilot/Classes;
 			sourceTree = "<group>";
 		};
 		49334D1216C3D05B0032A673 /* Supporting Files */ = {
@@ -563,6 +564,15 @@
 				49479CDC16C545DC002DC702 /* TemplateInfo.plist */,
 			);
 			path = "Objective-C test case.xctemplate";
+			sourceTree = "<group>";
+		};
+		498B434F16DCB2F2008DDF88 /* AppHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				491A9E5F16DBD06200236DF7 /* TPAppHelpers.h */,
+			);
+			name = AppHelpers;
+			path = ../AppHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
