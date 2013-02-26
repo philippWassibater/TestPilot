@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'Kiwi'
   s.requires_arc = true
 
-  s.supspec 'AppHelpers' do 'ah'
+  s.subspec 'AppHelpers' do |ah|
     ah.source_files = 'TestPilot/AppHelpers/**/*.{h,m}'
     ah.public_header_files = 'TestPilot/AppHelpers/**/*.h'
   end
