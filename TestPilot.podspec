@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "release/0.0.5", :submodules => 'true' }
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
-  s.source = 'TestPilot/Classes'
+  s.source = 'TestPilot/Classes/**'
  
   s.dependency 'Stubbilino', :git => 'git@github.com:itsthejb/Stubbilino.git', :branch => 'feature/osx-framework'
   s.dependency 'OCHamcrest'
