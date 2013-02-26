@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'AppHelpers' do |ah|
-#    ah.source_files = 'TestPilot/AppHelpers/**/*.{h,m}'
-#    ah.public_header_files = 'TestPilot/AppHelpers/**/*.h'
+    ah.header_dir   = 'TestPilot/AppHelpers'
+    ah.source_files = 'TestPilot/AppHelpers'
   end
 
 end
