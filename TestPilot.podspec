@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.dependency 'Kiwi'
   s.requires_arc = true
 
-  s.subspec 'AppHelpers' do |ah|
-    ah.header_dir   = 'TestPilot/AppHelpers'
-    ah.source_files = 'TestPilot/AppHelpers'
-  end
+#  s.subspec 'AppHelpers' do |ah|
+#    ah.header_dir   = 'TestPilot/AppHelpers'
+#    ah.source_files = 'TestPilot/AppHelpers'
+#  end
 
 end
