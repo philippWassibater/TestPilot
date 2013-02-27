@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4914856D16DE5A45002C4541 /* TPURLStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914856916DE5A45002C4541 /* TPURLStringMatcher.m */; };
+		4914856E16DE5A45002C4541 /* TPURLStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914856916DE5A45002C4541 /* TPURLStringMatcher.m */; };
+		4914856F16DE5A45002C4541 /* TPURLStringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4914856A16DE5A45002C4541 /* TPURLStringMatcher.h */; };
+		4914857016DE5A45002C4541 /* TPDateStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */; };
+		4914857116DE5A45002C4541 /* TPDateStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */; };
+		4914857216DE5A45002C4541 /* TPDateStringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */; };
+		4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
+		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
 		49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
 		49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
@@ -293,6 +301,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4914856916DE5A45002C4541 /* TPURLStringMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPURLStringMatcher.m; sourceTree = "<group>"; };
+		4914856A16DE5A45002C4541 /* TPURLStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPURLStringMatcher.h; sourceTree = "<group>"; };
+		4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDateStringMatcher.m; sourceTree = "<group>"; };
+		4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDateStringMatcher.h; sourceTree = "<group>"; };
+		4914857716DE5A83002C4541 /* TPMatchers_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMatchers_Test.m; path = Tests/TPMatchers_Test.m; sourceTree = SOURCE_ROOT; };
+		4914857A16DE5A99002C4541 /* TPMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMatchers.h; sourceTree = "<group>"; };
 		49227B5016C57D950041AA08 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 		49334D0816C3D05B0032A673 /* TestPilotFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPilotFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D1316C3D05B0032A673 /* TestPilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPilot-Info.plist"; sourceTree = "<group>"; };
@@ -405,6 +419,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4914856016DE5A09002C4541 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				4914857A16DE5A99002C4541 /* TPMatchers.h */,
+				4914856A16DE5A45002C4541 /* TPURLStringMatcher.h */,
+				4914856916DE5A45002C4541 /* TPURLStringMatcher.m */,
+				4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */,
+				4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */,
+			);
+			name = Matchers;
+			sourceTree = "<group>";
+		};
 		49227B5116C57D950041AA08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +530,7 @@
 		49334D6216C3D0B00032A673 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				4914856016DE5A09002C4541 /* Matchers */,
 				49CA6F4D16CFCCF000661212 /* TPProxy.h */,
 				49CA6F4E16CFCCF000661212 /* TPProxy.m */,
 			);
@@ -531,6 +558,7 @@
 				49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */,
 				495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */,
 				498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */,
+				4914857716DE5A83002C4541 /* TPMatchers_Test.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -659,6 +687,8 @@
 			files = (
 				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
 				49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */,
+				4914856F16DE5A45002C4541 /* TPURLStringMatcher.h in Headers */,
+				4914857216DE5A45002C4541 /* TPDateStringMatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,8 +868,8 @@
 			projectRoot = "";
 			targets = (
 				49334D0716C3D05B0032A673 /* TestPilotFramework */,
-				49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */,
 				49334D3B16C3D0820032A673 /* TestPilot */,
+				49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */,
 				49334D4A16C3D0820032A673 /* TestPilotTests */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
@@ -1051,6 +1081,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */,
+				4914856D16DE5A45002C4541 /* TPURLStringMatcher.m in Sources */,
+				4914857016DE5A45002C4541 /* TPDateStringMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,6 +1094,7 @@
 				49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 				498B438016DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
+				4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1103,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */,
+				4914856E16DE5A45002C4541 /* TPURLStringMatcher.m in Sources */,
+				4914857116DE5A45002C4541 /* TPDateStringMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1081,6 +1116,7 @@
 				49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 				498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
+				4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

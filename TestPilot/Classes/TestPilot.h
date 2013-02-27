@@ -23,6 +23,8 @@
 #import <Kiwi.h>
 #import <Stubbilino.h>
 
+#import "TPMatchers.h"
+
 #pragma mark -
 #pragma mark Macros
 
