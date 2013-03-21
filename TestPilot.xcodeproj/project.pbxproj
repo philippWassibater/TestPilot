@@ -6,24 +6,31 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		491D153E16FB7451005D93E5 /* Run Tests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 491D153F16FB7451005D93E5 /* Build configuration list for PBXAggregateTarget "Run Tests" */;
+			buildPhases = (
+				491D154316FB7804005D93E5 /* Build and Test All */,
+			);
+			dependencies = (
+			);
+			name = "Run Tests";
+			productName = "Run Tests";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		075A0D25CA4D48BC90F8991E /* libPods-TestPilotFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */; };
 		4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
-		49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
-		49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
-		49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
-		49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
-		49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
-		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
-		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		491D154216FB7726005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		498B435516DCB3EE008DDF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		498B436716DCB40D008DDF88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B436616DCB40D008DDF88 /* Cocoa.framework */; };
-		498B437B16DCB43D008DDF88 /* AppHelpersFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */; };
 		498B438016DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
 		498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
 		498B438416DCB555008DDF88 /* TPAppHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 498B438216DCB555008DDF88 /* TPAppHelpers.h */; };
@@ -147,13 +154,6 @@
 			remoteGlobalIDString = 54BE760D16BD80900037DC25;
 			remoteInfo = Specs;
 		};
-		498B437916DCB430008DDF88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 498B436416DCB40D008DDF88;
-			remoteInfo = AppHelpersFramework;
-		};
 		499E413916FB69930056ED5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
@@ -220,7 +220,7 @@
 		49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D2116C3D05B0032A673 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		49334D3D16C3D0820032A673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		49334D4B16C3D0820032A673 /* TestPilotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D4B16C3D0820032A673 /* CoreiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
@@ -259,12 +259,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498B437B16DCB43D008DDF88 /* AppHelpersFramework.framework in Frameworks */,
-				49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */,
-				49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */,
-				49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */,
-				49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */,
-				49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */,
 				075A0D25CA4D48BC90F8991E /* libPods-TestPilotFrameworkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */,
-				49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */,
+				491D154216FB7726005D93E5 /* SenTestingKit.framework in Frameworks */,
 				4A266CEEA6D442E4801AF9EF /* libPods-TestPilotTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */,
-				49334D4B16C3D0820032A673 /* TestPilotTests.octest */,
+				49334D4B16C3D0820032A673 /* CoreiOSTests.octest */,
 				498B435416DCB3EE008DDF88 /* libAppHelpers.a */,
 				498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */,
 			);
@@ -585,9 +578,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */ = {
+		49334D1F16C3D05B0032A673 /* CoreOSXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */;
+			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "CoreOSXTests" */;
 			buildPhases = (
 				49334D1B16C3D05B0032A673 /* Sources */,
 				49334D1C16C3D05B0032A673 /* Frameworks */,
@@ -598,16 +591,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				498B437A16DCB430008DDF88 /* PBXTargetDependency */,
 			);
-			name = TestPilotFrameworkTests;
+			name = CoreOSXTests;
 			productName = TestPilotTests;
 			productReference = 49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		49334D4A16C3D0820032A673 /* TestPilotTests */ = {
+		49334D4A16C3D0820032A673 /* CoreiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */;
+			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "CoreiOSTests" */;
 			buildPhases = (
 				49334D4616C3D0820032A673 /* Sources */,
 				49334D4716C3D0820032A673 /* Frameworks */,
@@ -619,9 +611,9 @@
 			);
 			dependencies = (
 			);
-			name = TestPilotTests;
+			name = CoreiOSTests;
 			productName = TestPilotTests;
-			productReference = 49334D4B16C3D0820032A673 /* TestPilotTests.octest */;
+			productReference = 49334D4B16C3D0820032A673 /* CoreiOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		498B435316DCB3EE008DDF88 /* AppHelpers */ = {
@@ -706,8 +698,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */,
-				49334D4A16C3D0820032A673 /* TestPilotTests */,
+				491D153E16FB7451005D93E5 /* Run Tests */,
+				49334D1F16C3D05B0032A673 /* CoreOSXTests */,
+				49334D4A16C3D0820032A673 /* CoreiOSTests */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
@@ -889,6 +882,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		491D154316FB7804005D93E5 /* Build and Test All */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build and Test All";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -workspace TestPilot.xcworkspace -scheme CoreiOSTests -sdk iphonesimulator";
+		};
 		49334D1E16C3D05B0032A673 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -988,14 +995,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		498B437A16DCB430008DDF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 498B436416DCB40D008DDF88 /* AppHelpersFramework */;
-			targetProxy = 498B437916DCB430008DDF88 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		49334D1416C3D05B0032A673 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -1016,6 +1015,20 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		491D154016FB7451005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491D154116FB7451005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		49334D3016C3D05B0032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1044,18 +1057,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$SRCROOT/Submodules/Kiwi/Classes,
-					$SRCROOT/Submodules/OCMockito/Source,
-					$BUILT_PRODUCTS_DIR,
-					$SRCROOT/Submodules/Stubbilino/Stubbilino,
-				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -1080,18 +1086,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$SRCROOT/Submodules/Kiwi/Classes,
-					$SRCROOT/Submodules/OCMockito/Source,
-					$BUILT_PRODUCTS_DIR,
-					$SRCROOT/Submodules/Stubbilino/Stubbilino,
-				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Release;
 		};
@@ -1129,7 +1128,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9455740BE42641D185B1A489 /* Pods-TestPilotTests.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
@@ -1145,7 +1148,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9455740BE42641D185B1A489 /* Pods-TestPilotTests.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
@@ -1220,6 +1227,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		491D153F16FB7451005D93E5 /* Build configuration list for PBXAggregateTarget "Run Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D154016FB7451005D93E5 /* Debug */,
+				491D154116FB7451005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		49334D0216C3D05A0032A673 /* Build configuration list for PBXProject "TestPilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1229,7 +1244,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */ = {
+		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "CoreOSXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D3616C3D05B0032A673 /* Debug */,
@@ -1238,7 +1253,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */ = {
+		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "CoreiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D6016C3D0820032A673 /* Debug */,

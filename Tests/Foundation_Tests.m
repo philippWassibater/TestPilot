@@ -15,6 +15,7 @@
 
 - (void)testOCMock
 {
+  STFail(@"test");
   id mock = [OCMockObject niceMockForClass:[NSString class]];
   [mock verify];
 }
