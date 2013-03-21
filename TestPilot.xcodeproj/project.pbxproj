@@ -24,7 +24,6 @@
 		498B435516DCB3EE008DDF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
 		498B436716DCB40D008DDF88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B436616DCB40D008DDF88 /* Cocoa.framework */; };
 		498B437B16DCB43D008DDF88 /* AppHelpersFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */; };
-		498B437E16DCB44B008DDF88 /* libAppHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B435416DCB3EE008DDF88 /* libAppHelpers.a */; };
 		498B438016DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
 		498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
 		498B438416DCB555008DDF88 /* TPAppHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 498B438216DCB555008DDF88 /* TPAppHelpers.h */; };
@@ -155,13 +154,6 @@
 			remoteGlobalIDString = 498B436416DCB40D008DDF88;
 			remoteInfo = AppHelpersFramework;
 		};
-		498B437C16DCB445008DDF88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 498B435316DCB3EE008DDF88;
-			remoteInfo = AppHelpers;
-		};
 		499E413916FB69930056ED5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
@@ -281,7 +273,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498B437E16DCB44B008DDF88 /* libAppHelpers.a in Frameworks */,
 				49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */,
 				49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */,
 				4A266CEEA6D442E4801AF9EF /* libPods-TestPilotTests.a in Frameworks */,
@@ -627,7 +618,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				498B437D16DCB445008DDF88 /* PBXTargetDependency */,
 			);
 			name = TestPilotTests;
 			productName = TestPilotTests;
@@ -1003,11 +993,6 @@
 			isa = PBXTargetDependency;
 			target = 498B436416DCB40D008DDF88 /* AppHelpersFramework */;
 			targetProxy = 498B437916DCB430008DDF88 /* PBXContainerItemProxy */;
-		};
-		498B437D16DCB445008DDF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 498B435316DCB3EE008DDF88 /* AppHelpers */;
-			targetProxy = 498B437C16DCB445008DDF88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
