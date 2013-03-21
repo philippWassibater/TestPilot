@@ -11,13 +11,15 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "feature/pod-build" }
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
-  s.source_files = 'TestPilot/Classes/**/*.{h,m}'
   s.requires_arc = true
 
-  s.dependency 'Stubbilino', :git => 'git@github.com:itsthejb/Stubbilino.git', :branch => 'feature/osx-framework'
-  s.dependency 'OCHamcrest', '1.9'
-  s.dependency 'OCMock', '2.0.1'
-  s.dependency 'OCMockito', '0.23'
+  s.subspec 'Core' do |core|
+    core.source_files = 'TestPilot/Classes/**/*.{h,m}'
+    core.dependency 'Stubbilino', :git => 'git@github.com:itsthejb/Stubbilino.git', :branch => 'feature/osx-framework'
+    core.dependency 'OCHamcrest', '1.9'
+    core.dependency 'OCMock', '2.0.1'
+    core.dependency 'OCMockito', '0.23'
+  end
 
   s.subspec 'Kiwi' do |kiwi|
     kiwi.dependency 'Kiwi', '2.0.5'
