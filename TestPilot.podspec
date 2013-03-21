@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.dependency 'OCMock', '2.0.1'
   s.dependency 'OCMockito', '0.23'
 
-  s.subspec 'Kiwi' do [kiwi]
+  s.subspec 'Kiwi' do |kiwi|
     kiwi.dependency 'Kiwi', '2.0.5'
   end
 
-  s.subspec 'Specta' do [specta]
+  s.subspec 'Specta' do |specta|
     specta.dependency 'Specta', '0.1.8'
   end
 
