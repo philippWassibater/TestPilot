@@ -32,7 +32,9 @@
 		491D15A116FB7ACB005D93E5 /* Specta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159F16FB7ACB005D93E5 /* Specta_Tests.m */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
-		494CB95216FB931D00456308 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		494CB95916FB978600456308 /* Kiwi_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CB95816FB978600456308 /* Kiwi_Tests.m */; };
+		494CB95A16FB978600456308 /* Kiwi_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CB95816FB978600456308 /* Kiwi_Tests.m */; };
+		494CB95B16FB97D400456308 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		498B435516DCB3EE008DDF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
@@ -108,6 +110,7 @@
 		494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Kiwi-OSX.xcconfig"; path = "Pods/Pods-Subspec-Kiwi-OSX.xcconfig"; sourceTree = "<group>"; };
 		494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Specta-iOS.xcconfig"; path = "Pods/Pods-Subspec-Specta-iOS.xcconfig"; sourceTree = "<group>"; };
 		494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Specta-OSX.xcconfig"; path = "Pods/Pods-Subspec-Specta-OSX.xcconfig"; sourceTree = "<group>"; };
+		494CB95816FB978600456308 /* Kiwi_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kiwi_Tests.m; path = Tests/Kiwi_Tests.m; sourceTree = SOURCE_ROOT; };
 		495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPilot_Tests.m; path = Tests/TestPilot_Tests.m; sourceTree = SOURCE_ROOT; };
 		498B435416DCB3EE008DDF88 /* libAppHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppHelpersFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,7 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494CB95216FB931D00456308 /* SenTestingKit.framework in Frameworks */,
+				494CB95B16FB97D400456308 /* SenTestingKit.framework in Frameworks */,
 				B1E4336DF0124E3FACE947CA /* libPods-Core-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				491D159F16FB7ACB005D93E5 /* Specta_Tests.m */,
+				494CB95816FB978600456308 /* Kiwi_Tests.m */,
 			);
 			name = Subspecs;
 			sourceTree = "<group>";
@@ -628,8 +632,8 @@
 			projectRoot = "";
 			targets = (
 				491D153E16FB7451005D93E5 /* Run Tests */,
-				49334D1F16C3D05B0032A673 /* Core-OSX */,
 				49334D4A16C3D0820032A673 /* Core-iOS */,
+				49334D1F16C3D05B0032A673 /* Core-OSX */,
 				491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */,
 				491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */,
 				491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */,
@@ -876,6 +880,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494CB95916FB978600456308 /* Kiwi_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,6 +888,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494CB95A16FB978600456308 /* Kiwi_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,7 +990,6 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Kiwi-iOS/Subspec/Kiwi-iOS-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -998,7 +1003,6 @@
 			baseConfigurationReference = 494CB94D16FB92BA00456308 /* Pods-Subspec-Kiwi-iOS.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Kiwi-iOS/Subspec/Kiwi-iOS-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1013,11 +1017,10 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Kiwi-OSX/Subspec/Kiwi-OSX-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -1027,10 +1030,9 @@
 			baseConfigurationReference = 494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Kiwi-OSX/Subspec/Kiwi-OSX-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1042,7 +1044,6 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Specta-iOS/Subspec/Specta-iOS-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1056,7 +1057,6 @@
 			baseConfigurationReference = 494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Specta-iOS/Subspec/Specta-iOS-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1071,11 +1071,10 @@
 			buildSettings = {
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Specta-OSX/Subspec/Specta-OSX-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -1085,10 +1084,9 @@
 			baseConfigurationReference = 494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Subspec/Specta-OSX/Subspec/Specta-OSX-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1108,13 +1106,14 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORKS_IOS = "$(SDKROOT)/Developer/Library/Frameworks";
-				FRAMEWORKS_OSX = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORKS = "\"$(SDKROOT)/Developer/Library/Frameworks\" \"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = $FRAMEWORKS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1147,10 +1146,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORKS_IOS = "$(SDKROOT)/Developer/Library/Frameworks";
-				FRAMEWORKS_OSX = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORKS = "\"$(SDKROOT)/Developer/Library/Frameworks\" \"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = $FRAMEWORKS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -1169,7 +1169,6 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -1182,7 +1181,6 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -1194,12 +1192,7 @@
 			baseConfigurationReference = 494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
@@ -1214,12 +1207,7 @@
 			baseConfigurationReference = 494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
