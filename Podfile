@@ -11,11 +11,11 @@ end
 
 target :Subspec-Kiwi-iOS, :exclusive => true do
   platform :ios, '4.3'
-  pod 'TestPilot-Kiwi', :local => '.'
+  pod 'TestPilot/Kiwi', :local => '.'
 end
 
 target :Subspec-Kiwi-OSX, :exclusive => true do
   platform :osx, '10.6'
-  pod 'TestPilot-Kiwi', :local => '.'
+  pod 'TestPilot/Kiwi', :local => '.'
 end
 
