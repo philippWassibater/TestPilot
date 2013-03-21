@@ -26,6 +26,28 @@
 		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		491D154216FB7726005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D154C16FB7A2F005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D154E16FB7A2F005D93E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		491D154F16FB7A2F005D93E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		491D155516FB7A2F005D93E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491D155316FB7A2F005D93E5 /* InfoPlist.strings */; };
+		491D155816FB7A30005D93E5 /* Subspec_Kiwi_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D155716FB7A30005D93E5 /* Subspec_Kiwi_iOS.m */; };
+		491D156316FB7A65005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D156416FB7A66005D93E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		491D156516FB7A66005D93E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		491D156B16FB7A66005D93E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491D156916FB7A66005D93E5 /* InfoPlist.strings */; };
+		491D156E16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D156D16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m */; };
+		491D157916FB7A75005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D157A16FB7A75005D93E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		491D157B16FB7A75005D93E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		491D158116FB7A75005D93E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491D157F16FB7A75005D93E5 /* InfoPlist.strings */; };
+		491D158416FB7A76005D93E5 /* Subspec_Specta_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D158316FB7A76005D93E5 /* Subspec_Specta_iOS.m */; };
+		491D158F16FB7A88005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D159016FB7A88005D93E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		491D159116FB7A88005D93E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		491D159716FB7A88005D93E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491D159516FB7A88005D93E5 /* InfoPlist.strings */; };
+		491D159A16FB7A89005D93E5 /* Subspec_Specta_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159916FB7A89005D93E5 /* Subspec_Specta_OSX.m */; };
+		491D15A016FB7ACB005D93E5 /* Specta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159F16FB7ACB005D93E5 /* Specta_Tests.m */; };
+		491D15A116FB7ACB005D93E5 /* Specta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159F16FB7ACB005D93E5 /* Specta_Tests.m */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
@@ -41,156 +63,6 @@
 		49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		4A266CEEA6D442E4801AF9EF /* libPods-TestPilotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D95D27B9D43DE9ED2B35D /* libPods-TestPilotTests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		49227B5716C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F5015B9F11583A77002E9A98;
-			remoteInfo = Kiwi;
-		};
-		49227B5916C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 832C83C7157263B300F160D5;
-			remoteInfo = "Kiwi-OSX";
-		};
-		49227B5B16C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F5015C9E11584017002E9A98;
-			remoteInfo = KiwiTests;
-		};
-		49479C9316C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 087601E213440806001B439B;
-			remoteInfo = OCHamcrest;
-		};
-		49479C9516C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 087601F713440807001B439B;
-			remoteInfo = OCHamcrestTests;
-		};
-		49479C9716C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 081BEE621345979F003F846A;
-			remoteInfo = libochamcrest;
-		};
-		49479C9916C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 081BEE6C1345979F003F846A;
-			remoteInfo = libochamcrestTests;
-		};
-		49479C9E16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0A814632FD000B04273;
-			remoteInfo = OCMock;
-		};
-		49479CA016C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0C014632FD000B04273;
-			remoteInfo = OCMockTests;
-		};
-		49479CA216C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0DC14632FF700B04273;
-			remoteInfo = OCMockLib;
-		};
-		49479CA816C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08BDD5A91350C59C00E5A443;
-			remoteInfo = OCMockito;
-		};
-		49479CAA16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08BDD5BE1350C59C00E5A443;
-			remoteInfo = OCMockitoTests;
-		};
-		49479CAC16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 085D2FF51351254000EBBE91;
-			remoteInfo = libocmockito;
-		};
-		49479CAE16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 085D2FFF1351254000EBBE91;
-			remoteInfo = libocmockitoTests;
-		};
-		49479CB216C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54BE75FC16BD80900037DC25;
-			remoteInfo = Stubbilino;
-		};
-		49479CB416C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54BE760D16BD80900037DC25;
-			remoteInfo = Specs;
-		};
-		499E413916FB69930056ED5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9D96A2614B6B8AB007D9521;
-			remoteInfo = Specta;
-		};
-		499E413B16FB69930056ED5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9B777A414BA294B00D8DC76;
-			remoteInfo = "Specta-iOS";
-		};
-		499E413D16FB69930056ED5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9D96A3A14B6B8AB007D9521;
-			remoteInfo = SpectaTests;
-		};
-		499E413F16FB69930056ED5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9B777B314BA294C00D8DC76;
-			remoteInfo = "Specta-iOSTests";
-		};
-		49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 49D0BE6B16C555E400BF1CD4;
-			remoteInfo = StubbilinoFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		498B435216DCB3EE008DDF88 /* CopyFiles */ = {
@@ -214,20 +86,41 @@
 		4914857716DE5A83002C4541 /* TPMatchers_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMatchers_Test.m; path = Tests/TPMatchers_Test.m; sourceTree = SOURCE_ROOT; };
 		4914857A16DE5A99002C4541 /* TPMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMatchers.h; sourceTree = "<group>"; };
 		491D150F16FB716D005D93E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		49227B5016C57D950041AA08 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
+		491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Kiwi-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D154D16FB7A2F005D93E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		491D155216FB7A2F005D93E5 /* Kiwi-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiwi-iOS-Info.plist"; path = "Subspec/Kiwi-iOS-Info.plist"; sourceTree = "<group>"; };
+		491D155416FB7A2F005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491D155616FB7A2F005D93E5 /* Subspec_Kiwi_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Kiwi_iOS.h; sourceTree = "<group>"; };
+		491D155716FB7A30005D93E5 /* Subspec_Kiwi_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Kiwi_iOS.m; sourceTree = "<group>"; };
+		491D155916FB7A30005D93E5 /* Kiwi-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Kiwi-iOS-Prefix.pch"; path = "Subspec/Kiwi-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Kiwi-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D156816FB7A66005D93E5 /* Kiwi-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiwi-OSX-Info.plist"; path = "Subspec/Kiwi-OSX-Info.plist"; sourceTree = "<group>"; };
+		491D156A16FB7A66005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491D156C16FB7A66005D93E5 /* Subspec_Kiwi_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Kiwi_OSX.h; sourceTree = "<group>"; };
+		491D156D16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Kiwi_OSX.m; sourceTree = "<group>"; };
+		491D156F16FB7A66005D93E5 /* Kiwi-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Kiwi-OSX-Prefix.pch"; path = "Subspec/Kiwi-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Specta-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D157E16FB7A75005D93E5 /* Specta-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Specta-iOS-Info.plist"; path = "Subspec/Specta-iOS-Info.plist"; sourceTree = "<group>"; };
+		491D158016FB7A75005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491D158216FB7A75005D93E5 /* Subspec_Specta_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Specta_iOS.h; sourceTree = "<group>"; };
+		491D158316FB7A76005D93E5 /* Subspec_Specta_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Specta_iOS.m; sourceTree = "<group>"; };
+		491D158516FB7A76005D93E5 /* Specta-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Specta-iOS-Prefix.pch"; path = "Subspec/Specta-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Specta-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D159416FB7A88005D93E5 /* Specta-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Specta-OSX-Info.plist"; path = "Subspec/Specta-OSX-Info.plist"; sourceTree = "<group>"; };
+		491D159616FB7A88005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491D159816FB7A89005D93E5 /* Subspec_Specta_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Specta_OSX.h; sourceTree = "<group>"; };
+		491D159916FB7A89005D93E5 /* Subspec_Specta_OSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Specta_OSX.m; sourceTree = "<group>"; };
+		491D159B16FB7A89005D93E5 /* Specta-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Specta-OSX-Prefix.pch"; path = "Subspec/Specta-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		491D159F16FB7ACB005D93E5 /* Specta_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Specta_Tests.m; path = Tests/Specta_Tests.m; sourceTree = SOURCE_ROOT; };
 		49334D1316C3D05B0032A673 /* TestPilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPilot-Info.plist"; sourceTree = "<group>"; };
 		49334D1516C3D05B0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49334D1716C3D05B0032A673 /* TestPilot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPilot-Prefix.pch"; sourceTree = "<group>"; };
-		49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D2016C3D05B0032A673 /* CoreOSXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreOSXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D2116C3D05B0032A673 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		49334D3D16C3D0820032A673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49334D4B16C3D0820032A673 /* CoreiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
-		49479C8616C54332002DC702 /* OCMockito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMockito.xcodeproj; path = Submodules/OCMockito/Source/OCMockito.xcodeproj; sourceTree = "<group>"; };
-		49479C8916C54332002DC702 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = Submodules/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
-		49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = Submodules/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
 		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPilot.h; sourceTree = "<group>"; };
 		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
@@ -246,7 +139,6 @@
 		498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPAppHelpers_Tests.m; path = Tests/TPAppHelpers_Tests.m; sourceTree = SOURCE_ROOT; };
 		498B438216DCB555008DDF88 /* TPAppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAppHelpers.h; sourceTree = "<group>"; };
 		498B438316DCB555008DDF88 /* TPAppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAppHelpers.m; sourceTree = "<group>"; };
-		499E412B16FB69930056ED5B /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = Submodules/Specta/Specta.xcodeproj; sourceTree = "<group>"; };
 		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
@@ -256,6 +148,46 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		491D154716FB7A2F005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D154C16FB7A2F005D93E5 /* SenTestingKit.framework in Frameworks */,
+				491D154E16FB7A2F005D93E5 /* UIKit.framework in Frameworks */,
+				491D154F16FB7A2F005D93E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155E16FB7A65005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D156316FB7A65005D93E5 /* SenTestingKit.framework in Frameworks */,
+				491D156416FB7A66005D93E5 /* UIKit.framework in Frameworks */,
+				491D156516FB7A66005D93E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157416FB7A75005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D157916FB7A75005D93E5 /* SenTestingKit.framework in Frameworks */,
+				491D157A16FB7A75005D93E5 /* UIKit.framework in Frameworks */,
+				491D157B16FB7A75005D93E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158A16FB7A88005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D158F16FB7A88005D93E5 /* SenTestingKit.framework in Frameworks */,
+				491D159016FB7A88005D93E5 /* UIKit.framework in Frameworks */,
+				491D159116FB7A88005D93E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49334D1C16C3D05B0032A673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,14 +237,92 @@
 			name = Matchers;
 			sourceTree = "<group>";
 		};
-		49227B5116C57D950041AA08 /* Products */ = {
+		491D154516FB7A09005D93E5 /* Subspecs */ = {
 			isa = PBXGroup;
 			children = (
-				49227B5816C57D950041AA08 /* libKiwi.a */,
-				49227B5A16C57D950041AA08 /* libKiwi-OSX.a */,
-				49227B5C16C57D950041AA08 /* KiwiTests.octest */,
+				491D159F16FB7ACB005D93E5 /* Specta_Tests.m */,
 			);
-			name = Products;
+			name = Subspecs;
+			sourceTree = "<group>";
+		};
+		491D155016FB7A2F005D93E5 /* Subspec/Kiwi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				491D155616FB7A2F005D93E5 /* Subspec_Kiwi_iOS.h */,
+				491D155716FB7A30005D93E5 /* Subspec_Kiwi_iOS.m */,
+				491D155116FB7A2F005D93E5 /* Supporting Files */,
+			);
+			path = "Subspec/Kiwi-iOS";
+			sourceTree = "<group>";
+		};
+		491D155116FB7A2F005D93E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491D155216FB7A2F005D93E5 /* Kiwi-iOS-Info.plist */,
+				491D155316FB7A2F005D93E5 /* InfoPlist.strings */,
+				491D155916FB7A30005D93E5 /* Kiwi-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491D156616FB7A66005D93E5 /* Subspec/Kiwi-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				491D156C16FB7A66005D93E5 /* Subspec_Kiwi_OSX.h */,
+				491D156D16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m */,
+				491D156716FB7A66005D93E5 /* Supporting Files */,
+			);
+			path = "Subspec/Kiwi-OSX";
+			sourceTree = "<group>";
+		};
+		491D156716FB7A66005D93E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491D156816FB7A66005D93E5 /* Kiwi-OSX-Info.plist */,
+				491D156916FB7A66005D93E5 /* InfoPlist.strings */,
+				491D156F16FB7A66005D93E5 /* Kiwi-OSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491D157C16FB7A75005D93E5 /* Subspec/Specta-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				491D158216FB7A75005D93E5 /* Subspec_Specta_iOS.h */,
+				491D158316FB7A76005D93E5 /* Subspec_Specta_iOS.m */,
+				491D157D16FB7A75005D93E5 /* Supporting Files */,
+			);
+			path = "Subspec/Specta-iOS";
+			sourceTree = "<group>";
+		};
+		491D157D16FB7A75005D93E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491D157E16FB7A75005D93E5 /* Specta-iOS-Info.plist */,
+				491D157F16FB7A75005D93E5 /* InfoPlist.strings */,
+				491D158516FB7A76005D93E5 /* Specta-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491D159216FB7A88005D93E5 /* Subspec/Specta-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				491D159816FB7A89005D93E5 /* Subspec_Specta_OSX.h */,
+				491D159916FB7A89005D93E5 /* Subspec_Specta_OSX.m */,
+				491D159316FB7A88005D93E5 /* Supporting Files */,
+			);
+			path = "Subspec/Specta-OSX";
+			sourceTree = "<group>";
+		};
+		491D159316FB7A88005D93E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491D159416FB7A88005D93E5 /* Specta-OSX-Info.plist */,
+				491D159516FB7A88005D93E5 /* InfoPlist.strings */,
+				491D159B16FB7A89005D93E5 /* Specta-OSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		49334CFE16C3D05A0032A673 = {
@@ -321,8 +331,11 @@
 				49334D1116C3D05B0032A673 /* TestPilot */,
 				49334D2716C3D05B0032A673 /* Tests */,
 				49479CD716C545DC002DC702 /* Resources */,
+				491D155016FB7A2F005D93E5 /* Subspec/Kiwi-iOS */,
+				491D156616FB7A66005D93E5 /* Subspec/Kiwi-OSX */,
+				491D157C16FB7A75005D93E5 /* Subspec/Specta-iOS */,
+				491D159216FB7A88005D93E5 /* Subspec/Specta-OSX */,
 				49334D0A16C3D05B0032A673 /* Frameworks */,
-				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
 				491D150F16FB716D005D93E5 /* Podfile */,
@@ -335,10 +348,14 @@
 		49334D0916C3D05B0032A673 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */,
+				49334D2016C3D05B0032A673 /* CoreOSXTests.octest */,
 				49334D4B16C3D0820032A673 /* CoreiOSTests.octest */,
 				498B435416DCB3EE008DDF88 /* libAppHelpers.a */,
 				498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */,
+				491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */,
+				491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */,
+				491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */,
+				491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -349,6 +366,7 @@
 				49334D2116C3D05B0032A673 /* SenTestingKit.framework */,
 				49334D3D16C3D0820032A673 /* Foundation.framework */,
 				498B436616DCB40D008DDF88 /* Cocoa.framework */,
+				491D154D16FB7A2F005D93E5 /* UIKit.framework */,
 				498B436816DCB40D008DDF88 /* Other Frameworks */,
 				2E0D95D27B9D43DE9ED2B35D /* libPods-TestPilotTests.a */,
 				C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */,
@@ -384,6 +402,7 @@
 		49334D2716C3D05B0032A673 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				491D154516FB7A09005D93E5 /* Subspecs */,
 				49334D6516C3D0D60032A673 /* Foundation */,
 				49334D6616C3D0E10032A673 /* OS X */,
 				49334D6716C3D0E60032A673 /* iOS */,
@@ -453,61 +472,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		49479C8216C54301002DC702 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				499E412B16FB69930056ED5B /* Specta.xcodeproj */,
-				49227B5016C57D950041AA08 /* Kiwi.xcodeproj */,
-				49479C8316C54332002DC702 /* Stubbilino.xcodeproj */,
-				49479C8616C54332002DC702 /* OCMockito.xcodeproj */,
-				49479C8916C54332002DC702 /* OCMock.xcodeproj */,
-				49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		49479C8416C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479CB316C54333002DC702 /* libStubbilino.a */,
-				49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */,
-				49479CB516C54333002DC702 /* Specs.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8716C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479CA916C54333002DC702 /* OCMockito.framework */,
-				49479CAB16C54333002DC702 /* OCMockitoTests.octest */,
-				49479CAD16C54333002DC702 /* libocmockito.a */,
-				49479CAF16C54333002DC702 /* libocmockitoTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8A16C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479C9F16C54333002DC702 /* OCMock.framework */,
-				49479CA116C54333002DC702 /* OCMockTests.octest */,
-				49479CA316C54333002DC702 /* libOCMock.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8D16C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479C9416C54333002DC702 /* OCHamcrest.framework */,
-				49479C9616C54333002DC702 /* OCHamcrestTests.octest */,
-				49479C9816C54333002DC702 /* libochamcrest.a */,
-				49479C9A16C54333002DC702 /* libochamcrestTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		49479CD716C545DC002DC702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,17 +519,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		499E412C16FB69930056ED5B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				499E413A16FB69930056ED5B /* libSpecta.a */,
-				499E413C16FB69930056ED5B /* libSpecta-iOS.a */,
-				499E413E16FB69930056ED5B /* SpectaTests.octest */,
-				499E414016FB69930056ED5B /* Specta-iOSTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -580,6 +533,78 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */;
+			buildPhases = (
+				491D154616FB7A2F005D93E5 /* Sources */,
+				491D154716FB7A2F005D93E5 /* Frameworks */,
+				491D154816FB7A2F005D93E5 /* Resources */,
+				491D154916FB7A2F005D93E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec/Kiwi-iOS";
+			productName = "Subspec/Kiwi-iOS";
+			productReference = 491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */;
+			buildPhases = (
+				491D155D16FB7A65005D93E5 /* Sources */,
+				491D155E16FB7A65005D93E5 /* Frameworks */,
+				491D155F16FB7A65005D93E5 /* Resources */,
+				491D156016FB7A65005D93E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec/Kiwi-OSX";
+			productName = "Subspec/Kiwi-OSX";
+			productReference = 491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */;
+			buildPhases = (
+				491D157316FB7A75005D93E5 /* Sources */,
+				491D157416FB7A75005D93E5 /* Frameworks */,
+				491D157516FB7A75005D93E5 /* Resources */,
+				491D157616FB7A75005D93E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec/Specta-iOS";
+			productName = "Subspec/Specta-iOS";
+			productReference = 491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */;
+			buildPhases = (
+				491D158916FB7A88005D93E5 /* Sources */,
+				491D158A16FB7A88005D93E5 /* Frameworks */,
+				491D158B16FB7A88005D93E5 /* Resources */,
+				491D158C16FB7A88005D93E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec/Specta-OSX";
+			productName = "Subspec/Specta-OSX";
+			productReference = 491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		49334D1F16C3D05B0032A673 /* CoreOSXTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "CoreOSXTests" */;
@@ -596,7 +621,7 @@
 			);
 			name = CoreOSXTests;
 			productName = TestPilotTests;
-			productReference = 49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */;
+			productReference = 49334D2016C3D05B0032A673 /* CoreOSXTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		49334D4A16C3D0820032A673 /* CoreiOSTests */ = {
@@ -672,194 +697,54 @@
 			mainGroup = 49334CFE16C3D05A0032A673;
 			productRefGroup = 49334D0916C3D05B0032A673 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 49227B5116C57D950041AA08 /* Products */;
-					ProjectRef = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8D16C54332002DC702 /* Products */;
-					ProjectRef = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8A16C54332002DC702 /* Products */;
-					ProjectRef = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8716C54332002DC702 /* Products */;
-					ProjectRef = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-				},
-				{
-					ProductGroup = 499E412C16FB69930056ED5B /* Products */;
-					ProjectRef = 499E412B16FB69930056ED5B /* Specta.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8416C54332002DC702 /* Products */;
-					ProjectRef = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				491D153E16FB7451005D93E5 /* Run Tests */,
 				49334D1F16C3D05B0032A673 /* CoreOSXTests */,
 				49334D4A16C3D0820032A673 /* CoreiOSTests */,
+				491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */,
+				491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */,
+				491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */,
+				491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		49227B5816C57D950041AA08 /* libKiwi.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKiwi.a;
-			remoteRef = 49227B5716C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49227B5A16C57D950041AA08 /* libKiwi-OSX.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libKiwi-OSX.a";
-			remoteRef = 49227B5916C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49227B5C16C57D950041AA08 /* KiwiTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KiwiTests.octest;
-			remoteRef = 49227B5B16C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9416C54333002DC702 /* OCHamcrest.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCHamcrest.framework;
-			remoteRef = 49479C9316C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9616C54333002DC702 /* OCHamcrestTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCHamcrestTests.octest;
-			remoteRef = 49479C9516C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9816C54333002DC702 /* libochamcrest.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libochamcrest.a;
-			remoteRef = 49479C9716C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9A16C54333002DC702 /* libochamcrestTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = libochamcrestTests.octest;
-			remoteRef = 49479C9916C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9F16C54333002DC702 /* OCMock.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMock.framework;
-			remoteRef = 49479C9E16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA116C54333002DC702 /* OCMockTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockTests.octest;
-			remoteRef = 49479CA016C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA316C54333002DC702 /* libOCMock.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOCMock.a;
-			remoteRef = 49479CA216C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA916C54333002DC702 /* OCMockito.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMockito.framework;
-			remoteRef = 49479CA816C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAB16C54333002DC702 /* OCMockitoTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockitoTests.octest;
-			remoteRef = 49479CAA16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAD16C54333002DC702 /* libocmockito.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libocmockito.a;
-			remoteRef = 49479CAC16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAF16C54333002DC702 /* libocmockitoTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = libocmockitoTests.octest;
-			remoteRef = 49479CAE16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CB316C54333002DC702 /* libStubbilino.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libStubbilino.a;
-			remoteRef = 49479CB216C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CB516C54333002DC702 /* Specs.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Specs.octest;
-			remoteRef = 49479CB416C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		499E413A16FB69930056ED5B /* libSpecta.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSpecta.a;
-			remoteRef = 499E413916FB69930056ED5B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		499E413C16FB69930056ED5B /* libSpecta-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSpecta-iOS.a";
-			remoteRef = 499E413B16FB69930056ED5B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		499E413E16FB69930056ED5B /* SpectaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SpectaTests.octest;
-			remoteRef = 499E413D16FB69930056ED5B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		499E414016FB69930056ED5B /* Specta-iOSTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Specta-iOSTests.octest";
-			remoteRef = 499E413F16FB69930056ED5B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = StubbilinoFramework.framework;
-			remoteRef = 49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
+		491D154816FB7A2F005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D155516FB7A2F005D93E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155F16FB7A65005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D156B16FB7A66005D93E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157516FB7A75005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D158116FB7A75005D93E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158B16FB7A88005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D159716FB7A88005D93E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49334D1D16C3D05B0032A673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -897,6 +782,58 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#xcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme CoreiOSTests -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme CoreOSXTests -sdk macosx\n\n";
+		};
+		491D154916FB7A2F005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D156016FB7A65005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D157616FB7A75005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D158C16FB7A88005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
 		49334D1E16C3D05B0032A673 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -955,6 +892,40 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		491D154616FB7A2F005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D155816FB7A30005D93E5 /* Subspec_Kiwi_iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155D16FB7A65005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D156E16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157316FB7A75005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D158416FB7A76005D93E5 /* Subspec_Specta_iOS.m in Sources */,
+				491D15A016FB7ACB005D93E5 /* Specta_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158916FB7A88005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D159A16FB7A89005D93E5 /* Subspec_Specta_OSX.m in Sources */,
+				491D15A116FB7ACB005D93E5 /* Specta_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49334D1B16C3D05B0032A673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -998,6 +969,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		491D155316FB7A2F005D93E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491D155416FB7A2F005D93E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		491D156916FB7A66005D93E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491D156A16FB7A66005D93E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		491D157F16FB7A75005D93E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491D158016FB7A75005D93E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		491D159516FB7A88005D93E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491D159616FB7A88005D93E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		49334D1416C3D05B0032A673 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1028,6 +1031,146 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		491D155B16FB7A30005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Kiwi-iOS/Subspec/Kiwi-iOS-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D155C16FB7A30005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Kiwi-iOS/Subspec/Kiwi-iOS-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D157116FB7A66005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Kiwi-OSX/Subspec/Kiwi-OSX-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D157216FB7A66005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Kiwi-OSX/Subspec/Kiwi-OSX-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D158716FB7A76005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Specta-iOS/Subspec/Specta-iOS-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D158816FB7A76005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Specta-iOS/Subspec/Specta-iOS-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D159D16FB7A89005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Specta-OSX/Subspec/Specta-OSX-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D159E16FB7A89005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subspec/Specta-OSX/Subspec/Specta-OSX-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -1105,7 +1248,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
-				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1120,7 +1262,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
-				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1234,6 +1375,38 @@
 			buildConfigurations = (
 				491D154016FB7451005D93E5 /* Debug */,
 				491D154116FB7451005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D155B16FB7A30005D93E5 /* Debug */,
+				491D155C16FB7A30005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D157116FB7A66005D93E5 /* Debug */,
+				491D157216FB7A66005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D158716FB7A76005D93E5 /* Debug */,
+				491D158816FB7A76005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D159D16FB7A89005D93E5 /* Debug */,
+				491D159E16FB7A89005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
