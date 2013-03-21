@@ -14,9 +14,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49334D4A16C3D0820032A673"
-               BuildableName = "iOS.octest"
-               BlueprintName = "Core-iOS"
+               BlueprintIdentifier = "491D157716FB7A75005D93E5"
+               BuildableName = "Subspec-Specta-iOS.octest"
+               BlueprintName = "Subspec-Specta-iOS"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49334D4A16C3D0820032A673"
-               BuildableName = "iOS.octest"
-               BlueprintName = "Core-iOS"
+               BlueprintIdentifier = "491D157716FB7A75005D93E5"
+               BuildableName = "Subspec-Specta-iOS.octest"
+               BlueprintName = "Subspec-Specta-iOS"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </TestableReference>
