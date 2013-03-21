@@ -533,9 +533,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */ = {
+		491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */;
+			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */;
 			buildPhases = (
 				491D154616FB7A2F005D93E5 /* Sources */,
 				491D154716FB7A2F005D93E5 /* Frameworks */,
@@ -546,14 +546,14 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec/Kiwi-iOS";
+			name = "Subspec-Kiwi-iOS";
 			productName = "Subspec/Kiwi-iOS";
 			productReference = 491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */ = {
+		491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */;
+			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */;
 			buildPhases = (
 				491D155D16FB7A65005D93E5 /* Sources */,
 				491D155E16FB7A65005D93E5 /* Frameworks */,
@@ -564,14 +564,14 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec/Kiwi-OSX";
+			name = "Subspec-Kiwi-OSX";
 			productName = "Subspec/Kiwi-OSX";
 			productReference = 491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */ = {
+		491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */;
+			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */;
 			buildPhases = (
 				491D157316FB7A75005D93E5 /* Sources */,
 				491D157416FB7A75005D93E5 /* Frameworks */,
@@ -582,14 +582,14 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec/Specta-iOS";
+			name = "Subspec-Specta-iOS";
 			productName = "Subspec/Specta-iOS";
 			productReference = 491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */ = {
+		491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */;
+			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */;
 			buildPhases = (
 				491D158916FB7A88005D93E5 /* Sources */,
 				491D158A16FB7A88005D93E5 /* Frameworks */,
@@ -600,7 +600,7 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec/Specta-OSX";
+			name = "Subspec-Specta-OSX";
 			productName = "Subspec/Specta-OSX";
 			productReference = 491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -702,10 +702,10 @@
 				491D153E16FB7451005D93E5 /* Run Tests */,
 				49334D1F16C3D05B0032A673 /* CoreOSXTests */,
 				49334D4A16C3D0820032A673 /* CoreiOSTests */,
-				491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */,
-				491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */,
-				491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */,
-				491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */,
+				491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */,
+				491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */,
+				491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */,
+				491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
@@ -1377,38 +1377,43 @@
 				491D154116FB7451005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */ = {
+		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D155B16FB7A30005D93E5 /* Debug */,
 				491D155C16FB7A30005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */ = {
+		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D157116FB7A66005D93E5 /* Debug */,
 				491D157216FB7A66005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */ = {
+		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D158716FB7A76005D93E5 /* Debug */,
 				491D158816FB7A76005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */ = {
+		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D159D16FB7A89005D93E5 /* Debug */,
 				491D159E16FB7A89005D93E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49334D0216C3D05A0032A673 /* Build configuration list for PBXProject "TestPilot" */ = {
 			isa = XCConfigurationList;
