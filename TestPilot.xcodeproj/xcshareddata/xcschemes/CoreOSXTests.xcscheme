@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D1F16C3D05B0032A673"
-               BuildableName = "CoreOSXTests.octest"
-               BlueprintName = "Core/OSX"
+               BuildableName = "OSX.octest"
+               BlueprintName = "Core-OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D1F16C3D05B0032A673"
-               BuildableName = "CoreOSXTests.octest"
-               BlueprintName = "Core/OSX"
+               BuildableName = "OSX.octest"
+               BlueprintName = "Core-OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </TestableReference>

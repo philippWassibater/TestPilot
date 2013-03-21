@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D4A16C3D0820032A673"
-               BuildableName = "CoreiOSTests.octest"
-               BlueprintName = "Core/iOS"
+               BuildableName = "iOS.octest"
+               BlueprintName = "Core-iOS"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D4A16C3D0820032A673"
-               BuildableName = "CoreiOSTests.octest"
-               BlueprintName = "Core/iOS"
+               BuildableName = "iOS.octest"
+               BlueprintName = "Core-iOS"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </TestableReference>
