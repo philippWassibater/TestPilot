@@ -30,12 +30,6 @@
   STAssertNotNil(mock, @"");
 }
 
-- (void)testKiwi
-{
-  id mock = [NSString mock];
-  STAssertNotNil(mock, @"");
-}
-
 - (void)testStubbilino
 {
   [Stubbilino stubClass:[NSString class]];

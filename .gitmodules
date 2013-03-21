@@ -13,3 +13,6 @@
 [submodule "Submodules/Kiwi"]
 	path = Submodules/Kiwi
 	url = git://github.com/allending/Kiwi.git
+[submodule "Submodules/Specta"]
+	path = Submodules/Specta
+	url = git://github.com/petejkim/specta.git
