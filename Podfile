@@ -24,8 +24,8 @@ target :'Subspec-Specta-iOS', :exclusive => true do
   pod 'TestPilot/Specta', :local => '/Users/jc/dev/TestPilot', :branch => 'feature/pod-build'
 end
 
-#target :'Subspec-Specta-OSX', :exclusive => true do
-#  platform :osx, '10.6'
-#  pod 'TestPilot/Specta', :local => '/Users/jc/dev/TestPilot', :branch => 'feature/pod-build'
-#end
+target :'Subspec-Specta-OSX', :exclusive => true do
+  platform :osx, '10.6'
+  pod 'TestPilot/Specta', :local => '/Users/jc/dev/TestPilot', :branch => 'feature/pod-build'
+end
 

@@ -14,7 +14,7 @@
 
 @implementation Specta_Tests
 
-//- (void)test<#name#>
+//- (void)test￼
 //{
 //  
 //}
