@@ -7,11 +7,15 @@
 //
 
 #import "TestPilot.h"
+#import "Kiwi.h"
 
 @interface Kiwi_Tests : SenTestCase
 @end
 
 @implementation Kiwi_Tests
 
+- (void) testKiwi {
+  STAssertNotNil(NSClassFromString(@"KWSpec"), nil);
+}
 
 @end

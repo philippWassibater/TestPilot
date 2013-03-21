@@ -14,9 +14,8 @@
 
 @implementation Specta_Tests
 
-//- (void)test￼
-//{
-//  
-//}
+- (void) testSpecta {
+  STAssertNotNil(NSClassFromString(@"Specta"), nil);
+}
 
 @end
