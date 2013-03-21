@@ -25,6 +25,7 @@
 		4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		491D154216FB7726005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
@@ -260,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075A0D25CA4D48BC90F8991E /* libPods-TestPilotFrameworkTests.a in Frameworks */,
+				491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,7 +896,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "xcodebuild -workspace TestPilot.xcworkspace -scheme CoreiOSTests -sdk iphonesimulator";
+			shellScript = "#xcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme CoreiOSTests -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme CoreOSXTests -sdk macosx\n\n";
 		};
 		49334D1E16C3D05B0032A673 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
