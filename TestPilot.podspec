@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
                                %Q|THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE| }
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "feature/pod-build" }
-#  s.source       = { :path => ".", :branch => "feature/pod-build" }
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
   s.source_files = 'TestPilot/Classes/**/*.{h,m}'
@@ -20,9 +19,9 @@ Pod::Spec.new do |s|
   s.dependency 'OCMock', '2.0.1'
   s.dependency 'OCMockito', '0.23'
 
-#  s.subspec 'Kiwi' do |kiwi|
-#    kiwi.dependency 'Kiwi', '2.0.5'
-#  end
+  s.subspec 'Kiwi' do |kiwi|
+    kiwi.dependency 'Kiwi', '2.0.5'
+  end
 
   s.subspec 'Specta' do |specta|
     specta.dependency 'Specta', '0.1.8'
