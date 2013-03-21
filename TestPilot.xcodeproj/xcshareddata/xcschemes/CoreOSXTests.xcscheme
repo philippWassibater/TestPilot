@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D1F16C3D05B0032A673"
                BuildableName = "CoreOSXTests.octest"
-               BlueprintName = "CoreOSXTests"
+               BlueprintName = "Core/OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49334D1F16C3D05B0032A673"
                BuildableName = "CoreOSXTests.octest"
-               BlueprintName = "CoreOSXTests"
+               BlueprintName = "Core/OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </TestableReference>

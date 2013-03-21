@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		075A0D25CA4D48BC90F8991E /* libPods-TestPilotFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */; };
+		1FE05591B57A4ABAA4ECBD2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C34E4E06144BA19122E50F /* libPods.a */; };
 		4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
 		491D154216FB7726005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
@@ -62,6 +63,7 @@
 		49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		4A266CEEA6D442E4801AF9EF /* libPods-TestPilotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D95D27B9D43DE9ED2B35D /* libPods-TestPilotTests.a */; };
+		69051B5EB5E3458FA8681D74 /* libPods-SubspecKiwiOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BFB0E60E3A4641A48A5C9D /* libPods-SubspecKiwiOSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,26 +88,26 @@
 		4914857716DE5A83002C4541 /* TPMatchers_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMatchers_Test.m; path = Tests/TPMatchers_Test.m; sourceTree = SOURCE_ROOT; };
 		4914857A16DE5A99002C4541 /* TPMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMatchers.h; sourceTree = "<group>"; };
 		491D150F16FB716D005D93E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Kiwi-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Subspec/Kiwi-iOS.octest"; path = "Subspec-Kiwi-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D154D16FB7A2F005D93E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		491D155216FB7A2F005D93E5 /* Kiwi-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiwi-iOS-Info.plist"; path = "Subspec/Kiwi-iOS-Info.plist"; sourceTree = "<group>"; };
 		491D155416FB7A2F005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		491D155616FB7A2F005D93E5 /* Subspec_Kiwi_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Kiwi_iOS.h; sourceTree = "<group>"; };
 		491D155716FB7A30005D93E5 /* Subspec_Kiwi_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Kiwi_iOS.m; sourceTree = "<group>"; };
 		491D155916FB7A30005D93E5 /* Kiwi-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Kiwi-iOS-Prefix.pch"; path = "Subspec/Kiwi-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Kiwi-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D156216FB7A65005D93E5 /* SubspecKiwiOSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubspecKiwiOSX.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D156816FB7A66005D93E5 /* Kiwi-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiwi-OSX-Info.plist"; path = "Subspec/Kiwi-OSX-Info.plist"; sourceTree = "<group>"; };
 		491D156A16FB7A66005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		491D156C16FB7A66005D93E5 /* Subspec_Kiwi_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Kiwi_OSX.h; sourceTree = "<group>"; };
 		491D156D16FB7A66005D93E5 /* Subspec_Kiwi_OSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Kiwi_OSX.m; sourceTree = "<group>"; };
 		491D156F16FB7A66005D93E5 /* Kiwi-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Kiwi-OSX-Prefix.pch"; path = "Subspec/Kiwi-OSX-Prefix.pch"; sourceTree = "<group>"; };
-		491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Specta-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Subspec/Specta-iOS.octest"; path = SubspecSpectaiOS.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D157E16FB7A75005D93E5 /* Specta-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Specta-iOS-Info.plist"; path = "Subspec/Specta-iOS-Info.plist"; sourceTree = "<group>"; };
 		491D158016FB7A75005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		491D158216FB7A75005D93E5 /* Subspec_Specta_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Specta_iOS.h; sourceTree = "<group>"; };
 		491D158316FB7A76005D93E5 /* Subspec_Specta_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subspec_Specta_iOS.m; sourceTree = "<group>"; };
 		491D158516FB7A76005D93E5 /* Specta-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Specta-iOS-Prefix.pch"; path = "Subspec/Specta-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec/Specta-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Subspec/Specta-OSX.octest"; path = SubspecSpectaOSX.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D159416FB7A88005D93E5 /* Specta-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Specta-OSX-Info.plist"; path = "Subspec/Specta-OSX-Info.plist"; sourceTree = "<group>"; };
 		491D159616FB7A88005D93E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		491D159816FB7A89005D93E5 /* Subspec_Specta_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subspec_Specta_OSX.h; sourceTree = "<group>"; };
@@ -144,7 +146,11 @@
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		9455740BE42641D185B1A489 /* Pods-TestPilotTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPilotTests.xcconfig"; path = "Pods/Pods-TestPilotTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9F708859C04D4D7E9ECBF52F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A4C34E4E06144BA19122E50F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestPilotFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BFB0E60E3A4641A48A5C9D /* libPods-SubspecKiwiOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubspecKiwiOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB9C18872694B0382A1B98B /* Pods-SubspecKiwiOSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubspecKiwiOSX.xcconfig"; path = "Pods/Pods-SubspecKiwiOSX.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 				491D156316FB7A65005D93E5 /* SenTestingKit.framework in Frameworks */,
 				491D156416FB7A66005D93E5 /* UIKit.framework in Frameworks */,
 				491D156516FB7A66005D93E5 /* Foundation.framework in Frameworks */,
+				69051B5EB5E3458FA8681D74 /* libPods-SubspecKiwiOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			files = (
 				075A0D25CA4D48BC90F8991E /* libPods-TestPilotFrameworkTests.a in Frameworks */,
 				491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */,
+				1FE05591B57A4ABAA4ECBD2E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +350,8 @@
 				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
 				9455740BE42641D185B1A489 /* Pods-TestPilotTests.xcconfig */,
 				3A61E586AF5D4F0CA21AA820 /* Pods-TestPilotFrameworkTests.xcconfig */,
+				9F708859C04D4D7E9ECBF52F /* Pods.xcconfig */,
+				DDB9C18872694B0382A1B98B /* Pods-SubspecKiwiOSX.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -353,7 +363,7 @@
 				498B435416DCB3EE008DDF88 /* libAppHelpers.a */,
 				498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */,
 				491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */,
-				491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */,
+				491D156216FB7A65005D93E5 /* SubspecKiwiOSX.octest */,
 				491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */,
 				491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */,
 			);
@@ -370,6 +380,8 @@
 				498B436816DCB40D008DDF88 /* Other Frameworks */,
 				2E0D95D27B9D43DE9ED2B35D /* libPods-TestPilotTests.a */,
 				C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */,
+				A4C34E4E06144BA19122E50F /* libPods.a */,
+				D9BFB0E60E3A4641A48A5C9D /* libPods-SubspecKiwiOSX.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -533,9 +545,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */ = {
+		491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */;
+			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */;
 			buildPhases = (
 				491D154616FB7A2F005D93E5 /* Sources */,
 				491D154716FB7A2F005D93E5 /* Frameworks */,
@@ -546,32 +558,33 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec-Kiwi-iOS";
+			name = "Subspec/Kiwi-iOS";
 			productName = "Subspec/Kiwi-iOS";
 			productReference = 491D154B16FB7A2F005D93E5 /* Subspec/Kiwi-iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */ = {
+		491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */;
+			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */;
 			buildPhases = (
 				491D155D16FB7A65005D93E5 /* Sources */,
 				491D155E16FB7A65005D93E5 /* Frameworks */,
 				491D155F16FB7A65005D93E5 /* Resources */,
 				491D156016FB7A65005D93E5 /* ShellScript */,
+				D22749D87A754E82AF3B5E8C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Subspec-Kiwi-OSX";
+			name = "Subspec/Kiwi-OSX";
 			productName = "Subspec/Kiwi-OSX";
-			productReference = 491D156216FB7A65005D93E5 /* Subspec/Kiwi-OSX.octest */;
+			productReference = 491D156216FB7A65005D93E5 /* SubspecKiwiOSX.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */ = {
+		491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */;
+			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */;
 			buildPhases = (
 				491D157316FB7A75005D93E5 /* Sources */,
 				491D157416FB7A75005D93E5 /* Frameworks */,
@@ -582,14 +595,14 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec-Specta-iOS";
+			name = "Subspec/Specta-iOS";
 			productName = "Subspec/Specta-iOS";
 			productReference = 491D157816FB7A75005D93E5 /* Subspec/Specta-iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */ = {
+		491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */;
+			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */;
 			buildPhases = (
 				491D158916FB7A88005D93E5 /* Sources */,
 				491D158A16FB7A88005D93E5 /* Frameworks */,
@@ -600,33 +613,34 @@
 			);
 			dependencies = (
 			);
-			name = "Subspec-Specta-OSX";
+			name = "Subspec/Specta-OSX";
 			productName = "Subspec/Specta-OSX";
 			productReference = 491D158E16FB7A88005D93E5 /* Subspec/Specta-OSX.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		49334D1F16C3D05B0032A673 /* CoreOSXTests */ = {
+		49334D1F16C3D05B0032A673 /* Core/OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "CoreOSXTests" */;
+			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "Core/OSX" */;
 			buildPhases = (
 				49334D1B16C3D05B0032A673 /* Sources */,
 				49334D1C16C3D05B0032A673 /* Frameworks */,
 				49334D1D16C3D05B0032A673 /* Resources */,
 				49334D1E16C3D05B0032A673 /* ShellScript */,
 				EE8FB44617B349028A9BF94A /* Copy Pods Resources */,
+				A172A79B96524CFBB5C28CB6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoreOSXTests;
+			name = Core/OSX;
 			productName = TestPilotTests;
 			productReference = 49334D2016C3D05B0032A673 /* CoreOSXTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		49334D4A16C3D0820032A673 /* CoreiOSTests */ = {
+		49334D4A16C3D0820032A673 /* Core/iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "CoreiOSTests" */;
+			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "Core/iOS" */;
 			buildPhases = (
 				49334D4616C3D0820032A673 /* Sources */,
 				49334D4716C3D0820032A673 /* Frameworks */,
@@ -638,7 +652,7 @@
 			);
 			dependencies = (
 			);
-			name = CoreiOSTests;
+			name = Core/iOS;
 			productName = TestPilotTests;
 			productReference = 49334D4B16C3D0820032A673 /* CoreiOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -700,12 +714,12 @@
 			projectRoot = "";
 			targets = (
 				491D153E16FB7451005D93E5 /* Run Tests */,
-				49334D1F16C3D05B0032A673 /* CoreOSXTests */,
-				49334D4A16C3D0820032A673 /* CoreiOSTests */,
-				491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */,
-				491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */,
-				491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */,
-				491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */,
+				49334D1F16C3D05B0032A673 /* Core/OSX */,
+				49334D4A16C3D0820032A673 /* Core/iOS */,
+				491D154A16FB7A2F005D93E5 /* Subspec/Kiwi-iOS */,
+				491D156116FB7A65005D93E5 /* Subspec/Kiwi-OSX */,
+				491D157716FB7A75005D93E5 /* Subspec/Specta-iOS */,
+				491D158D16FB7A88005D93E5 /* Subspec/Specta-OSX */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
@@ -874,6 +888,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-TestPilotTests-resources.sh\"\n";
+		};
+		A172A79B96524CFBB5C28CB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		D22749D87A754E82AF3B5E8C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SubspecKiwiOSX-resources.sh\"\n";
 		};
 		EE8FB44617B349028A9BF94A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1071,6 +1113,7 @@
 		};
 		491D157116FB7A66005D93E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB9C18872694B0382A1B98B /* Pods-SubspecKiwiOSX.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -1089,6 +1132,7 @@
 		};
 		491D157216FB7A66005D93E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB9C18872694B0382A1B98B /* Pods-SubspecKiwiOSX.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -1241,7 +1285,7 @@
 		};
 		49334D3616C3D05B0032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A61E586AF5D4F0CA21AA820 /* Pods-TestPilotFrameworkTests.xcconfig */;
+			baseConfigurationReference = 9F708859C04D4D7E9ECBF52F /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
@@ -1255,7 +1299,7 @@
 		};
 		49334D3716C3D05B0032A673 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A61E586AF5D4F0CA21AA820 /* Pods-TestPilotFrameworkTests.xcconfig */;
+			baseConfigurationReference = 9F708859C04D4D7E9ECBF52F /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
@@ -1379,7 +1423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */ = {
+		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D155B16FB7A30005D93E5 /* Debug */,
@@ -1388,7 +1432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */ = {
+		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Kiwi-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D157116FB7A66005D93E5 /* Debug */,
@@ -1397,7 +1441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */ = {
+		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D158716FB7A76005D93E5 /* Debug */,
@@ -1406,7 +1450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */ = {
+		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec/Specta-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491D159D16FB7A89005D93E5 /* Debug */,
@@ -1424,7 +1468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "CoreOSXTests" */ = {
+		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "Core/OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D3616C3D05B0032A673 /* Debug */,
@@ -1433,7 +1477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "CoreiOSTests" */ = {
+		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "Core/iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D6016C3D0820032A673 /* Debug */,
