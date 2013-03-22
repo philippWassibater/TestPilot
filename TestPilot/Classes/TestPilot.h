@@ -21,6 +21,8 @@
 #import <OCMockito/OCMockito.h>
 
 #import <Stubbilino.h>
+
+#define EXP_SHORTHAND
 #import "Expecta.h"
 
 #import "TPMatchers.h"

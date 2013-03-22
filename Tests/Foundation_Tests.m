@@ -38,6 +38,9 @@
 - (void)testExpecta
 {
   assertNotNil(NSStringFromClass([Expecta class]));
+#ifndef expect
+  STFail(@"Expcta shorthand not defined");
+#endif
 }
 
 @end
