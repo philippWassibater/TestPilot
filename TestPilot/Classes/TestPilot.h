@@ -21,6 +21,7 @@
 #import <OCMockito/OCMockito.h>
 
 #import <Stubbilino.h>
+#import "Expecta.h"
 
 #import "TPMatchers.h"
 
@@ -30,7 +31,7 @@
 /**
  -[NSObject performSelector:] methods issue a warning because Clang can't check
  the implied memory management semantics of methods transfer ownership to the
- call (think alloc, copy, mutableCopy, new...). If you know the perom is safe,
+ call (think alloc, copy, mutableCopy, new...). If you know the perform is safe,
  wrap the expression with this macro to silence the warning.
  */
 #define TP_SAFE_PERFORM_SELECTOR(expression) \

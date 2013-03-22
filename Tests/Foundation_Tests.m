@@ -26,14 +26,18 @@
 
 - (void)testMockito
 {
-  id mock = mock([NSString class]);
-  STAssertNotNil(mock, @"");
+  assertNotNil(mock([NSString class]));
 }
 
 - (void)testStubbilino
 {
   [Stubbilino stubClass:[NSString class]];
   [Stubbilino unstubClass:[NSString class]];
+}
+
+- (void)testExpecta
+{
+  assertNotNil(NSStringFromClass([Expecta class]));
 }
 
 @end
