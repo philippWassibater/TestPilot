@@ -44,11 +44,16 @@
 		498B438416DCB555008DDF88 /* TPAppHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 498B438216DCB555008DDF88 /* TPAppHelpers.h */; };
 		498B438516DCB555008DDF88 /* TPAppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B438316DCB555008DDF88 /* TPAppHelpers.m */; };
 		498B438616DCB555008DDF88 /* TPAppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B438316DCB555008DDF88 /* TPAppHelpers.m */; };
+		49C4B66117079A94000DFE1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49C4B66217079A94000DFE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		49C4B66317079A94000DFE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		49C4B67117079AAD000DFE1E /* Stubbilino_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */; };
 		49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		5D9148AFC6BB485DB2AD8EB0 /* libPods-Subspec-Specta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA9058F7E094952B0BC050B /* libPods-Subspec-Specta-OSX.a */; };
 		6EF146FFD1904DFFAD07973A /* libPods-Subspec-Kiwi-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED8212EF5A44C92A16CB574 /* libPods-Subspec-Kiwi-iOS.a */; };
 		788E7B9E70654F30B721D240 /* libPods-Subspec-Kiwi-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */; };
+		8355D1E60E4F41F0AF65B509 /* libPods-Subspec-Stubbilino-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */; };
 		8B80DB1DD54D4E6B85DF3AC1 /* libPods-Core-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */; };
 		B1E4336DF0124E3FACE947CA /* libPods-Core-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7371E45C03463DB14DEB8B /* libPods-Core-iOS.a */; };
 		F9F0761FD6584F5B86447358 /* libPods-Subspec-Specta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D11F10C3CD24F238659F669 /* libPods-Subspec-Specta-iOS.a */; };
@@ -80,7 +85,7 @@
 		4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDateStringMatcher.h; sourceTree = "<group>"; };
 		4914857716DE5A83002C4541 /* TPMatchers_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMatchers_Test.m; path = Tests/TPMatchers_Test.m; sourceTree = SOURCE_ROOT; };
 		4914857A16DE5A99002C4541 /* TPMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMatchers.h; sourceTree = "<group>"; };
-		491D150F16FB716D005D93E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		491D150F16FB716D005D93E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		491D154B16FB7A2F005D93E5 /* Subspec-Kiwi-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Kiwi-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D154D16FB7A2F005D93E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		491D156216FB7A65005D93E5 /* Subspec-Kiwi-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Kiwi-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,11 +126,14 @@
 		498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPAppHelpers_Tests.m; path = Tests/TPAppHelpers_Tests.m; sourceTree = SOURCE_ROOT; };
 		498B438216DCB555008DDF88 /* TPAppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAppHelpers.h; sourceTree = "<group>"; };
 		498B438316DCB555008DDF88 /* TPAppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAppHelpers.m; sourceTree = "<group>"; };
+		49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Stubbilino_Tests.m; path = Tests/Stubbilino_Tests.m; sourceTree = SOURCE_ROOT; };
+		49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Stubbilino-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Stubbilino-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E89D9060C574576B8CC6C49 /* libPods-Subspec-Kiwi-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B47F87D4B4C2AB382DB0C /* libPods-Core-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C34E4E06144BA19122E50F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +142,7 @@
 		C5DE334CE2A844E9AB872638 /* libPods-TestPilotFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestPilotFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BFB0E60E3A4641A48A5C9D /* libPods-SubspecKiwiOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubspecKiwiOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Stubbilino-iOS.xcconfig"; path = "Pods/Pods-Subspec-Stubbilino-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +216,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49C4B65C17079A94000DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4B66117079A94000DFE1E /* SenTestingKit.framework in Frameworks */,
+				49C4B66217079A94000DFE1E /* UIKit.framework in Frameworks */,
+				49C4B66317079A94000DFE1E /* Foundation.framework in Frameworks */,
+				8355D1E60E4F41F0AF65B509 /* libPods-Subspec-Stubbilino-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -227,6 +247,7 @@
 			children = (
 				491D159F16FB7ACB005D93E5 /* Specta_Tests.m */,
 				494CB95816FB978600456308 /* Kiwi_Tests.m */,
+				49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */,
 			);
 			name = Subspecs;
 			sourceTree = "<group>";
@@ -243,6 +264,7 @@
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
 				491D150F16FB716D005D93E5 /* Podfile */,
 				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
+				EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,6 +279,7 @@
 				491D156216FB7A65005D93E5 /* Subspec-Kiwi-OSX.octest */,
 				491D157816FB7A75005D93E5 /* Subspec-Specta-iOS.octest */,
 				491D158E16FB7A88005D93E5 /* Subspec-Specta-OSX.octest */,
+				49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,6 +308,7 @@
 				D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */,
 				3D11F10C3CD24F238659F669 /* libPods-Subspec-Specta-iOS.a */,
 				1B7371E45C03463DB14DEB8B /* libPods-Core-iOS.a */,
+				6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -610,6 +634,25 @@
 			productReference = 498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		49C4B65F17079A94000DFE1E /* Subspec-Stubbilino-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C4B66E17079A94000DFE1E /* Build configuration list for PBXNativeTarget "Subspec-Stubbilino-iOS" */;
+			buildPhases = (
+				49C4B65B17079A94000DFE1E /* Sources */,
+				49C4B65C17079A94000DFE1E /* Frameworks */,
+				49C4B65D17079A94000DFE1E /* Resources */,
+				49C4B65E17079A94000DFE1E /* ShellScript */,
+				2E447F1A2C7D4DB0932EC0C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec-Stubbilino-iOS";
+			productName = "Subspec-Stubbilino-iOS";
+			productReference = 49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -638,6 +681,7 @@
 				491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */,
 				491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */,
 				491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */,
+				49C4B65F17079A94000DFE1E /* Subspec-Stubbilino-iOS */,
 				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
 				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
@@ -694,6 +738,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49C4B65D17079A94000DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -724,6 +775,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Kiwi-iOS-resources.sh\"\n";
+		};
+		2E447F1A2C7D4DB0932EC0C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Stubbilino-iOS-resources.sh\"\n";
 		};
 		2E6CF626A4F348E2AAD5A495 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -765,7 +830,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#iOS\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-iOS -sdk iphonesimulator\n\n#OSX\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-OSX -sdk macosx\n";
+			shellScript = "#iOS\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Stubbilino-iOS -sdk iphonesimulator\n\n#OSX\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-OSX -sdk macosx\n";
 		};
 		491D154916FB7A2F005D93E5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -833,6 +898,19 @@
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
 		49334D4916C3D0820032A673 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		49C4B65E17079A94000DFE1E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -945,6 +1023,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				498B438516DCB555008DDF88 /* TPAppHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4B65B17079A94000DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4B67117079AAD000DFE1E /* Stubbilino_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1281,6 +1367,41 @@
 			};
 			name = Release;
 		};
+		49C4B66F17079A94000DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49C4B67017079A94000DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1370,6 +1491,15 @@
 			buildConfigurations = (
 				498B437716DCB40D008DDF88 /* Debug */,
 				498B437816DCB40D008DDF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C4B66E17079A94000DFE1E /* Build configuration list for PBXNativeTarget "Subspec-Stubbilino-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C4B66F17079A94000DFE1E /* Debug */,
+				49C4B67017079A94000DFE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

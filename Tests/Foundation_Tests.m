@@ -29,12 +29,6 @@
   assertNotNil(mock([NSString class]));
 }
 
-- (void)testStubbilino
-{
-  [Stubbilino stubClass:[NSString class]];
-  [Stubbilino unstubClass:[NSString class]];
-}
-
 - (void)testExpecta
 {
   assertNotNil(NSStringFromClass([Expecta class]));

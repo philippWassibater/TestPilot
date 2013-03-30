@@ -20,8 +20,6 @@
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
-#import <Stubbilino.h>
-
 #define EXP_SHORTHAND
 #import "Expecta.h"
 
