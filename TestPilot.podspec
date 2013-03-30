@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "release/0.0.5" }
   s.ios.deployment_target = '4.3'
+  s.osx.deployment_target = '10.6'
   s.requires_arc = true
 
   s.subspec 'Core' do |core|
