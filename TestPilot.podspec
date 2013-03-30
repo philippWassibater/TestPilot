@@ -10,12 +10,11 @@ Pod::Spec.new do |s|
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "release/0.0.5" }
   s.ios.deployment_target = '4.3'
-  s.osx.deployment_target = '10.6'
   s.requires_arc = true
 
   s.subspec 'Core' do |core|
     core.source_files = 'TestPilot/Classes/**/*.{h,m}'
-    core.dependency 'Stubbilino', :git => 'git@github.com:itsthejb/Stubbilino.git', :branch => 'feature/osx-framework'
+    core.dependency 'Stubbilino', '0.1.1'
     core.dependency 'OCHamcrest', '1.9'
     core.dependency 'OCMock', '2.0.1'
     core.dependency 'OCMockito', '0.23'
