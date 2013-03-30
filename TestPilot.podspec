@@ -14,11 +14,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.source_files = 'TestPilot/Classes/**/*.{h,m}'
-    core.dependency 'Stubbilino', '0.1.1'
     core.dependency 'OCHamcrest', '1.9'
     core.dependency 'OCMock', '2.0.1'
     core.dependency 'OCMockito', '0.23'
     core.dependency 'Expecta', '0.2.1'
+  end
+
+  s.subspec 'Stubbilino' do |stub|
+    stub.dependency 'Stubbilino', '0.1.1'
   end
 
   s.subspec 'Kiwi' do |kiwi|

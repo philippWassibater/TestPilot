@@ -2,6 +2,7 @@
 target :'Core-iOS', :exclusive => true do
   platform :ios, '4.3'
   pod 'TestPilot/Core', :git => 'https://github.com/itsthejb/TestPilot.git', :branch => 'release/0.0.5'
+  pod 'TestPilot/Stubbilino', :git => 'https://github.com/itsthejb/TestPilot.git', :branch => 'release/0.0.5'
 end
 
 target :'Core-OSX', :exclusive => true do
