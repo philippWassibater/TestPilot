@@ -13,8 +13,16 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.6'
   s.requires_arc = true
 
-  s.subspec 'Core' do |core|
-    core.source_files = 'TestPilot/Classes/**/*.{h,m}'
+  s.subspec 'Core-iOS' do |core-ios|
+    core.source_files = { 'TestPilot/Classes/Shared/**/*.{h,m}', 'TestPilot/Classes/Core-iOS/**/*.{h,m}' }
+    core.dependency 'OCHamcrest', '1.9'
+    core.dependency 'OCMock', '2.0.1'
+    core.dependency 'OCMockito', '0.23'
+    core.dependency 'Expecta', '0.2.1'
+  end
+
+  s.subspec 'Core-OSX' do |core-osx|
+    core.source_files = { 'TestPilot/Classes/Shared/**/*.{h,m}', 'TestPilot/Classes/Core-OSX/**/*.{h,m}' }
     core.dependency 'OCHamcrest', '1.9'
     core.dependency 'OCMock', '2.0.1'
     core.dependency 'OCMockito', '0.23'

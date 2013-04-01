@@ -101,7 +101,7 @@
 		49334D4B16C3D0820032A673 /* Core-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPilot.h; sourceTree = "<group>"; };
+		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestPilot.h; path = Shared/TestPilot.h; sourceTree = "<group>"; };
 		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -132,6 +132,7 @@
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TestingOverrides.m"; sourceTree = "<group>"; };
 		5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Stubbilino-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E89D9060C574576B8CC6C49 /* libPods-Subspec-Kiwi-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,7 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				49479CD516C54561002DC702 /* TestPilot.h */,
-				49334D6216C3D0B00032A673 /* Foundation */,
+				49334D6216C3D0B00032A673 /* Shared */,
 				49334D6416C3D0C00032A673 /* OS X */,
 				49334D6316C3D0BB0032A673 /* iOS */,
 				498B434F16DCB2F2008DDF88 /* AppHelpers */,
@@ -361,22 +362,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49334D6216C3D0B00032A673 /* Foundation */ = {
+		49334D6216C3D0B00032A673 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				4914856016DE5A09002C4541 /* Matchers */,
 				49CA6F4D16CFCCF000661212 /* TPProxy.h */,
 				49CA6F4E16CFCCF000661212 /* TPProxy.m */,
 			);
-			name = Foundation;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		49334D6316C3D0BB0032A673 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				49FC2854170A1A6200F0C12C /* UIView+TestingOverrides.m */,
+				49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */,
 			);
 			name = iOS;
+			path = "Core-iOS";
 			sourceTree = "<group>";
 		};
 		49334D6416C3D0C00032A673 /* OS X */ = {
@@ -384,6 +386,7 @@
 			children = (
 			);
 			name = "OS X";
+			path = "Core-OSX";
 			sourceTree = "<group>";
 		};
 		49334D6516C3D0D60032A673 /* Foundation */ = {
@@ -1008,7 +1011,6 @@
 				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 				498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
 				4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
-				49FC2855170A1A6200F0C12C /* UIView+TestingOverrides.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
