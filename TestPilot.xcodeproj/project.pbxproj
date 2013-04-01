@@ -374,6 +374,7 @@
 		49334D6316C3D0BB0032A673 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				49FC2854170A1A6200F0C12C /* UIView+TestingOverrides.m */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -1007,6 +1008,7 @@
 				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
 				498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
 				4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
+				49FC2855170A1A6200F0C12C /* UIView+TestingOverrides.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
