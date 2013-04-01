@@ -9,24 +9,27 @@ Pod::Spec.new do |s|
                                %Q|THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE| }
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
   s.source       = { :git => "https://github.com/itsthejb/TestPilot.git", :branch => "release/0.0.5" }
+  s.source_files = 'TestPilot/Classes/Shared/**/*.{h,m}'
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
   s.requires_arc = true
 
-  s.subspec 'Core-iOS' do |core-ios|
-    core.source_files = { 'TestPilot/Classes/Shared/**/*.{h,m}', 'TestPilot/Classes/Core-iOS/**/*.{h,m}' }
-    core.dependency 'OCHamcrest', '1.9'
-    core.dependency 'OCMock', '2.0.1'
-    core.dependency 'OCMockito', '0.23'
-    core.dependency 'Expecta', '0.2.1'
+  s.subspec 'Core-iOS' do |coreios|
+    coreios.source_files = 'TestPilot/Classes/Core-iOS/**/*.{h,m}'
+    coreios.frameworks = 'UIKit'
+    coreios.dependency 'OCHamcrest', '1.9'
+    coreios.dependency 'OCMock', '2.0.1'
+    coreios.dependency 'OCMockito', '0.23'
+    coreios.dependency 'Expecta', '0.2.1'
   end
 
-  s.subspec 'Core-OSX' do |core-osx|
-    core.source_files = { 'TestPilot/Classes/Shared/**/*.{h,m}', 'TestPilot/Classes/Core-OSX/**/*.{h,m}' }
-    core.dependency 'OCHamcrest', '1.9'
-    core.dependency 'OCMock', '2.0.1'
-    core.dependency 'OCMockito', '0.23'
-    core.dependency 'Expecta', '0.2.1'
+  s.subspec 'Core-OSX' do |coreosx|
+    coreosx.source_files = 'TestPilot/Classes/Core-OSX/**/*.{h,m}'
+    coreosx.frameworks = 'AppKit'
+    coreosx.dependency 'OCHamcrest', '1.9'
+    coreosx.dependency 'OCMock', '2.0.1'
+    coreosx.dependency 'OCMockito', '0.23'
+    coreosx.dependency 'Expecta', '0.2.1'
   end
 
   s.subspec 'Stubbilino' do |stub|
