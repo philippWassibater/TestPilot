@@ -265,7 +265,6 @@
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
 				491D150F16FB716D005D93E5 /* Podfile */,
 				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
-				EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -451,6 +450,7 @@
 				494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */,
 				494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */,
 				494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */,
+				EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */,
 			);
 			name = Configs;
 			sourceTree = "<group>";
