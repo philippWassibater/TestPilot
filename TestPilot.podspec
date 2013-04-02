@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core-iOS' do |coreios|
     coreios.source_files = 'TestPilot/Classes/Core-iOS/**/*.{h,m}'
     coreios.frameworks = 'UIKit'
+    coreios.platform = :ios
     coreios.dependency 'OCHamcrest', '1.9'
     coreios.dependency 'OCMock', '2.0.1'
     coreios.dependency 'OCMockito', '0.23'
@@ -26,6 +27,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core-OSX' do |coreosx|
     coreosx.source_files = 'TestPilot/Classes/Core-OSX/**/*.{h,m}'
     coreosx.frameworks = 'AppKit'
+    coreosx.platform = :osx
     coreosx.dependency 'OCHamcrest', '1.9'
     coreosx.dependency 'OCMock', '2.0.1'
     coreosx.dependency 'OCMockito', '0.23'
@@ -33,6 +35,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Stubbilino' do |stub|
+    stub.platform = :ios
     stub.dependency 'Stubbilino', '0.1.1'
   end
 
