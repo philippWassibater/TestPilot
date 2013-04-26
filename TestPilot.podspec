@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TestPilot"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Unit-testing Cocoa just got easy."
   s.homepage     = "https://github.com/itsthejb/TestPilot"
   s.license       = { :type => 'MIT',
