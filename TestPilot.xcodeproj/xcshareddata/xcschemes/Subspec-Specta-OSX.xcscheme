@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49334D0716C3D05B0032A673"
-               BuildableName = "TestPilotFramework.framework"
-               BlueprintName = "TestPilotFramework"
+               BlueprintIdentifier = "491D158D16FB7A88005D93E5"
+               BuildableName = "Subspec-Specta-OSX.octest"
+               BlueprintName = "Subspec-Specta-OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,15 +26,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49334D1F16C3D05B0032A673"
-               BuildableName = "TestPilotFrameworkTests.octest"
-               BlueprintName = "TestPilotFrameworkTests"
+               BlueprintIdentifier = "491D158D16FB7A88005D93E5"
+               BuildableName = "Subspec-Specta-OSX.octest"
+               BlueprintName = "Subspec-Specta-OSX"
                ReferencedContainer = "container:TestPilot.xcodeproj">
             </BuildableReference>
          </TestableReference>

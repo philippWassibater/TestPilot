@@ -6,250 +6,61 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		491D153E16FB7451005D93E5 /* Run Tests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 491D153F16FB7451005D93E5 /* Build configuration list for PBXAggregateTarget "Run Tests" */;
+			buildPhases = (
+				491D154316FB7804005D93E5 /* Build and Test All */,
+			);
+			dependencies = (
+			);
+			name = "Run Tests";
+			productName = "Run Tests";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA316C54333002DC702 /* libOCMock.a */; };
-		49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
-		49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
-		49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
-		49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
-		49227B5F16C57DAA0041AA08 /* libKiwi-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49227B5A16C57D950041AA08 /* libKiwi-OSX.a */; };
-		49227B6216C57DB60041AA08 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49227B5816C57D950041AA08 /* libKiwi.a */; };
-		49227B6416C57EE60041AA08 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
-		49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49334D1416C3D05B0032A673 /* InfoPlist.strings */; };
-		49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
-		49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */; };
-		49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
-		49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
-		49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9416C54333002DC702 /* OCHamcrest.framework */; };
-		49479CC016C54376002DC702 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9F16C54333002DC702 /* OCMock.framework */; };
-		49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CA916C54333002DC702 /* OCMockito.framework */; };
-		49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479C9816C54333002DC702 /* libochamcrest.a */; };
-		49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CAD16C54333002DC702 /* libocmockito.a */; };
-		49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49479CB316C54333002DC702 /* libStubbilino.a */; };
-		49479CD616C54561002DC702 /* TestPilot.h in Headers */ = {isa = PBXBuildFile; fileRef = 49479CD516C54561002DC702 /* TestPilot.h */; };
+		4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
+		4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914857716DE5A83002C4541 /* TPMatchers_Test.m */; };
+		491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D154C16FB7A2F005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D156316FB7A65005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D157916FB7A75005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D158F16FB7A88005D93E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		491D15A016FB7ACB005D93E5 /* Specta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159F16FB7ACB005D93E5 /* Specta_Tests.m */; };
+		491D15A116FB7ACB005D93E5 /* Specta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D159F16FB7ACB005D93E5 /* Specta_Tests.m */; };
 		49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
 		49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479CE316C54DAE002DC702 /* Foundation_Tests.m */; };
-		494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494C9E6C16C95A76007AF3CC /* LICENSE.txt */; };
-		494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		494CB95916FB978600456308 /* Kiwi_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CB95816FB978600456308 /* Kiwi_Tests.m */; };
+		494CB95A16FB978600456308 /* Kiwi_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CB95816FB978600456308 /* Kiwi_Tests.m */; };
+		494CB95B16FB97D400456308 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
 		495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
 		495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */; };
-		49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CA6F4D16CFCCF000661212 /* TPProxy.h */; };
-		49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
-		49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F4E16CFCCF000661212 /* TPProxy.m */; };
+		498B435516DCB3EE008DDF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		498B436716DCB40D008DDF88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B436616DCB40D008DDF88 /* Cocoa.framework */; };
+		498B438016DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
+		498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */; };
+		498B438416DCB555008DDF88 /* TPAppHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 498B438216DCB555008DDF88 /* TPAppHelpers.h */; };
+		498B438516DCB555008DDF88 /* TPAppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B438316DCB555008DDF88 /* TPAppHelpers.m */; };
+		498B438616DCB555008DDF88 /* TPAppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B438316DCB555008DDF88 /* TPAppHelpers.m */; };
+		49C4B66117079A94000DFE1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D2116C3D05B0032A673 /* SenTestingKit.framework */; };
+		49C4B66217079A94000DFE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D154D16FB7A2F005D93E5 /* UIKit.framework */; };
+		49C4B66317079A94000DFE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3D16C3D0820032A673 /* Foundation.framework */; };
+		49C4B67117079AAD000DFE1E /* Stubbilino_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */; };
 		49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
 		49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */; };
-		49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49334D3C16C3D0820032A673 /* libTestPilot.a */; };
-		49D0BE8716C5568D00BF1CD4 /* StubbilinoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */; };
+		5D9148AFC6BB485DB2AD8EB0 /* libPods-Subspec-Specta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA9058F7E094952B0BC050B /* libPods-Subspec-Specta-OSX.a */; };
+		6EF146FFD1904DFFAD07973A /* libPods-Subspec-Kiwi-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED8212EF5A44C92A16CB574 /* libPods-Subspec-Kiwi-iOS.a */; };
+		788E7B9E70654F30B721D240 /* libPods-Subspec-Kiwi-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */; };
+		8355D1E60E4F41F0AF65B509 /* libPods-Subspec-Stubbilino-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */; };
+		8B80DB1DD54D4E6B85DF3AC1 /* libPods-Core-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */; };
+		B1E4336DF0124E3FACE947CA /* libPods-Core-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7371E45C03463DB14DEB8B /* libPods-Core-iOS.a */; };
+		F9F0761FD6584F5B86447358 /* libPods-Subspec-Specta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D11F10C3CD24F238659F669 /* libPods-Subspec-Specta-iOS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		49227B5716C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F5015B9F11583A77002E9A98;
-			remoteInfo = Kiwi;
-		};
-		49227B5916C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 832C83C7157263B300F160D5;
-			remoteInfo = "Kiwi-OSX";
-		};
-		49227B5B16C57D950041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F5015C9E11584017002E9A98;
-			remoteInfo = KiwiTests;
-		};
-		49227B5D16C57DA30041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 832C8323157263B300F160D5;
-			remoteInfo = "Kiwi-OSX";
-		};
-		49227B6016C57DB10041AA08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F5015B9E11583A77002E9A98;
-			remoteInfo = Kiwi;
-		};
-		49334D2416C3D05B0032A673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49334D0716C3D05B0032A673;
-			remoteInfo = TestPilot;
-		};
-		49479C9316C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 087601E213440806001B439B;
-			remoteInfo = OCHamcrest;
-		};
-		49479C9516C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 087601F713440807001B439B;
-			remoteInfo = OCHamcrestTests;
-		};
-		49479C9716C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 081BEE621345979F003F846A;
-			remoteInfo = libochamcrest;
-		};
-		49479C9916C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 081BEE6C1345979F003F846A;
-			remoteInfo = libochamcrestTests;
-		};
-		49479C9E16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0A814632FD000B04273;
-			remoteInfo = OCMock;
-		};
-		49479CA016C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0C014632FD000B04273;
-			remoteInfo = OCMockTests;
-		};
-		49479CA216C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0DC14632FF700B04273;
-			remoteInfo = OCMockLib;
-		};
-		49479CA816C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08BDD5A91350C59C00E5A443;
-			remoteInfo = OCMockito;
-		};
-		49479CAA16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08BDD5BE1350C59C00E5A443;
-			remoteInfo = OCMockitoTests;
-		};
-		49479CAC16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 085D2FF51351254000EBBE91;
-			remoteInfo = libocmockito;
-		};
-		49479CAE16C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 085D2FFF1351254000EBBE91;
-			remoteInfo = libocmockitoTests;
-		};
-		49479CB216C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54BE75FC16BD80900037DC25;
-			remoteInfo = Stubbilino;
-		};
-		49479CB416C54333002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54BE760D16BD80900037DC25;
-			remoteInfo = Specs;
-		};
-		49479CB816C5436B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 08BDD5A81350C59C00E5A443;
-			remoteInfo = OCMockito;
-		};
-		49479CBA16C5436B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 030EF0A714632FD000B04273;
-			remoteInfo = OCMock;
-		};
-		49479CC416C5438B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 085D2FF41351254000EBBE91;
-			remoteInfo = libocmockito;
-		};
-		49479CC616C5438B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 030EF0DB14632FF700B04273;
-			remoteInfo = OCMockLib;
-		};
-		49479CC816C5438B002DC702 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 54BE75FB16BD80900037DC25;
-			remoteInfo = Stubbilino;
-		};
-		49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49334CFF16C3D05A0032A673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49334D3B16C3D0820032A673;
-			remoteInfo = TestPilot;
-		};
-		49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 49D0BE6B16C555E400BF1CD4;
-			remoteInfo = StubbilinoFramework;
-		};
-		49D0BE8516C5568400BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 49D0BE6A16C555E400BF1CD4;
-			remoteInfo = StubbilinoFramework;
-		};
-		49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 087601E113440806001B439B;
-			remoteInfo = OCHamcrest;
-		};
-		49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 081BEE611345979F003F846A;
-			remoteInfo = libochamcrest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		49334D3A16C3D0820032A673 /* CopyFiles */ = {
+		498B435216DCB3EE008DDF88 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/${PRODUCT_NAME}";
@@ -261,23 +72,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		49227B5016C57D950041AA08 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
-		49334D0816C3D05B0032A673 /* TestPilotFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPilotFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7371E45C03463DB14DEB8B /* libPods-Core-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED8212EF5A44C92A16CB574 /* libPods-Subspec-Kiwi-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F2A9572301466DA0DBFFB1 /* libPods-Subspec-Specta-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Specta-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA9058F7E094952B0BC050B /* libPods-Subspec-Specta-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Specta-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D11F10C3CD24F238659F669 /* libPods-Subspec-Specta-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Specta-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EC96AB67134CF1B02DEA69 /* libPods-Subspec-Specta-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Specta-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914856916DE5A45002C4541 /* TPURLStringMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPURLStringMatcher.m; sourceTree = "<group>"; };
+		4914856A16DE5A45002C4541 /* TPURLStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPURLStringMatcher.h; sourceTree = "<group>"; };
+		4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDateStringMatcher.m; sourceTree = "<group>"; };
+		4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDateStringMatcher.h; sourceTree = "<group>"; };
+		4914857716DE5A83002C4541 /* TPMatchers_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPMatchers_Test.m; path = Tests/TPMatchers_Test.m; sourceTree = SOURCE_ROOT; };
+		4914857A16DE5A99002C4541 /* TPMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMatchers.h; sourceTree = "<group>"; };
+		491D150F16FB716D005D93E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		491D154B16FB7A2F005D93E5 /* Subspec-Kiwi-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Kiwi-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D154D16FB7A2F005D93E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		491D156216FB7A65005D93E5 /* Subspec-Kiwi-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Kiwi-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D157816FB7A75005D93E5 /* Subspec-Specta-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Specta-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D158E16FB7A88005D93E5 /* Subspec-Specta-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Specta-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D159F16FB7ACB005D93E5 /* Specta_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Specta_Tests.m; path = Tests/Specta_Tests.m; sourceTree = SOURCE_ROOT; };
 		49334D1316C3D05B0032A673 /* TestPilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPilot-Info.plist"; sourceTree = "<group>"; };
 		49334D1516C3D05B0032A673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49334D1716C3D05B0032A673 /* TestPilot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPilot-Prefix.pch"; sourceTree = "<group>"; };
-		49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D2016C3D05B0032A673 /* Core-OSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-OSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D2116C3D05B0032A673 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		49334D3C16C3D0820032A673 /* libTestPilot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestPilot.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D3D16C3D0820032A673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		49334D4B16C3D0820032A673 /* TestPilotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPilotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49334D4B16C3D0820032A673 /* Core-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49334D6B16C3D1BD0032A673 /* TestPilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestPilotTests-Info.plist"; path = "Tests/TestPilotTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		49334D6C16C3D1BD0032A673 /* TestPilotTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestPilotTests-Prefix.pch"; path = "Tests/TestPilotTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		49479C8316C54332002DC702 /* Stubbilino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Stubbilino.xcodeproj; path = Submodules/Stubbilino/Stubbilino.xcodeproj; sourceTree = "<group>"; };
-		49479C8616C54332002DC702 /* OCMockito.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMockito.xcodeproj; path = Submodules/OCMockito/Source/OCMockito.xcodeproj; sourceTree = "<group>"; };
-		49479C8916C54332002DC702 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = Submodules/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
-		49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = Submodules/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
-		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPilot.h; sourceTree = "<group>"; };
+		49479CD516C54561002DC702 /* TestPilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestPilot.h; path = Shared/TestPilot.h; sourceTree = "<group>"; };
 		49479CDA16C545DC002DC702 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		49479CDB16C545DC002DC702 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		49479CDC16C545DC002DC702 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -285,25 +108,72 @@
 		49479CE216C54CE4002DC702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49479CE316C54DAE002DC702 /* Foundation_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foundation_Tests.m; path = Tests/Foundation_Tests.m; sourceTree = SOURCE_ROOT; };
 		494C9E6316C959E2007AF3CC /* TestPilot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPilot.podspec; sourceTree = "<group>"; };
-		494C9E6C16C95A76007AF3CC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Core-iOS.xcconfig"; path = "Pods/Pods-Core-iOS.xcconfig"; sourceTree = "<group>"; };
+		494CB94C16FB92BA00456308 /* Pods-Core-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Core-OSX.xcconfig"; path = "Pods/Pods-Core-OSX.xcconfig"; sourceTree = "<group>"; };
+		494CB94D16FB92BA00456308 /* Pods-Subspec-Kiwi-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Kiwi-iOS.xcconfig"; path = "Pods/Pods-Subspec-Kiwi-iOS.xcconfig"; sourceTree = "<group>"; };
+		494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Kiwi-OSX.xcconfig"; path = "Pods/Pods-Subspec-Kiwi-OSX.xcconfig"; sourceTree = "<group>"; };
+		494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Specta-iOS.xcconfig"; path = "Pods/Pods-Subspec-Specta-iOS.xcconfig"; sourceTree = "<group>"; };
+		494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Specta-OSX.xcconfig"; path = "Pods/Pods-Subspec-Specta-OSX.xcconfig"; sourceTree = "<group>"; };
+		494CB95816FB978600456308 /* Kiwi_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kiwi_Tests.m; path = Tests/Kiwi_Tests.m; sourceTree = SOURCE_ROOT; };
 		495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPilot_Tests.m; path = Tests/TestPilot_Tests.m; sourceTree = SOURCE_ROOT; };
+		498B435416DCB3EE008DDF88 /* libAppHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppHelpersFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498B436616DCB40D008DDF88 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		498B436916DCB40D008DDF88 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		498B436A16DCB40D008DDF88 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		498B436B16DCB40D008DDF88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPAppHelpers_Tests.m; path = Tests/TPAppHelpers_Tests.m; sourceTree = SOURCE_ROOT; };
+		498B438216DCB555008DDF88 /* TPAppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAppHelpers.h; sourceTree = "<group>"; };
+		498B438316DCB555008DDF88 /* TPAppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAppHelpers.m; sourceTree = "<group>"; };
+		49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Stubbilino_Tests.m; path = Tests/Stubbilino_Tests.m; sourceTree = SOURCE_ROOT; };
+		49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subspec-Stubbilino-iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CA6F4D16CFCCF000661212 /* TPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPProxy.h; sourceTree = "<group>"; };
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TestingOverrides.m"; sourceTree = "<group>"; };
+		5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Stubbilino-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E89D9060C574576B8CC6C49 /* libPods-Subspec-Kiwi-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3B47F87D4B4C2AB382DB0C /* libPods-Core-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subspec-Stubbilino-iOS.xcconfig"; path = "Pods/Pods-Subspec-Stubbilino-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49334D0416C3D05B0032A673 /* Frameworks */ = {
+		491D154716FB7A2F005D93E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49227B6416C57EE60041AA08 /* SenTestingKit.framework in Frameworks */,
-				49227B5F16C57DAA0041AA08 /* libKiwi-OSX.a in Frameworks */,
-				49D0BE8716C5568D00BF1CD4 /* StubbilinoFramework.framework in Frameworks */,
-				49479CBF16C54376002DC702 /* OCHamcrest.framework in Frameworks */,
-				49479CC016C54376002DC702 /* OCMock.framework in Frameworks */,
-				49479CC116C54376002DC702 /* OCMockito.framework in Frameworks */,
+				491D154C16FB7A2F005D93E5 /* SenTestingKit.framework in Frameworks */,
+				6EF146FFD1904DFFAD07973A /* libPods-Subspec-Kiwi-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155E16FB7A65005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D156316FB7A65005D93E5 /* SenTestingKit.framework in Frameworks */,
+				788E7B9E70654F30B721D240 /* libPods-Subspec-Kiwi-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157416FB7A75005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D157916FB7A75005D93E5 /* SenTestingKit.framework in Frameworks */,
+				F9F0761FD6584F5B86447358 /* libPods-Subspec-Specta-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158A16FB7A88005D93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D158F16FB7A88005D93E5 /* SenTestingKit.framework in Frameworks */,
+				5D9148AFC6BB485DB2AD8EB0 /* libPods-Subspec-Specta-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,25 +181,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49227B4C16C57CAC0041AA08 /* OCHamcrest.framework in Frameworks */,
-				49227B4D16C57CAC0041AA08 /* OCMock.framework in Frameworks */,
-				49227B4E16C57CAC0041AA08 /* OCMockito.framework in Frameworks */,
-				49227B4F16C57CAC0041AA08 /* StubbilinoFramework.framework in Frameworks */,
-				49334D2216C3D05B0032A673 /* SenTestingKit.framework in Frameworks */,
-				49334D2616C3D05B0032A673 /* TestPilotFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49334D3916C3D0820032A673 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49227B6216C57DB60041AA08 /* libKiwi.a in Frameworks */,
-				49227B4B16C57C920041AA08 /* libOCMock.a in Frameworks */,
-				49479CCA16C54390002DC702 /* libochamcrest.a in Frameworks */,
-				49479CCC16C54390002DC702 /* libocmockito.a in Frameworks */,
-				49479CCD16C54390002DC702 /* libStubbilino.a in Frameworks */,
-				494C9E6E16C96412007AF3CC /* SenTestingKit.framework in Frameworks */,
+				491D154416FB7933005D93E5 /* SenTestingKit.framework in Frameworks */,
+				8B80DB1DD54D4E6B85DF3AC1 /* libPods-Core-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,23 +190,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D0BE4316C550C000BF1CD4 /* libTestPilot.a in Frameworks */,
-				49334D4C16C3D0820032A673 /* SenTestingKit.framework in Frameworks */,
-				49334D4F16C3D0820032A673 /* Foundation.framework in Frameworks */,
+				494CB95B16FB97D400456308 /* SenTestingKit.framework in Frameworks */,
+				B1E4336DF0124E3FACE947CA /* libPods-Core-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498B435116DCB3EE008DDF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498B435516DCB3EE008DDF88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498B436116DCB40D008DDF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498B436716DCB40D008DDF88 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4B65C17079A94000DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4B66117079A94000DFE1E /* SenTestingKit.framework in Frameworks */,
+				49C4B66217079A94000DFE1E /* UIKit.framework in Frameworks */,
+				49C4B66317079A94000DFE1E /* Foundation.framework in Frameworks */,
+				8355D1E60E4F41F0AF65B509 /* libPods-Subspec-Stubbilino-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49227B5116C57D950041AA08 /* Products */ = {
+		4914856016DE5A09002C4541 /* Matchers */ = {
 			isa = PBXGroup;
 			children = (
-				49227B5816C57D950041AA08 /* libKiwi.a */,
-				49227B5A16C57D950041AA08 /* libKiwi-OSX.a */,
-				49227B5C16C57D950041AA08 /* KiwiTests.octest */,
+				4914857A16DE5A99002C4541 /* TPMatchers.h */,
+				4914856A16DE5A45002C4541 /* TPURLStringMatcher.h */,
+				4914856916DE5A45002C4541 /* TPURLStringMatcher.m */,
+				4914856C16DE5A45002C4541 /* TPDateStringMatcher.h */,
+				4914856B16DE5A45002C4541 /* TPDateStringMatcher.m */,
 			);
-			name = Products;
+			name = Matchers;
+			sourceTree = "<group>";
+		};
+		491D154516FB7A09005D93E5 /* Subspecs */ = {
+			isa = PBXGroup;
+			children = (
+				491D159F16FB7ACB005D93E5 /* Specta_Tests.m */,
+				494CB95816FB978600456308 /* Kiwi_Tests.m */,
+				49C4B65A17079A27000DFE1E /* Stubbilino_Tests.m */,
+			);
+			name = Subspecs;
 			sourceTree = "<group>";
 		};
 		49334CFE16C3D05A0032A673 = {
@@ -363,21 +254,26 @@
 				49334D2716C3D05B0032A673 /* Tests */,
 				49479CD716C545DC002DC702 /* Resources */,
 				49334D0A16C3D05B0032A673 /* Frameworks */,
-				49479C8216C54301002DC702 /* Dependencies */,
 				49334D0916C3D05B0032A673 /* Products */,
+				494CB95116FB92E500456308 /* Configs */,
 				49D0BE9616C5724C00BF1CD4 /* README.md */,
+				491D150F16FB716D005D93E5 /* Podfile */,
 				494C9E6316C959E2007AF3CC /* TestPilot.podspec */,
-				494C9E6C16C95A76007AF3CC /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
 		49334D0916C3D05B0032A673 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49334D0816C3D05B0032A673 /* TestPilotFramework.framework */,
-				49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */,
-				49334D3C16C3D0820032A673 /* libTestPilot.a */,
-				49334D4B16C3D0820032A673 /* TestPilotTests.octest */,
+				49334D2016C3D05B0032A673 /* Core-OSX.octest */,
+				49334D4B16C3D0820032A673 /* Core-iOS.octest */,
+				498B435416DCB3EE008DDF88 /* libAppHelpers.a */,
+				498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */,
+				491D154B16FB7A2F005D93E5 /* Subspec-Kiwi-iOS.octest */,
+				491D156216FB7A65005D93E5 /* Subspec-Kiwi-OSX.octest */,
+				491D157816FB7A75005D93E5 /* Subspec-Specta-iOS.octest */,
+				491D158E16FB7A88005D93E5 /* Subspec-Specta-OSX.octest */,
+				49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -385,8 +281,24 @@
 		49334D0A16C3D05B0032A673 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				498B436816DCB40D008DDF88 /* Other Frameworks */,
 				49334D2116C3D05B0032A673 /* SenTestingKit.framework */,
 				49334D3D16C3D0820032A673 /* Foundation.framework */,
+				498B436616DCB40D008DDF88 /* Cocoa.framework */,
+				491D154D16FB7A2F005D93E5 /* UIKit.framework */,
+				1B7371E45C03463DB14DEB8B /* libPods-Core-iOS.a */,
+				8B3B47F87D4B4C2AB382DB0C /* libPods-Core-iOS.a */,
+				5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */,
+				6E89D9060C574576B8CC6C49 /* libPods-Subspec-Kiwi-iOS.a */,
+				1ED8212EF5A44C92A16CB574 /* libPods-Subspec-Kiwi-iOS.a */,
+				D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */,
+				24F2A9572301466DA0DBFFB1 /* libPods-Subspec-Specta-iOS.a */,
+				47EC96AB67134CF1B02DEA69 /* libPods-Subspec-Specta-OSX.a */,
+				2DA9058F7E094952B0BC050B /* libPods-Subspec-Specta-OSX.a */,
+				5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */,
+				D88062E13BAC4D1CBF573FA1 /* libPods-Subspec-Kiwi-OSX.a */,
+				3D11F10C3CD24F238659F669 /* libPods-Subspec-Specta-iOS.a */,
+				6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -395,12 +307,14 @@
 			isa = PBXGroup;
 			children = (
 				49479CD516C54561002DC702 /* TestPilot.h */,
-				49334D6216C3D0B00032A673 /* Foundation */,
+				49334D6216C3D0B00032A673 /* Shared */,
 				49334D6416C3D0C00032A673 /* OS X */,
 				49334D6316C3D0BB0032A673 /* iOS */,
+				498B434F16DCB2F2008DDF88 /* AppHelpers */,
 				49334D1216C3D05B0032A673 /* Supporting Files */,
 			);
-			path = TestPilot;
+			name = TestPilot;
+			path = TestPilot/Classes;
 			sourceTree = "<group>";
 		};
 		49334D1216C3D05B0032A673 /* Supporting Files */ = {
@@ -411,11 +325,13 @@
 				49334D1716C3D05B0032A673 /* TestPilot-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		49334D2716C3D05B0032A673 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				491D154516FB7A09005D93E5 /* Subspecs */,
 				49334D6516C3D0D60032A673 /* Foundation */,
 				49334D6616C3D0E10032A673 /* OS X */,
 				49334D6716C3D0E60032A673 /* iOS */,
@@ -435,20 +351,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49334D6216C3D0B00032A673 /* Foundation */ = {
+		49334D6216C3D0B00032A673 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4914856016DE5A09002C4541 /* Matchers */,
 				49CA6F4D16CFCCF000661212 /* TPProxy.h */,
 				49CA6F4E16CFCCF000661212 /* TPProxy.m */,
 			);
-			name = Foundation;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		49334D6316C3D0BB0032A673 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */,
 			);
 			name = iOS;
+			path = "Core-iOS";
 			sourceTree = "<group>";
 		};
 		49334D6416C3D0C00032A673 /* OS X */ = {
@@ -456,6 +375,7 @@
 			children = (
 			);
 			name = "OS X";
+			path = "Core-OSX";
 			sourceTree = "<group>";
 		};
 		49334D6516C3D0D60032A673 /* Foundation */ = {
@@ -464,6 +384,8 @@
 				49479CE316C54DAE002DC702 /* Foundation_Tests.m */,
 				49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */,
 				495E6A8416D6391F005C5EFF /* TestPilot_Tests.m */,
+				498B437F16DCB466008DDF88 /* TPAppHelpers_Tests.m */,
+				4914857716DE5A83002C4541 /* TPMatchers_Test.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -480,60 +402,6 @@
 			children = (
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		49479C8216C54301002DC702 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				49227B5016C57D950041AA08 /* Kiwi.xcodeproj */,
-				49479C8316C54332002DC702 /* Stubbilino.xcodeproj */,
-				49479C8616C54332002DC702 /* OCMockito.xcodeproj */,
-				49479C8916C54332002DC702 /* OCMock.xcodeproj */,
-				49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		49479C8416C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479CB316C54333002DC702 /* libStubbilino.a */,
-				49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */,
-				49479CB516C54333002DC702 /* Specs.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8716C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479CA916C54333002DC702 /* OCMockito.framework */,
-				49479CAB16C54333002DC702 /* OCMockitoTests.octest */,
-				49479CAD16C54333002DC702 /* libocmockito.a */,
-				49479CAF16C54333002DC702 /* libocmockitoTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8A16C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479C9F16C54333002DC702 /* OCMock.framework */,
-				49479CA116C54333002DC702 /* OCMockTests.octest */,
-				49479CA316C54333002DC702 /* libOCMock.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49479C8D16C54332002DC702 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49479C9416C54333002DC702 /* OCHamcrest.framework */,
-				49479C9616C54333002DC702 /* OCHamcrestTests.octest */,
-				49479C9816C54333002DC702 /* libochamcrest.a */,
-				49479C9A16C54333002DC702 /* libochamcrestTests.octest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		49479CD716C545DC002DC702 /* Resources */ = {
@@ -563,103 +431,220 @@
 			path = "Objective-C test case.xctemplate";
 			sourceTree = "<group>";
 		};
+		494CB95116FB92E500456308 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */,
+				494CB94C16FB92BA00456308 /* Pods-Core-OSX.xcconfig */,
+				494CB94D16FB92BA00456308 /* Pods-Subspec-Kiwi-iOS.xcconfig */,
+				494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */,
+				494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */,
+				494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */,
+				EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		498B434F16DCB2F2008DDF88 /* AppHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				498B438216DCB555008DDF88 /* TPAppHelpers.h */,
+				498B438316DCB555008DDF88 /* TPAppHelpers.m */,
+			);
+			name = AppHelpers;
+			path = ../AppHelpers;
+			sourceTree = "<group>";
+		};
+		498B436816DCB40D008DDF88 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498B436916DCB40D008DDF88 /* AppKit.framework */,
+				498B436A16DCB40D008DDF88 /* CoreData.framework */,
+				498B436B16DCB40D008DDF88 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		49334D0516C3D05B0032A673 /* Headers */ = {
+		498B436216DCB40D008DDF88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49479CD616C54561002DC702 /* TestPilot.h in Headers */,
-				49CA6F4F16CFCCF000661212 /* TPProxy.h in Headers */,
+				498B438416DCB555008DDF88 /* TPAppHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		49334D0716C3D05B0032A673 /* TestPilotFramework */ = {
+		491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D3216C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFramework" */;
+			buildConfigurationList = 491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */;
 			buildPhases = (
-				49334D0316C3D05B0032A673 /* Sources */,
-				49334D0416C3D05B0032A673 /* Frameworks */,
-				49334D0516C3D05B0032A673 /* Headers */,
-				49334D0616C3D05B0032A673 /* Resources */,
+				491D154616FB7A2F005D93E5 /* Sources */,
+				491D154716FB7A2F005D93E5 /* Frameworks */,
+				491D154816FB7A2F005D93E5 /* Resources */,
+				491D154916FB7A2F005D93E5 /* ShellScript */,
+				06E088898B2E4602A5CEDA63 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49227B5E16C57DA30041AA08 /* PBXTargetDependency */,
-				49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */,
-				49D0BE8616C5568400BF1CD4 /* PBXTargetDependency */,
-				49479CB916C5436B002DC702 /* PBXTargetDependency */,
-				49479CBB16C5436B002DC702 /* PBXTargetDependency */,
 			);
-			name = TestPilotFramework;
-			productName = TestPilot;
-			productReference = 49334D0816C3D05B0032A673 /* TestPilotFramework.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Subspec-Kiwi-iOS";
+			productName = "Subspec/Kiwi-iOS";
+			productReference = 491D154B16FB7A2F005D93E5 /* Subspec-Kiwi-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
-		49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */ = {
+		491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */;
+			buildConfigurationList = 491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */;
+			buildPhases = (
+				491D155D16FB7A65005D93E5 /* Sources */,
+				491D155E16FB7A65005D93E5 /* Frameworks */,
+				491D155F16FB7A65005D93E5 /* Resources */,
+				491D156016FB7A65005D93E5 /* ShellScript */,
+				41DFD104A7C7419E8660B9AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec-Kiwi-OSX";
+			productName = "Subspec/Kiwi-OSX";
+			productReference = 491D156216FB7A65005D93E5 /* Subspec-Kiwi-OSX.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */;
+			buildPhases = (
+				491D157316FB7A75005D93E5 /* Sources */,
+				491D157416FB7A75005D93E5 /* Frameworks */,
+				491D157516FB7A75005D93E5 /* Resources */,
+				491D157616FB7A75005D93E5 /* ShellScript */,
+				04090A6032A34165A5F86AAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec-Specta-iOS";
+			productName = "Subspec/Specta-iOS";
+			productReference = 491D157816FB7A75005D93E5 /* Subspec-Specta-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */;
+			buildPhases = (
+				491D158916FB7A88005D93E5 /* Sources */,
+				491D158A16FB7A88005D93E5 /* Frameworks */,
+				491D158B16FB7A88005D93E5 /* Resources */,
+				491D158C16FB7A88005D93E5 /* ShellScript */,
+				D369B7CCEDF44144AB0123D9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec-Specta-OSX";
+			productName = "Subspec/Specta-OSX";
+			productReference = 491D158E16FB7A88005D93E5 /* Subspec-Specta-OSX.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		49334D1F16C3D05B0032A673 /* Core-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "Core-OSX" */;
 			buildPhases = (
 				49334D1B16C3D05B0032A673 /* Sources */,
 				49334D1C16C3D05B0032A673 /* Frameworks */,
 				49334D1D16C3D05B0032A673 /* Resources */,
 				49334D1E16C3D05B0032A673 /* ShellScript */,
+				2E6CF626A4F348E2AAD5A495 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49334D2516C3D05B0032A673 /* PBXTargetDependency */,
 			);
-			name = TestPilotFrameworkTests;
+			name = "Core-OSX";
 			productName = TestPilotTests;
-			productReference = 49334D2016C3D05B0032A673 /* TestPilotFrameworkTests.octest */;
+			productReference = 49334D2016C3D05B0032A673 /* Core-OSX.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		49334D3B16C3D0820032A673 /* TestPilot */ = {
+		49334D4A16C3D0820032A673 /* Core-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */;
-			buildPhases = (
-				49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */,
-				49334D3816C3D0820032A673 /* Sources */,
-				49334D3916C3D0820032A673 /* Frameworks */,
-				49334D3A16C3D0820032A673 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				49227B6116C57DB10041AA08 /* PBXTargetDependency */,
-				49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */,
-				49479CC516C5438B002DC702 /* PBXTargetDependency */,
-				49479CC716C5438B002DC702 /* PBXTargetDependency */,
-				49479CC916C5438B002DC702 /* PBXTargetDependency */,
-			);
-			name = TestPilot;
-			productName = TestPilot;
-			productReference = 49334D3C16C3D0820032A673 /* libTestPilot.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		49334D4A16C3D0820032A673 /* TestPilotTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */;
+			buildConfigurationList = 49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "Core-iOS" */;
 			buildPhases = (
 				49334D4616C3D0820032A673 /* Sources */,
 				49334D4716C3D0820032A673 /* Frameworks */,
 				49334D4816C3D0820032A673 /* Resources */,
 				49334D4916C3D0820032A673 /* ShellScript */,
+				6CD300A23DEB4FB88EC2A016 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */,
 			);
-			name = TestPilotTests;
+			name = "Core-iOS";
 			productName = TestPilotTests;
-			productReference = 49334D4B16C3D0820032A673 /* TestPilotTests.octest */;
+			productReference = 49334D4B16C3D0820032A673 /* Core-iOS.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		498B435316DCB3EE008DDF88 /* AppHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498B435D16DCB3EE008DDF88 /* Build configuration list for PBXNativeTarget "AppHelpers" */;
+			buildPhases = (
+				498B435016DCB3EE008DDF88 /* Sources */,
+				498B435116DCB3EE008DDF88 /* Frameworks */,
+				498B435216DCB3EE008DDF88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppHelpers;
+			productName = AppHelpers;
+			productReference = 498B435416DCB3EE008DDF88 /* libAppHelpers.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		498B436416DCB40D008DDF88 /* AppHelpersFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498B437616DCB40D008DDF88 /* Build configuration list for PBXNativeTarget "AppHelpersFramework" */;
+			buildPhases = (
+				498B436016DCB40D008DDF88 /* Sources */,
+				498B436116DCB40D008DDF88 /* Frameworks */,
+				498B436216DCB40D008DDF88 /* Headers */,
+				498B436316DCB40D008DDF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppHelpersFramework;
+			productName = AppHelpersFramework;
+			productReference = 498B436516DCB40D008DDF88 /* AppHelpersFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49C4B65F17079A94000DFE1E /* Subspec-Stubbilino-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C4B66E17079A94000DFE1E /* Build configuration list for PBXNativeTarget "Subspec-Stubbilino-iOS" */;
+			buildPhases = (
+				49C4B65B17079A94000DFE1E /* Sources */,
+				49C4B65C17079A94000DFE1E /* Frameworks */,
+				49C4B65D17079A94000DFE1E /* Resources */,
+				49C4B65E17079A94000DFE1E /* ShellScript */,
+				2E447F1A2C7D4DB0932EC0C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subspec-Stubbilino-iOS";
+			productName = "Subspec-Stubbilino-iOS";
+			productReference = 49C4B66017079A94000DFE1E /* Subspec-Stubbilino-iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -681,167 +666,48 @@
 			mainGroup = 49334CFE16C3D05A0032A673;
 			productRefGroup = 49334D0916C3D05B0032A673 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 49227B5116C57D950041AA08 /* Products */;
-					ProjectRef = 49227B5016C57D950041AA08 /* Kiwi.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8D16C54332002DC702 /* Products */;
-					ProjectRef = 49479C8C16C54332002DC702 /* OCHamcrest.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8A16C54332002DC702 /* Products */;
-					ProjectRef = 49479C8916C54332002DC702 /* OCMock.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8716C54332002DC702 /* Products */;
-					ProjectRef = 49479C8616C54332002DC702 /* OCMockito.xcodeproj */;
-				},
-				{
-					ProductGroup = 49479C8416C54332002DC702 /* Products */;
-					ProjectRef = 49479C8316C54332002DC702 /* Stubbilino.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				49334D0716C3D05B0032A673 /* TestPilotFramework */,
-				49334D1F16C3D05B0032A673 /* TestPilotFrameworkTests */,
-				49334D3B16C3D0820032A673 /* TestPilot */,
-				49334D4A16C3D0820032A673 /* TestPilotTests */,
+				491D153E16FB7451005D93E5 /* Run Tests */,
+				49334D4A16C3D0820032A673 /* Core-iOS */,
+				49334D1F16C3D05B0032A673 /* Core-OSX */,
+				491D154A16FB7A2F005D93E5 /* Subspec-Kiwi-iOS */,
+				491D156116FB7A65005D93E5 /* Subspec-Kiwi-OSX */,
+				491D157716FB7A75005D93E5 /* Subspec-Specta-iOS */,
+				491D158D16FB7A88005D93E5 /* Subspec-Specta-OSX */,
+				49C4B65F17079A94000DFE1E /* Subspec-Stubbilino-iOS */,
+				498B436416DCB40D008DDF88 /* AppHelpersFramework */,
+				498B435316DCB3EE008DDF88 /* AppHelpers */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		49227B5816C57D950041AA08 /* libKiwi.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKiwi.a;
-			remoteRef = 49227B5716C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49227B5A16C57D950041AA08 /* libKiwi-OSX.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libKiwi-OSX.a";
-			remoteRef = 49227B5916C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49227B5C16C57D950041AA08 /* KiwiTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KiwiTests.octest;
-			remoteRef = 49227B5B16C57D950041AA08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9416C54333002DC702 /* OCHamcrest.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCHamcrest.framework;
-			remoteRef = 49479C9316C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9616C54333002DC702 /* OCHamcrestTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCHamcrestTests.octest;
-			remoteRef = 49479C9516C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9816C54333002DC702 /* libochamcrest.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libochamcrest.a;
-			remoteRef = 49479C9716C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9A16C54333002DC702 /* libochamcrestTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = libochamcrestTests.octest;
-			remoteRef = 49479C9916C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479C9F16C54333002DC702 /* OCMock.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMock.framework;
-			remoteRef = 49479C9E16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA116C54333002DC702 /* OCMockTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockTests.octest;
-			remoteRef = 49479CA016C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA316C54333002DC702 /* libOCMock.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOCMock.a;
-			remoteRef = 49479CA216C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CA916C54333002DC702 /* OCMockito.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMockito.framework;
-			remoteRef = 49479CA816C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAB16C54333002DC702 /* OCMockitoTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockitoTests.octest;
-			remoteRef = 49479CAA16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAD16C54333002DC702 /* libocmockito.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libocmockito.a;
-			remoteRef = 49479CAC16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CAF16C54333002DC702 /* libocmockitoTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = libocmockitoTests.octest;
-			remoteRef = 49479CAE16C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CB316C54333002DC702 /* libStubbilino.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libStubbilino.a;
-			remoteRef = 49479CB216C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49479CB516C54333002DC702 /* Specs.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Specs.octest;
-			remoteRef = 49479CB416C54333002DC702 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49D0BE8416C5567F00BF1CD4 /* StubbilinoFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = StubbilinoFramework.framework;
-			remoteRef = 49D0BE8316C5567F00BF1CD4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		49334D0616C3D05B0032A673 /* Resources */ = {
+		491D154816FB7A2F005D93E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49334D1616C3D05B0032A673 /* InfoPlist.strings in Resources */,
-				494C9E6D16C95A76007AF3CC /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155F16FB7A65005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157516FB7A75005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158B16FB7A88005D93E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,9 +725,159 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		498B436316DCB40D008DDF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4B65D17079A94000DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04090A6032A34165A5F86AAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Specta-iOS-resources.sh\"\n";
+		};
+		06E088898B2E4602A5CEDA63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Kiwi-iOS-resources.sh\"\n";
+		};
+		2E447F1A2C7D4DB0932EC0C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Stubbilino-iOS-resources.sh\"\n";
+		};
+		2E6CF626A4F348E2AAD5A495 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Core-OSX-resources.sh\"\n";
+		};
+		41DFD104A7C7419E8660B9AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Kiwi-OSX-resources.sh\"\n";
+		};
+		491D154316FB7804005D93E5 /* Build and Test All */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build and Test All";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#iOS\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-iOS -sdk iphonesimulator\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Stubbilino-iOS -sdk iphonesimulator\n\n#OSX\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Core-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Kiwi-OSX -sdk macosx\nxcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme Subspec-Specta-OSX -sdk macosx\n";
+		};
+		491D154916FB7A2F005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D156016FB7A65005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D157616FB7A75005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		491D158C16FB7A88005D93E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		49334D1E16C3D05B0032A673 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -888,28 +904,79 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		49D0BE9916C573D500BF1CD4 /* Copy Hamcrest Headers */ = {
+		49C4B65E17079A94000DFE1E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Hamcrest Headers";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "HEADERS=$BUILT_PRODUCTS_DIR/OCHamcrest\nmkdir -p \"$HEADERS\"\nfind \"$SRCROOT/Submodules/OCHamcrest/Source\" -name '*.h' -exec cp -p {} \"$HEADERS/\" \\;\n";
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		6CD300A23DEB4FB88EC2A016 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Core-iOS-resources.sh\"\n";
+		};
+		D369B7CCEDF44144AB0123D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Subspec-Specta-OSX-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49334D0316C3D05B0032A673 /* Sources */ = {
+		491D154616FB7A2F005D93E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CA6F5016CFCCF000661212 /* TPProxy.m in Sources */,
+				494CB95916FB978600456308 /* Kiwi_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D155D16FB7A65005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CB95A16FB978600456308 /* Kiwi_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D157316FB7A75005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D15A016FB7ACB005D93E5 /* Specta_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491D158916FB7A88005D93E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D15A116FB7ACB005D93E5 /* Specta_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,14 +987,8 @@
 				49479CE416C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 				49CA6F5F16CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A8516D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49334D3816C3D0820032A673 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49CA6F5116CFCCF000661212 /* TPProxy.m in Sources */,
+				498B438016DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
+				4914857816DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,73 +999,36 @@
 				49479CE516C54DAE002DC702 /* Foundation_Tests.m in Sources */,
 				49CA6F6016CFCEB400661212 /* TTProxy_Tests.m in Sources */,
 				495E6A8616D6391F005C5EFF /* TestPilot_Tests.m in Sources */,
+				498B438116DCB466008DDF88 /* TPAppHelpers_Tests.m in Sources */,
+				4914857916DE5A83002C4541 /* TPMatchers_Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498B435016DCB3EE008DDF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498B438616DCB555008DDF88 /* TPAppHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498B436016DCB40D008DDF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498B438516DCB555008DDF88 /* TPAppHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4B65B17079A94000DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4B67117079AAD000DFE1E /* Stubbilino_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		49227B5E16C57DA30041AA08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Kiwi-OSX";
-			targetProxy = 49227B5D16C57DA30041AA08 /* PBXContainerItemProxy */;
-		};
-		49227B6116C57DB10041AA08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kiwi;
-			targetProxy = 49227B6016C57DB10041AA08 /* PBXContainerItemProxy */;
-		};
-		49334D2516C3D05B0032A673 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49334D0716C3D05B0032A673 /* TestPilotFramework */;
-			targetProxy = 49334D2416C3D05B0032A673 /* PBXContainerItemProxy */;
-		};
-		49479CB916C5436B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCMockito;
-			targetProxy = 49479CB816C5436B002DC702 /* PBXContainerItemProxy */;
-		};
-		49479CBB16C5436B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCMock;
-			targetProxy = 49479CBA16C5436B002DC702 /* PBXContainerItemProxy */;
-		};
-		49479CC516C5438B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libocmockito;
-			targetProxy = 49479CC416C5438B002DC702 /* PBXContainerItemProxy */;
-		};
-		49479CC716C5438B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCMockLib;
-			targetProxy = 49479CC616C5438B002DC702 /* PBXContainerItemProxy */;
-		};
-		49479CC916C5438B002DC702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Stubbilino;
-			targetProxy = 49479CC816C5438B002DC702 /* PBXContainerItemProxy */;
-		};
-		49D0BE4516C5512300BF1CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49334D3B16C3D0820032A673 /* TestPilot */;
-			targetProxy = 49D0BE4416C5512300BF1CD4 /* PBXContainerItemProxy */;
-		};
-		49D0BE8616C5568400BF1CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StubbilinoFramework;
-			targetProxy = 49D0BE8516C5568400BF1CD4 /* PBXContainerItemProxy */;
-		};
-		49D0BE9216C5717000BF1CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCHamcrest;
-			targetProxy = 49D0BE9116C5717000BF1CD4 /* PBXContainerItemProxy */;
-		};
-		49D0BE9816C5734100BF1CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libochamcrest;
-			targetProxy = 49D0BE9716C5734100BF1CD4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		49334D1416C3D05B0032A673 /* InfoPlist.strings */ = {
@@ -1026,6 +1050,128 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		491D154016FB7451005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491D154116FB7451005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		491D155B16FB7A30005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94D16FB92BA00456308 /* Pods-Subspec-Kiwi-iOS.xcconfig */;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D155C16FB7A30005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94D16FB92BA00456308 /* Pods-Subspec-Kiwi-iOS.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D157116FB7A66005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D157216FB7A66005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94E16FB92BA00456308 /* Pods-Subspec-Kiwi-OSX.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D158716FB7A76005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D158816FB7A76005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94F16FB92BA00456308 /* Pods-Subspec-Specta-iOS.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		491D159D16FB7A89005D93E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		491D159E16FB7A89005D93E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB95016FB92BA00456308 /* Pods-Subspec-Specta-OSX.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		49334D3016C3D05B0032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1040,11 +1186,14 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORKS = "\"$(SDKROOT)/Developer/Library/Frameworks\" \"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = $FRAMEWORKS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1054,18 +1203,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$SRCROOT/Submodules/Kiwi/Classes,
-					$SRCROOT/Submodules/OCMockito/Source,
-					$BUILT_PRODUCTS_DIR,
-					$SRCROOT/Submodules/Stubbilino/Stubbilino,
-				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -1084,66 +1226,30 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORKS = "\"$(SDKROOT)/Developer/Library/Frameworks\" \"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = $FRAMEWORKS;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					$SRCROOT/Submodules/OCMock/Source/,
-					$SRCROOT/Submodules/OCHamcrest/Source/,
-					$SRCROOT/Submodules/Kiwi/Classes,
-					$SRCROOT/Submodules/OCMockito/Source,
-					$BUILT_PRODUCTS_DIR,
-					$SRCROOT/Submodules/Stubbilino/Stubbilino,
-				);
 				INFOPLIST_FILE = "TestPilot/TestPilot-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		49334D3316C3D05B0032A673 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		49334D3416C3D05B0032A673 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Release;
 		};
 		49334D3616C3D05B0032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94C16FB92BA00456308 /* Pods-Core-OSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
-				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1151,61 +1257,22 @@
 		};
 		49334D3716C3D05B0032A673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94C16FB92BA00456308 /* Pods-Core-OSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
-				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
-		49334D5D16C3D0820032A673 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/TestPilot.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		49334D5E16C3D0820032A673 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/TestPilot.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestPilot/TestPilot-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		49334D6016C3D0820032A673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
@@ -1217,12 +1284,110 @@
 		};
 		49334D6116C3D0820032A673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CB94B16FB92BA00456308 /* Pods-Core-iOS.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/TestPilotTests-Prefix.pch";
 				GCC_WARN_UNUSED_VALUE = NO;
 				INFOPLIST_FILE = "Tests/TestPilotTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		498B435E16DCB3EE008DDF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AppHelpers.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Debug;
+		};
+		498B435F16DCB3EE008DDF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AppHelpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498B437716DCB40D008DDF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		498B437816DCB40D008DDF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		49C4B66F17079A94000DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49C4B67017079A94000DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4315CE262F4C2C93FAC1CB /* Pods-Subspec-Stubbilino-iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1234,6 +1399,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		491D153F16FB7451005D93E5 /* Build configuration list for PBXAggregateTarget "Run Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D154016FB7451005D93E5 /* Debug */,
+				491D154116FB7451005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491D155A16FB7A30005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D155B16FB7A30005D93E5 /* Debug */,
+				491D155C16FB7A30005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491D157016FB7A66005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Kiwi-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D157116FB7A66005D93E5 /* Debug */,
+				491D157216FB7A66005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491D158616FB7A76005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D158716FB7A76005D93E5 /* Debug */,
+				491D158816FB7A76005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491D159C16FB7A89005D93E5 /* Build configuration list for PBXNativeTarget "Subspec-Specta-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491D159D16FB7A89005D93E5 /* Debug */,
+				491D159E16FB7A89005D93E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49334D0216C3D05A0032A673 /* Build configuration list for PBXProject "TestPilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1243,16 +1453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D3216C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49334D3316C3D05B0032A673 /* Debug */,
-				49334D3416C3D05B0032A673 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "TestPilotFrameworkTests" */ = {
+		49334D3516C3D05B0032A673 /* Build configuration list for PBXNativeTarget "Core-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D3616C3D05B0032A673 /* Debug */,
@@ -1261,20 +1462,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49334D5C16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilot" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49334D5D16C3D0820032A673 /* Debug */,
-				49334D5E16C3D0820032A673 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "TestPilotTests" */ = {
+		49334D5F16C3D0820032A673 /* Build configuration list for PBXNativeTarget "Core-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49334D6016C3D0820032A673 /* Debug */,
 				49334D6116C3D0820032A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498B435D16DCB3EE008DDF88 /* Build configuration list for PBXNativeTarget "AppHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498B435E16DCB3EE008DDF88 /* Debug */,
+				498B435F16DCB3EE008DDF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498B437616DCB40D008DDF88 /* Build configuration list for PBXNativeTarget "AppHelpersFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498B437716DCB40D008DDF88 /* Debug */,
+				498B437816DCB40D008DDF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C4B66E17079A94000DFE1E /* Build configuration list for PBXNativeTarget "Subspec-Stubbilino-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C4B66F17079A94000DFE1E /* Debug */,
+				49C4B67017079A94000DFE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

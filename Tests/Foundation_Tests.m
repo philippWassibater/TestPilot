@@ -26,20 +26,15 @@
 
 - (void)testMockito
 {
-  id mock = mock([NSString class]);
-  STAssertNotNil(mock, @"");
+  assertNotNil(mock([NSString class]));
 }
 
-- (void)testKiwi
+- (void)testExpecta
 {
-  id mock = [NSString mock];
-  STAssertNotNil(mock, @"");
-}
-
-- (void)testStubbilino
-{
-  [Stubbilino stubClass:[NSString class]];
-  [Stubbilino unstubClass:[NSString class]];
+  assertNotNil(NSStringFromClass([Expecta class]));
+#ifndef expect
+  STFail(@"Expcta shorthand not defined");
+#endif
 }
 
 @end
