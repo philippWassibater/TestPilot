@@ -131,7 +131,7 @@
 		49CA6F4E16CFCCF000661212 /* TPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPProxy.m; sourceTree = "<group>"; };
 		49CA6F5E16CFCEB400661212 /* TTProxy_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTProxy_Tests.m; path = Tests/TTProxy_Tests.m; sourceTree = SOURCE_ROOT; };
 		49D0BE9616C5724C00BF1CD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TestingOverrides.m"; sourceTree = "<group>"; };
+		49FC285A170A1DB300F0C12C /* UIKit+TestingOverrides.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIKit+TestingOverrides.m"; sourceTree = "<group>"; };
 		5DE49880A7E64EB6A6C21ADB /* libPods-Core-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D77EF8D9595487A96A83F97 /* libPods-Subspec-Stubbilino-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Stubbilino-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E89D9060C574576B8CC6C49 /* libPods-Subspec-Kiwi-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Subspec-Kiwi-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,7 +364,7 @@
 		49334D6316C3D0BB0032A673 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				49FC285A170A1DB300F0C12C /* UIView+TestingOverrides.m */,
+				49FC285A170A1DB300F0C12C /* UIKit+TestingOverrides.m */,
 			);
 			name = iOS;
 			path = "Core-iOS";

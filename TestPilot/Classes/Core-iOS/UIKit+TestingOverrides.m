@@ -55,3 +55,13 @@
 }
 
 @end
+
+#pragma mark -
+
+@interface UIFont (TestingOverrides) @end
+@implementation UIFont (TestingOverrides)
++ (UIFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize { return nil; }
++ (UIFont *)systemFontOfSize:(CGFloat)fontSize { return nil; }
++ (UIFont *)boldSystemFontOfSize:(CGFloat)fontSize { return nil; }
++ (UIFont *)italicSystemFontOfSize:(CGFloat)fontSize { return nil; }
+@end
