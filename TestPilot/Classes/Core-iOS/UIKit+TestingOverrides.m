@@ -60,8 +60,11 @@
 
 @interface UIFont (TestingOverrides) @end
 @implementation UIFont (TestingOverrides)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
 + (UIFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize { return nil; }
 + (UIFont *)systemFontOfSize:(CGFloat)fontSize { return nil; }
 + (UIFont *)boldSystemFontOfSize:(CGFloat)fontSize { return nil; }
 + (UIFont *)italicSystemFontOfSize:(CGFloat)fontSize { return nil; }
+#pragma clang diagnostic pop
 @end
