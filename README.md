@@ -12,6 +12,15 @@ Unit-testing Cocoa just got easy. Your one-stop shop for unit testing iOS and OS
 
 ###v0.0.4
 
+* Cocoapods-based master project.
+* UIKit animation overrides.
+* Date string matchers.
+* URL string matchers.
+* `TPProxy` - logs and ignores all messages.
+* `OCUnit` convenience macros.
+
+###v0.0.4
+
 * Convenience assertion macros, `assertTrue()`, `assertFalse()`, `assertNil()`, `assertNotNil()`
 * `nil`-safe equality macro `TPIsEqual(x,y)`, whereby `(nil == nil) == YES`.
 
