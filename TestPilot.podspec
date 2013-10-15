@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     coreios.source_files = 'TestPilot/Classes/Shared/**/*.{h,m}', 'TestPilot/Classes/Core-iOS/**/*.{h,m}'
     coreios.frameworks = 'UIKit'
     coreios.platform = :ios
-    coreios.dependency 'OCHamcrest', '1.9'
+    coreios.dependency 'OCHamcrest', '>= 1.9'
     coreios.dependency 'OCMock', '2.0.1'
     coreios.dependency 'OCMockito', '0.23'
     coreios.dependency 'Expecta', '0.2.1'
